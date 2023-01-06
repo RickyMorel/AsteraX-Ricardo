@@ -9,6 +9,7 @@ public class AchievementManager : MonoBehaviour
 {
     [SerializeField] private List<Achievement> _achievements = new List<Achievement>();
     [SerializeField] private List<StepTypeData> _achievementData = new List<StepTypeData>();
+    [SerializeField] private int _highScore = 5000;
 
     private void Start()
     {
@@ -19,6 +20,8 @@ public class AchievementManager : MonoBehaviour
             Achievement achievementInstance = Instantiate(achievement);
             _achievements.Add(achievementInstance);
         }
+
+        AddHighScoreAchievement();
 
         Projectile.OnHit += HandleBulletHit;
         Projectile.OnLuckyShot += HandleLuckyShot;
@@ -34,6 +37,17 @@ public class AchievementManager : MonoBehaviour
         Projectile.OnBulletFired -= HandleBulletFired;
         GameManager.OnScoreUpdated -= OnScoreAttained;
         GameManager.OnLevelUpdated -= OnUpdatedLevel;
+    }
+
+    private void AddHighScoreAchievement()
+    {
+        Achievement achievement = new Achievement();
+        achievement.Name = "NEW HIGH SCORE";
+        achievement.Description = "Obtained a new high score!";
+        achievement.StepType = StepType.ScoreAttained;
+        achievement.StepCount = _highScore;
+
+        _achievements.Add(achievement);
     }
 
     private StepTypeData CheckIfHasStepType(StepType newStepType)

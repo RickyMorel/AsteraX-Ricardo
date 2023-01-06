@@ -5,11 +5,19 @@ using UnityEngine;
 
 public class GameOverUI : MonoBehaviour
 {
+    [SerializeField] private TextMeshProUGUI _gameOverText;
     [SerializeField] private TextMeshProUGUI _scoreText;
 
     private void OnEnable()
     {
+        SetTitleText();
         SetScoreText();
+    }
+
+    private void SetTitleText()
+    {
+        string wantedText = "Game Over";
+        _gameOverText.text = wantedText;
     }
 
     public void SetScoreText()
