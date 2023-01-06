@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
 
     public static event Action<int> OnJumpsUpdated;
     public static event Action<int> OnScoreUpdated;
+    public static event Action<int> OnLevelUpdated;
 
     #endregion
 
@@ -141,6 +142,8 @@ public class GameManager : MonoBehaviour
     public void RaiseLevel()
     {
         _level++;
+
+        OnLevelUpdated?.Invoke(_level);
 
         StartCoroutine(ChangeLevelCoroutine());
     }

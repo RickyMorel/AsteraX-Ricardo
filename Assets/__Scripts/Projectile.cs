@@ -24,6 +24,7 @@ public class Projectile : MonoBehaviour
 
     public static event Action OnHit;
     public static event Action OnLuckyShot;
+    public static event Action OnBulletFired;
 
     #endregion
 
@@ -35,6 +36,8 @@ public class Projectile : MonoBehaviour
 
     private void Start()
     {
+        OnBulletFired?.Invoke();
+
         _rb.AddForce(_bulletForce * transform.up, ForceMode.Impulse);
 
         Invoke(nameof(SelfDestruct), 2f);

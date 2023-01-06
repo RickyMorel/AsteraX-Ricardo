@@ -38,13 +38,13 @@ public class UIMaster : MonoBehaviour
     public void EnablePanelByState(GameState state)
     {
         _startGamePanel.SetActive(false);
-        _playerStatsPanel.SetActive(false);
         _gameOverPanel.SetActive(false);
         _levelPanel.SetActive(false);
 
         switch (state)
         {
             case GameState.Starting:
+                _playerStatsPanel.SetActive(false);
                 _startGamePanel.SetActive(true);
                 break;
             case GameState.Playing:
@@ -57,6 +57,7 @@ public class UIMaster : MonoBehaviour
                 _levelPanel.SetActive(true);
                 break;
             case GameState.Over:
+                _playerStatsPanel.SetActive(false);
                 _gameOverPanel.SetActive(true);
                 break;
         }

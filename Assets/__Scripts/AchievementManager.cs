@@ -22,12 +22,18 @@ public class AchievementManager : MonoBehaviour
 
         Projectile.OnHit += HandleBulletHit;
         Projectile.OnLuckyShot += HandleLuckyShot;
+        Projectile.OnBulletFired += HandleBulletFired;
+        GameManager.OnScoreUpdated += OnScoreAttained;
+        GameManager.OnLevelUpdated += OnUpdatedLevel;
     }
 
     private void OnDestroy()
     {
         Projectile.OnHit -= HandleBulletHit;
         Projectile.OnLuckyShot -= HandleLuckyShot;
+        Projectile.OnBulletFired -= HandleBulletFired;
+        GameManager.OnScoreUpdated -= OnScoreAttained;
+        GameManager.OnLevelUpdated -= OnUpdatedLevel;
     }
 
     private StepTypeData CheckIfHasStepType(StepType newStepType)
@@ -43,6 +49,21 @@ public class AchievementManager : MonoBehaviour
         return newDataType;
     }
 
+    private void OnUpdatedLevel(int level)
+    {
+        UpdateAndCheckAchivements(StepType.LevelUp, level);
+    }
+
+    private void OnScoreAttained(int score)
+    {
+        UpdateAndCheckAchivements(StepType.ScoreAttained, score);
+    }
+
+    private void HandleBulletFired()
+    {
+        UpdateAndCheckAchivements(StepType.BulletsFired);
+    }
+
     private void HandleBulletHit()
     {
         UpdateAndCheckAchivements(StepType.HitAsteroid);
@@ -53,15 +74,17 @@ public class AchievementManager : MonoBehaviour
         UpdateAndCheckAchivements(StepType.LuckyShot);
     }
 
-    private void UpdateAndCheckAchivements(StepType stepType)
+    private void UpdateAndCheckAchivements(StepType stepType, int setValue = -1)
     {
         StepTypeData wantedData = CheckIfHasStepType(stepType);
 
-        wantedData.CurrentAmount++;
+        if(setValue == -1) wantedData.CurrentAmount++; else wantedData.CurrentAmount = setValue;
 
         foreach (Achievement achievement in _achievements)
         {
             if(achievement.StepType != wantedData.StepType) { continue; }
+
+            if(achievement.StepCount > wantedData.CurrentAmount) { continue; }
 
             if (achievement.IsComplete) { continue; }
 

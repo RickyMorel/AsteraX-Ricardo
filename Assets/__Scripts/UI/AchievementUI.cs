@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class AchievementUI : MonoBehaviour
 {
@@ -17,10 +18,8 @@ public class AchievementUI : MonoBehaviour
 
     #region Private Variables
 
-    private Queue<IEnumerator> _achievementCoroutines = new Queue<IEnumerator>();
-    [SerializeField] private List<string> _achievementNames = new List<string>();
-    [SerializeField] private bool _isPlaying = false;
-    private float _timeSinceLastPlayedTimeline;
+    private Queue<Achievement> _achievementCoroutines = new Queue<Achievement>();
+    private float _timeSinceLastPlayedTimeline = 10f;
 
     #endregion
 
@@ -53,44 +52,31 @@ public class AchievementUI : MonoBehaviour
     {
         if(_achievementCoroutines.Count < 1) { return; }
 
-        if (_isPlaying) { return; }
+        if(_timeSinceLastPlayedTimeline < _timeLine.duration + 1f) { return; }
 
         if(_timeLine.state == PlayState.Playing) { return; }
 
-
-        Debug.Log("Remove From Queue: " + _achievementNames[_achievementNames.Count - 1]);
-
-        _achievementNames.Remove(_achievementNames[_achievementNames.Count - 1]);
-
-        StartCoroutine(_achievementCoroutines.Dequeue());
+        ShowNewAchievement(_achievementCoroutines.Dequeue());
     }
 
     #endregion
 
-    public void AddAchievementToQueue(Achievement achievement)
+    private void ShowNewAchievement(Achievement achievement)
     {
-        _achievementCoroutines.Enqueue(ShowNewAchievement(achievement));
-        _achievementNames.Add(achievement.Name);
-    }
+        _timeSinceLastPlayedTimeline = 0;
 
-    public IEnumerator ShowNewAchievement(Achievement achievement)
-    {
-        _isPlaying = true;
-
-        Debug.Log("Start Coroutine: " + achievement.Name);
         string descriptionText = achievement.Description;
 
-        //if (descriptionText.Contains("#")){ descriptionText = descriptionText.Replace("#", achievement.StepCount.ToString()); }
+        if (descriptionText.Contains("#")) { descriptionText = descriptionText.Replace("#", achievement.StepCount.ToString()); }
 
         _nameText.text = achievement.Name;
         _descriptionText.text = descriptionText;
 
         _timeLine.Play();
+    }
 
-        yield return new WaitForSeconds(3f);
-
-        Debug.Log("End Coroutine: " + achievement.Name);
-
-        _isPlaying = false;
+    public void AddAchievementToQueue(Achievement achievement)
+    {
+        _achievementCoroutines.Enqueue(achievement);
     }
 }

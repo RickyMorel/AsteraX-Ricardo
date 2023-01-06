@@ -15,5 +15,5 @@ MonoBehaviour:
   Name: EAGLE EYE
   Description: '# Lucky Shots!!'
   StepType: 1
-  StepCount: 2
+  StepCount: 100
   IsComplete: 0
