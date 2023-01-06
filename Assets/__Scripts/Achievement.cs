@@ -8,7 +8,7 @@ public class Achievement : ScriptableObject
     public StepType StepType;
     public int StepCount;
     //public Image UnlockablePart;
-    public bool Complete;
+    public bool IsComplete;
 }
 
 public enum StepType

@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Bullet Wrapped Screen & Hit Asteroid
   StepType: 1
   StepCount: 1
-  Complete: 0
+  IsComplete: 0

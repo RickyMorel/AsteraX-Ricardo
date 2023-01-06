@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(ScreenWrap))]
 public class Projectile : MonoBehaviour
 {
     #region Editor Fields
@@ -15,6 +16,7 @@ public class Projectile : MonoBehaviour
     #region Private Variables
 
     private Rigidbody _rb;
+    private ScreenWrap _screenWrap;
 
     #endregion
 
@@ -28,6 +30,7 @@ public class Projectile : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
+        _screenWrap = GetComponent<ScreenWrap>();
     }
 
     private void Start()
@@ -47,6 +50,10 @@ public class Projectile : MonoBehaviour
         if (!collision.gameObject.TryGetComponent<AsteroidScript>(out AsteroidScript asteroid)) { return; }
 
         asteroid.Damage(false);
+
+        OnHit?.Invoke();
+
+        if (_screenWrap.TimeSinceLastScreenWrap < 1.5f) { OnLuckyShot?.Invoke(); }
 
         SelfDestruct();
     }

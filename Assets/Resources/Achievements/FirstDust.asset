@@ -16,4 +16,4 @@ MonoBehaviour:
   Description: Shot Your First Asteroid
   StepType: 0
   StepCount: 1
-  Complete: 0
+  IsComplete: 0
