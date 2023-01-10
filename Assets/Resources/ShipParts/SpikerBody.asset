@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 880a604725487e446acde38128145146, type: 3}
-  m_Name: EagleEye
+  m_Script: {fileID: 11500000, guid: 4b8b8ac8ae1c29048b0423660c69f9eb, type: 3}
+  m_Name: SpikerBody
   m_EditorClassIdentifier: 
-  Name: EAGLE EYE
-  Description: '# Lucky Shots!!'
-  StepType: 1
-  StepCount: 100
-  UnlockablePart: {fileID: 11400000, guid: 06a89fe81f13c8741a57c161b0381338, type: 2}
-  IsComplete: 0
+  PartName: Spiker
+  Type: 1
+  Id: 3
+  State: 2

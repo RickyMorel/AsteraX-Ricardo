@@ -7,7 +7,8 @@ public class Achievement : ScriptableObject
     public string Description;
     public StepType StepType;
     public int StepCount;
-    //public Image UnlockablePart;
+    public ShipPartSO UnlockablePart;
+    [HideInInspector]
     public bool IsComplete;
 }
 

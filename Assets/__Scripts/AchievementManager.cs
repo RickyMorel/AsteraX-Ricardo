@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.Impl;
 
 public class AchievementManager : MonoBehaviour
@@ -72,6 +73,8 @@ public class AchievementManager : MonoBehaviour
         {
             achievement.IsComplete = false;
         }
+
+        ShipPartsManager.Instance.ClearAllUnlocks();
     }
 
     private void Start()
@@ -176,8 +179,12 @@ public class AchievementManager : MonoBehaviour
 
     private void UnlockAchievement(Achievement achievement, bool isLoad)
     {
-        Debug.Log("UnlockAchievement: " + isLoad);
         achievement.IsComplete = true;
+
+        Debug.Log("UnlockAchievement: " + achievement);
+
+        if(achievement.UnlockablePart != null)
+            ShipPartsManager.Instance.ChangePartState(achievement.UnlockablePart.Id, achievement.UnlockablePart.Type, ShipPartState.Unlocked);
 
         if(isLoad) { return; }
 

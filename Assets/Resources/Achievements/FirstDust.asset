@@ -16,4 +16,5 @@ MonoBehaviour:
   Description: Shot Your First Asteroid
   StepType: 0
   StepCount: 1
+  UnlockablePart: {fileID: 11400000, guid: cb9c49986ec295e41ac172b4dff34593, type: 2}
   IsComplete: 0

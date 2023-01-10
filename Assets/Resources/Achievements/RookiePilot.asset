@@ -16,4 +16,5 @@ MonoBehaviour:
   Description: Scored # Points in One Game!
   StepType: 3
   StepCount: 10000
-  Complete: 0
+  UnlockablePart: {fileID: 11400000, guid: 00a38f69888012540b43febadfa92187, type: 2}
+  IsComplete: 0

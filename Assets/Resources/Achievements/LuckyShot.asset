@@ -16,4 +16,5 @@ MonoBehaviour:
   Description: Bullet Wrapped Screen & Hit Asteroid
   StepType: 1
   StepCount: 1
+  UnlockablePart: {fileID: 11400000, guid: 6a1dad0c23bf9aa4aa689d6e360cb778, type: 2}
   IsComplete: 0

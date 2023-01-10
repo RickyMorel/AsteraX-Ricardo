@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     #region Private Variables
 
     private GameState _gameState = GameState.Starting;
+    private GameState _prevGameState;
     private int _score = 0;
     private int _jumps = 3;
     private int _level = 0;
@@ -145,6 +146,8 @@ public class GameManager : MonoBehaviour
     {
         float wantedTimeScale = isPaused ? 0f : 1f;
 
+        if (isPaused) SetGameState(GameState.Paused); else SetGameState(_prevGameState);
+
         Time.timeScale = wantedTimeScale;
     }
 
@@ -170,6 +173,8 @@ public class GameManager : MonoBehaviour
 
     public void SetGameState(GameState newState)
     {
+        _prevGameState = _gameState;
+
         _gameState = newState;
 
         UIMaster.Instance.EnablePanelByState(newState);
@@ -191,4 +196,5 @@ public enum GameState
     Over = 3,
     Respawning = 4,
     LevelChange = 5,
+    Paused = 6,
 }

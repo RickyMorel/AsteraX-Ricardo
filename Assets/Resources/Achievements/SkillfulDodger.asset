@@ -16,4 +16,5 @@ MonoBehaviour:
   Description: Reached Level #!!
   StepType: 4
   StepCount: 5
-  Complete: 0
+  UnlockablePart: {fileID: 11400000, guid: 25c65bc8bff4b21428a5d0a3ab73fb36, type: 2}
+  IsComplete: 0

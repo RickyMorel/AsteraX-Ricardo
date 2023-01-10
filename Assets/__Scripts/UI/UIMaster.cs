@@ -10,6 +10,7 @@ public class UIMaster : MonoBehaviour
     [SerializeField] private GameObject _playerStatsPanel;
     [SerializeField] private GameObject _gameOverPanel;
     [SerializeField] private GameObject _levelPanel;
+    [SerializeField] private GameObject _pausePanel;
 
     #endregion
 
@@ -40,6 +41,7 @@ public class UIMaster : MonoBehaviour
         _startGamePanel.SetActive(false);
         _gameOverPanel.SetActive(false);
         _levelPanel.SetActive(false);
+        _pausePanel.SetActive(false);
 
         switch (state)
         {
@@ -55,6 +57,9 @@ public class UIMaster : MonoBehaviour
                 break;
             case GameState.LevelChange:
                 _levelPanel.SetActive(true);
+                break;
+            case GameState.Paused:
+                _pausePanel.SetActive(true);
                 break;
             case GameState.Over:
                 _playerStatsPanel.SetActive(false);

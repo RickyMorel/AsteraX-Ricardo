@@ -376,7 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveSpeed: 10
   _timeBetweenShots: 0.2
-  _turretTransform: {fileID: 4599906963886276}
+  _turretTransform: {fileID: 4128896187653560}
   _projectilePrefab: {fileID: 1657914042213664, guid: 0e9c239fd33d94404b671bc44ab4f6b4,
     type: 3}
   _shootTransform: {fileID: 7611745599606778346}
