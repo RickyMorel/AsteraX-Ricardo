@@ -16,7 +16,7 @@ public class GameOverUI : MonoBehaviour
 
     private void SetTitleText()
     {
-        string wantedText = "Game Over";
+        string wantedText = AchievementManager.Instance.GotHighScore ? "High Score!" : "Game Over";
         _gameOverText.text = wantedText;
     }
 

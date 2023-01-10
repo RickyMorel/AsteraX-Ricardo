@@ -9,4 +9,10 @@ public class StartGameUI : MonoBehaviour
     {
         GameManager.Instance.RaiseLevel();
     }
+
+    public void DeleteSave()
+    {
+        SaveManager.DeleteSave();
+    }
+
 }

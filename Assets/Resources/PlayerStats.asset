@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faae0c6f48d49b64b9124dec04509a76, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  Jumps: 3
+  Jumps: 1
   RespawnTime: 2

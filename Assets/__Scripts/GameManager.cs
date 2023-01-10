@@ -5,6 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(AchievementManager))]
 public class GameManager : MonoBehaviour
 {
     #region Editor Fields
@@ -20,6 +21,8 @@ public class GameManager : MonoBehaviour
     private int _jumps = 3;
     private int _level = 0;
     private List<LevelData> _levelDataList = new List<LevelData>();
+
+    private AchievementManager _achievementManager;
 
     #endregion
 
@@ -57,6 +60,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        _achievementManager = GetComponent<AchievementManager>();
+
         _jumps = _playerStatsSo.Jumps;
 
         OnJumpsUpdated?.Invoke(_jumps);
@@ -122,7 +127,11 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        _achievementManager.CheckUpdateHighScore(_score);
+
         SetGameState(GameState.Over);
+
+        _achievementManager.SaveAchievements();
 
         Invoke(nameof(ReloadScene), 4f);
     }
