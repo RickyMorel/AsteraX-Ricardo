@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.Rendering;
@@ -43,9 +44,20 @@ public class ShipPartsManager : MonoBehaviour
         ShipPartSO basicTurret = ChangePartState(0, ShipPartType.Turret, ShipPartState.Unlocked);
         ShipPartSO basicBody = ChangePartState(0, ShipPartType.Body, ShipPartState.Unlocked);
 
-        //Equip basic parts
-        EquipPart(basicTurret);
-        EquipPart(basicBody);
+        GameData loadedData = SaveManager.Load();
+
+        if (loadedData == null)
+        {
+            //Equip basic parts
+            EquipPart(basicTurret);
+            EquipPart(basicBody);
+            return;
+        }
+
+        ShipPartSO turret = ChangePartState(loadedData.SelectedPartsIds[0], ShipPartType.Turret, ShipPartState.Unlocked);
+        ShipPartSO body = ChangePartState(loadedData.SelectedPartsIds[1], ShipPartType.Body, ShipPartState.Unlocked);
+        EquipPart(turret);
+        EquipPart(body);
     }
 
     private void LoadShipParts()
@@ -102,5 +114,27 @@ public class ShipPartsManager : MonoBehaviour
 
             if(partSo.State == ShipPartState.Selected) { partSo.State = ShipPartState.Unlocked; }
         }   
+    }
+
+    public List<int> GetSelectedPartIds()
+    {
+        List<ShipPartSO> selectedParts = new List<ShipPartSO>();
+        List<int> selectedPartIds = new List<int>();
+
+        foreach (ShipPartSO part in _shipParts)
+        {
+            if(part.State != ShipPartState.Selected) { continue; }
+
+            selectedParts.Add(part);
+        }
+
+        var sortedParts = selectedParts.OrderBy(part => part.Type).ToList();
+
+        foreach (ShipPartSO part in sortedParts)
+        {
+            selectedPartIds.Add(part.Id);
+        }
+
+        return selectedPartIds;
     }
 }
