@@ -36,6 +36,8 @@ public class ShipPartsButton : MonoBehaviour
 
     public void OnClick()
     {
+        if(_currentPart.State == ShipPartState.Locked) { return; }
+
         ShipPartsManager.Instance.EquipPart(_currentPart);
     }
 }

@@ -40,8 +40,12 @@ public class ShipPartsManager : MonoBehaviour
     private void Start()
     {
         //Unlock basic parts
-        ChangePartState(0, ShipPartType.Turret, ShipPartState.Unlocked);
-        ChangePartState(0, ShipPartType.Body, ShipPartState.Unlocked);
+        ShipPartSO basicTurret = ChangePartState(0, ShipPartType.Turret, ShipPartState.Unlocked);
+        ShipPartSO basicBody = ChangePartState(0, ShipPartType.Body, ShipPartState.Unlocked);
+
+        //Equip basic parts
+        EquipPart(basicTurret);
+        EquipPart(basicBody);
     }
 
     private void LoadShipParts()
@@ -55,7 +59,7 @@ public class ShipPartsManager : MonoBehaviour
         }
     }
 
-    public void ChangePartState(int partId, ShipPartType partType, ShipPartState wantedState)
+    public ShipPartSO ChangePartState(int partId, ShipPartType partType, ShipPartState wantedState)
     {
         foreach (ShipPartSO partSO in _shipParts)
         {
@@ -64,7 +68,11 @@ public class ShipPartsManager : MonoBehaviour
             if(partSO.Type != partType) { continue; }
 
             partSO.State = wantedState;
+
+            return partSO;
         }
+
+        return null;
     }
 
     public void ClearAllUnlocks()
@@ -79,8 +87,20 @@ public class ShipPartsManager : MonoBehaviour
 
     public void EquipPart(ShipPartSO shipPartSO)
     {
+        DeselectPrevoiusPartsByType(shipPartSO.Type);
+
         shipPartSO.State = ShipPartState.Selected;
 
         OnSelectPart?.Invoke();
+    }
+
+    public void DeselectPrevoiusPartsByType(ShipPartType partType)
+    {
+        foreach (ShipPartSO partSo in _shipParts)
+        {
+            if(partSo.Type != partType) { continue; }
+
+            if(partSo.State == ShipPartState.Selected) { partSo.State = ShipPartState.Unlocked; }
+        }   
     }
 }
