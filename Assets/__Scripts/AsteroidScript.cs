@@ -119,7 +119,11 @@ public class AsteroidScript : MonoBehaviour
 
         //Sets random rotation and position on parent asteroid
         Asteroid asteroidSO = AsteroidSpawner.GetRandomAsteroid();
-        GameObject asteroidInstance = Instantiate(asteroidSO.AsteroidPrefab, parent);
+
+        GameObject wantedPrefab = Application.platform == RuntimePlatform.Android ? asteroidSO.AsteroidPrefabMobile : asteroidSO.AsteroidPrefab;
+
+        GameObject asteroidInstance = Instantiate(wantedPrefab, parent);
+
         asteroidInstance.transform.localPosition = randomSpawnPos;
         asteroidInstance.transform.localRotation = Quaternion.Euler(randomRotation);
         asteroidInstance.transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);

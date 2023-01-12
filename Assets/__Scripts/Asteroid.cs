@@ -4,6 +4,7 @@ using UnityEngine;
 public class Asteroid : ScriptableObject
 {
     public GameObject AsteroidPrefab;
+    public GameObject AsteroidPrefabMobile;
     public float Speed;
     public float AngularVel;
     public int ScoreGiven;

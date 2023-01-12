@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AsteroidPrefab: {fileID: 1669921439223048, guid: 5513cde93bb3343768ced35921a9c3c2,
     type: 3}
+  AsteroidPrefabMobile: {fileID: 1669921439223048, guid: 5a96ae00df23c1b4d8d07bbe1100d8f4,
+    type: 3}
   Speed: 6
   AngularVel: 1
   ScoreGiven: 100

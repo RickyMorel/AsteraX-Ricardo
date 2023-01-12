@@ -17,8 +17,11 @@ public static class SaveManager
         Debug.Log(_FILE_PATH);
     }
 
-    public static void Save(int highScore, List<StepTypeData> achievementData)
+    public static void Save()
     {
+        var highScore = AchievementManager.Instance.HighScore;
+        var achievementData = AchievementManager.Instance.AchievementData;
+
         _GAME_DATA = new GameData(highScore, achievementData);
 
         string jsonData = JsonUtility.ToJson(_GAME_DATA, true);
@@ -45,5 +48,7 @@ public static class SaveManager
         File.Delete(_FILE_PATH);
 
         AchievementManager.Instance.ClearStepsAndAchievements();
+
+        ShipPartsManager.Instance.EquipShipParts();
     }
 }

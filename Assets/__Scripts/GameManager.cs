@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance { get; private set; }
 
+    public bool IsPaused => _gameState == GameState.Paused;
     public int Score => _score;
     public int Level => _level;
     public List<LevelData> LevelDataList => _levelDataList;
@@ -134,6 +135,9 @@ public class GameManager : MonoBehaviour
 
         _achievementManager.SaveAchievements();
 
+        CustomAnalytics.SendFinalShipPartChoice();
+        CustomAnalytics.SendGameOver();
+
         Invoke(nameof(ReloadScene), 4f);
     }
 
@@ -158,6 +162,8 @@ public class GameManager : MonoBehaviour
         OnLevelUpdated?.Invoke(_level);
 
         StartCoroutine(ChangeLevelCoroutine());
+
+        CustomAnalytics.SendLevelStart(_level);
     }
 
     private IEnumerator ChangeLevelCoroutine()

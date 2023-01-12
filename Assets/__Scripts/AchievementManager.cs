@@ -16,6 +16,9 @@ public class AchievementManager : MonoBehaviour
     public static AchievementManager Instance { get; private set; }
     public bool GotHighScore = false;
 
+    public int HighScore => _highScore;
+    public List<StepTypeData> AchievementData => _achievementData;
+
     private void Awake()
     {
         GetSingleton();
@@ -106,7 +109,7 @@ public class AchievementManager : MonoBehaviour
 
     public void SaveAchievements()
     {
-        SaveManager.Save(_highScore, _achievementData);
+        SaveManager.Save();
     }
 
     private void AddHighScoreAchievement()
@@ -181,8 +184,6 @@ public class AchievementManager : MonoBehaviour
     {
         achievement.IsComplete = true;
 
-        Debug.Log("UnlockAchievement: " + achievement);
-
         if(achievement.UnlockablePart != null)
             ShipPartsManager.Instance.ChangePartState(achievement.UnlockablePart.Id, achievement.UnlockablePart.Type, ShipPartState.Unlocked);
 
@@ -190,7 +191,9 @@ public class AchievementManager : MonoBehaviour
 
         AchievementUI.Instance.AddAchievementToQueue(achievement);
 
-        SaveManager.Save(_highScore, _achievementData);
+        CustomAnalytics.SendAchievementUnlocked(achievement);
+
+        SaveManager.Save();
     }
 }
 

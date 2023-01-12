@@ -40,6 +40,11 @@ public class ShipPartsManager : MonoBehaviour
 
     private void Start()
     {
+        EquipShipParts();
+    }
+
+    public void EquipShipParts()
+    {
         //Unlock basic parts
         ShipPartSO basicTurret = ChangePartState(0, ShipPartType.Turret, ShipPartState.Unlocked);
         ShipPartSO basicBody = ChangePartState(0, ShipPartType.Body, ShipPartState.Unlocked);
@@ -104,6 +109,8 @@ public class ShipPartsManager : MonoBehaviour
         shipPartSO.State = ShipPartState.Selected;
 
         OnSelectPart?.Invoke();
+
+        SaveManager.Save();
     }
 
     public void DeselectPrevoiusPartsByType(ShipPartType partType)
@@ -114,6 +121,13 @@ public class ShipPartsManager : MonoBehaviour
 
             if(partSo.State == ShipPartState.Selected) { partSo.State = ShipPartState.Unlocked; }
         }   
+    }
+
+    public int GetSelectedShipPart(ShipPartType shipPartType)
+    {
+        ShipPartSO wantedPart = _shipParts.Find(part => part.Type == shipPartType && part.State == ShipPartState.Selected);
+
+        return wantedPart.Id;
     }
 
     public List<int> GetSelectedPartIds()
