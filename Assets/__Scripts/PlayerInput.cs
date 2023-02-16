@@ -5,6 +5,8 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerInput : MonoBehaviour
 {
+    public Joystick Joystick;
+
     #region Private Variables
 
     private Vector2 _moveDirection;
@@ -30,19 +32,19 @@ public class PlayerInput : MonoBehaviour
 
     private void GetMoveInputs()
     {
-        float horizontalInput = CrossPlatformInputManager.GetAxisRaw("Horizontal");
-        float verticalInput = CrossPlatformInputManager.GetAxisRaw("Vertical");
+        float horizontalInput = Joystick.Horizontal;
+        float verticalInput = Joystick.Vertical;
 
         _moveDirection = new Vector2(horizontalInput, verticalInput);
     }
 
     private void GetShootInputs()
     {
-        _isShooting = CrossPlatformInputManager.GetAxis("Fire1") == 1f;
+        _isShooting = Input.GetAxis("Fire1") == 1f;
     }
 
     private void GetMouseInputs()
     {
-        _mousePosition = Camera.main.ScreenToWorldPoint(CrossPlatformInputManager.mousePosition);
+        _mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 }
