@@ -5,7 +5,8 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerInput : MonoBehaviour
 {
-    public Joystick Joystick;
+    public Joystick Joystick_1;
+    public Joystick Joystick_2;
 
     #region Private Variables
 
@@ -26,25 +27,25 @@ public class PlayerInput : MonoBehaviour
     private void Update()
     {
         GetMoveInputs();
-        GetShootInputs();
         GetMouseInputs();
     }
 
     private void GetMoveInputs()
     {
-        float horizontalInput = Joystick.Horizontal;
-        float verticalInput = Joystick.Vertical;
+        float horizontalInput = Joystick_1.Horizontal;
+        float verticalInput = Joystick_1.Vertical;
 
         _moveDirection = new Vector2(horizontalInput, verticalInput);
     }
 
-    private void GetShootInputs()
-    {
-        _isShooting = Input.GetAxis("Fire1") == 1f;
-    }
-
     private void GetMouseInputs()
     {
-        _mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        float horizontalInput = Joystick_2.Horizontal;
+        float verticalInput = Joystick_2.Vertical;
+        Vector3 lookPos = new Vector2(horizontalInput, verticalInput).normalized * 3;
+
+        _isShooting = lookPos.magnitude > 0;
+
+        _mousePosition = lookPos;
     }
 }
