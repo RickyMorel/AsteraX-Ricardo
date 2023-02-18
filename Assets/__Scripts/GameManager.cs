@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     #region Editor Fields
 
     [SerializeField] private PlayerStatsSO _playerStatsSo;
+    [SerializeField] private AudioSO _audioSo;
 
     #endregion
 
@@ -32,6 +33,8 @@ public class GameManager : MonoBehaviour
     public string LevelProgression = "1:3/2,2:4/2,3:3/3,4:4/3,5:5/3,6:3/4,7:4/4,8:5/4,9:6/4,10:3/5,";
 
     public static GameManager Instance { get; private set; }
+
+    public AudioSO AudioSo => _audioSo;
 
     public bool IsPaused => _gameState == GameState.Paused;
     public int Score => _score;

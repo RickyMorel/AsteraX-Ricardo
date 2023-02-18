@@ -42,7 +42,7 @@ public class AsteroidScript : MonoBehaviour
         if (TryGetComponent<Rigidbody>(out Rigidbody rb))
         {
             Vector3 addedForce = AsteroidSo.GetRandomDirection();
-            Vector3 angularVel = Random.insideUnitSphere * AsteroidSo.AngularVel * (1 + ChildCount);
+            Vector3 angularVel = Random.insideUnitSphere * AsteroidSo.AngularVel * (1 + ChildCount*0.25f);
             rb.AddForce(addedForce, ForceMode.Impulse);
             rb.angularVelocity = angularVel;
         }

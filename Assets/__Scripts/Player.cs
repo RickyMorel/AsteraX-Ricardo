@@ -5,6 +5,7 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(PlayerInput))]
+[RequireComponent(typeof(AudioSource))]
 public class Player : MonoBehaviour
 {
     #region Editor Fields
@@ -27,6 +28,7 @@ public class Player : MonoBehaviour
     private PlayerInput _playerInput;
     private float _timeSinceLastShot = 0f;
     private float _boosterParticlesTurnSmoothVel;
+    private AudioSource _audioSource;
 
     #endregion
 
@@ -53,6 +55,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _playerInput = GetComponent<PlayerInput>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -82,6 +85,8 @@ public class Player : MonoBehaviour
 
         Instantiate(_jumpOutParticles, transform.position, Quaternion.identity);
 
+        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.Die);
+
         transform.position = new Vector3(0f, 0f, -100f);
 
         //
@@ -93,6 +98,8 @@ public class Player : MonoBehaviour
         Vector3 spawnPos = AsteroidSpawner.Instance.GetSafeSpawnPosition();
 
         Instantiate(_jumpInParticles, spawnPos, Quaternion.identity);
+
+        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.Respawn);
 
         yield return new WaitForSeconds(0.5f);
 

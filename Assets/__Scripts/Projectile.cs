@@ -5,6 +5,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(ScreenWrap))]
+[RequireComponent(typeof(AudioSource))]
 public class Projectile : MonoBehaviour
 {
     #region Editor Fields
@@ -17,6 +18,7 @@ public class Projectile : MonoBehaviour
 
     private Rigidbody _rb;
     private ScreenWrap _screenWrap;
+    private AudioSource _audioSource;   
 
     #endregion
 
@@ -32,6 +34,7 @@ public class Projectile : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _screenWrap = GetComponent<ScreenWrap>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -39,6 +42,8 @@ public class Projectile : MonoBehaviour
         OnBulletFired?.Invoke();
 
         _rb.AddForce(_bulletForce * transform.up, ForceMode.Impulse);
+
+        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.GetRandomLaserSound());
 
         Invoke(nameof(SelfDestruct), 2f);
     }

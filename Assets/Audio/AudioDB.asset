@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f586d47c1aa7fd14cb6c133dff631a3e, type: 3}
+  m_Name: AudioDB
+  m_EditorClassIdentifier: 
+  Musics: []
+  Lasers:
+  - {fileID: 8300000, guid: 56c2ee139e8c844ba9a3a17370e3b763, type: 3}
+  - {fileID: 8300000, guid: f0f9c11c7257f48feb7f87746b03e573, type: 3}
+  - {fileID: 8300000, guid: 654d1ed270c714ddb8c934ac5fef5edc, type: 3}
+  - {fileID: 8300000, guid: efc8a171e707c43fcb789f5980dafb79, type: 3}
+  - {fileID: 8300000, guid: 406abe6e803b244eca380af5865dc5cb, type: 3}
+  - {fileID: 8300000, guid: 0fa10ee5b269443d89d963b31afb33b7, type: 3}
+  - {fileID: 8300000, guid: bd11b89f2155a4c14ad39e9572d36a68, type: 3}
+  - {fileID: 8300000, guid: 476c9e909434541d9a0e665e934cd626, type: 3}
+  - {fileID: 8300000, guid: 2b0937f4e75504da8a8aef2cf114aaee, type: 3}
+  - {fileID: 8300000, guid: f1364d48e48ea4fdab44868cc9b2a10e, type: 3}
+  Explosions: []
+  Respawn: {fileID: 8300000, guid: 053305631f13240d0a559a947fcefde4, type: 3}
+  Die: {fileID: 8300000, guid: 759deda5caefb4859803bfce58dd961d, type: 3}
+  ButtonPress: {fileID: 8300000, guid: 7298cdd19e7244a4f9a880e0058b5c8c, type: 3}

@@ -16,7 +16,7 @@ MonoBehaviour:
     type: 3}
   AsteroidPrefabMobile: {fileID: 1669921439223048, guid: 5a96ae00df23c1b4d8d07bbe1100d8f4,
     type: 3}
-  Speed: 6
+  Speed: 3
   AngularVel: 1
   ScoreGiven: 100
   ExplosionParticles: {fileID: 2028646928150880841, guid: dcab31cfb2b6b64448d1a9fca2051f67,
