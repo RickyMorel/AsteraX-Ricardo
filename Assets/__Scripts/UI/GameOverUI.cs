@@ -27,4 +27,14 @@ public class GameOverUI : MonoBehaviour
         string newText = $"Final Level: {level}\r\nFinal Score: {score.ToString("N0")}";
         _scoreText.text = newText;
     }
+
+    public void Retry()
+    {
+        GameManager.Instance.GameOver();
+    }
+
+    public void Continue()
+    {
+        AdManager.Instance.ShowAd();
+    }
 }

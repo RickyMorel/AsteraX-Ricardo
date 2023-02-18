@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
     {
         if (_gameState != GameState.Playing) { return; }
 
-        if (_jumps <= 0) { AdManager.Instance.ShowAd(); return; }
+        if (_jumps <= 0) { SetGameState(GameState.Over); return; }
 
         _jumps--;
 
