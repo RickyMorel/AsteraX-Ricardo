@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
     {
         if (_gameState != GameState.Playing) { return; }
 
-        if (_jumps <= 0) { GameOver(); return; }
+        if (_jumps <= 0) { AdManager.Instance.ShowAd(); return; }
 
         _jumps--;
 
@@ -139,6 +139,14 @@ public class GameManager : MonoBehaviour
         CustomAnalytics.SendGameOver();
 
         Invoke(nameof(ReloadScene), 4f);
+    }
+
+    public void Revive()
+    {
+        SetGameState(GameState.Playing);
+
+        _jumps = 1;
+        ReduceJumps();
     }
 
     private void ReloadScene()
