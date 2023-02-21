@@ -112,7 +112,6 @@ public class AsteroidScript : MonoBehaviour
         asteroidParticles.transform.localScale = new Vector3(particleScale, particleScale, particleScale);
 
         _audioSource.PlayOneShot(GameManager.Instance.AudioSo.GetRandomExplosionSound());
-        Debug.Log("isPlaying?: " + _audioSource.isPlaying);
         _mesh.enabled = false;
         //set to no damage layer
         gameObject.layer = 14;
