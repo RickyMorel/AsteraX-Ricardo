@@ -186,7 +186,7 @@ public class Player : MonoBehaviour
 
         Vector3 direction = _playerInput.MousePosition;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        _turretTransform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
 
     private void CheckShoot()

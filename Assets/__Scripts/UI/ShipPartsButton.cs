@@ -11,6 +11,12 @@ public class ShipPartsButton : MonoBehaviour
     [SerializeField] private Image _checkmark;
 
     private ShipPartSO _currentPart;
+    private ButtonAudio _buttonAudio;
+
+    private void Start()
+    {
+        _buttonAudio = GetComponent<ButtonAudio>();
+    }
 
     public void Initialize(ShipPartSO shipPartSO)
     {
