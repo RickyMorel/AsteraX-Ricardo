@@ -30,7 +30,6 @@ public class Player : MonoBehaviour
     private PlayerInput _playerInput;
     private float _timeSinceLastShot = 0f;
     private float _boosterParticlesTurnSmoothVel;
-    private AudioSource _audioSource;
     private Vector3 _prevPos;
     private float _enginePitch;
 
@@ -59,9 +58,6 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _playerInput = GetComponent<PlayerInput>();
-        _audioSource = GetComponent<AudioSource>();
-        //_engineAudioSource.clip = GameManager.Instance.AudioSo.ShipEngine;
-        //_engineAudioSource.Play();
     }
 
     private void Update()
@@ -91,7 +87,7 @@ public class Player : MonoBehaviour
 
         Instantiate(_jumpOutParticles, transform.position, Quaternion.identity);
 
-        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.Die);
+        GameAudioManager.Instance.PlayDieSFX();
 
         transform.position = new Vector3(0f, 0f, -100f);
 
@@ -105,7 +101,7 @@ public class Player : MonoBehaviour
 
         Instantiate(_jumpInParticles, spawnPos, Quaternion.identity);
 
-        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.Respawn);
+        GameAudioManager.Instance.PlayRespawnSFX();
 
         yield return new WaitForSeconds(0.5f);
 
