@@ -5,8 +5,16 @@ using System.Globalization;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+[RequireComponent(typeof(AudioSource))]
 public class AsteroidScript : MonoBehaviour
 {
+    #region Private Variables
+
+    private AudioSource _audioSource;
+    private Renderer _mesh;
+
+    #endregion
+
     #region Pubic Properties
 
     public Asteroid AsteroidSo;
@@ -23,6 +31,9 @@ public class AsteroidScript : MonoBehaviour
     private void Start()
     {
         if (!IsChild) { SpawnChildrenAsteroids(); }
+
+        _audioSource = GetComponent<AudioSource>();
+        _mesh = GetComponent<Renderer>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -100,6 +111,17 @@ public class AsteroidScript : MonoBehaviour
         float particleScale = 1f / (1+ ChildCount);
         asteroidParticles.transform.localScale = new Vector3(particleScale, particleScale, particleScale);
 
+        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.GetRandomExplosionSound());
+        Debug.Log("isPlaying?: " + _audioSource.isPlaying);
+        _mesh.enabled = false;
+        //set to no damage layer
+        gameObject.layer = 14;
+
+        Invoke(nameof(DestroySelf), 3f);
+    }
+
+    private void DestroySelf()
+    {
         Destroy(gameObject);
     }
 

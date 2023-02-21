@@ -44,6 +44,8 @@ public class GameManager : MonoBehaviour
     public static event Action<int> OnJumpsUpdated;
     public static event Action<int> OnScoreUpdated;
     public static event Action<int> OnLevelUpdated;
+    public bool IsInvunerable = false;
+    public GameState GameState => _gameState;
 
     #endregion
 
@@ -110,6 +112,8 @@ public class GameManager : MonoBehaviour
 
     public void ReduceJumps()
     {
+        if (IsInvunerable) { return; }
+
         if (_gameState != GameState.Playing) { return; }
 
         if (_jumps <= 0) { SetGameState(GameState.Over); return; }
@@ -141,7 +145,7 @@ public class GameManager : MonoBehaviour
         CustomAnalytics.SendFinalShipPartChoice();
         CustomAnalytics.SendGameOver();
 
-        Invoke(nameof(ReloadScene), 4f);
+        ReloadScene();
     }
 
     public void Revive()

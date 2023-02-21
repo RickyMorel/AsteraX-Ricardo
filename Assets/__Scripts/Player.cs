@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     [SerializeField] private ParticleSystem _boosterParticles;
     [SerializeField] private GameObject _jumpInParticles;
     [SerializeField] private GameObject _jumpOutParticles;
+    [SerializeField] private AudioSource _engineAudioSource;
+    [SerializeField] private GameObject _meshes;
 
     #endregion
 
@@ -29,6 +31,8 @@ public class Player : MonoBehaviour
     private float _timeSinceLastShot = 0f;
     private float _boosterParticlesTurnSmoothVel;
     private AudioSource _audioSource;
+    private Vector3 _prevPos;
+    private float _enginePitch;
 
     #endregion
 
@@ -56,6 +60,8 @@ public class Player : MonoBehaviour
     {
         _playerInput = GetComponent<PlayerInput>();
         _audioSource = GetComponent<AudioSource>();
+        //_engineAudioSource.clip = GameManager.Instance.AudioSo.ShipEngine;
+        //_engineAudioSource.Play();
     }
 
     private void Update()
@@ -105,9 +111,36 @@ public class Player : MonoBehaviour
 
         transform.position = spawnPos;
 
+        StartCoroutine(BecomeInvunerableCoroutine());
+
         //
 
         GameManager.Instance.SetGameState(GameState.Playing);
+    }
+
+    private IEnumerator BecomeInvunerableCoroutine()
+    {
+        GameManager.Instance.IsInvunerable = true;
+        _meshes.SetActive(false);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(true);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(false);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(true);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(false);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(true);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(false);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(true);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(false);
+        yield return new WaitForSeconds(0.25f);
+        _meshes.SetActive(true);
+        GameManager.Instance.IsInvunerable = false;
     }
 
     private void Move()
@@ -116,6 +149,23 @@ public class Player : MonoBehaviour
 
         Vector3 moveDirection3D = new Vector3(_playerInput.MoveDirection.x, _playerInput.MoveDirection.y, 0f);
         transform.position += moveDirection3D.normalized * _moveSpeed * Time.deltaTime;
+
+        CalculateEnginePitch();
+
+        _prevPos = transform.position;
+    }
+
+    private void CalculateEnginePitch()
+    {
+        if(GameManager.Instance.GameState != GameState.Playing) { _enginePitch = 0f; }
+
+        float distance = Vector3.Distance(transform.position, _prevPos);
+
+        _engineAudioSource.volume = distance > 0f ? 1f : 0f;
+
+        _enginePitch = Mathf.Lerp(_enginePitch, distance > 0f ? 1f : 0f, Time.deltaTime * 3f);
+
+        _engineAudioSource.pitch = (_enginePitch + 1f);
     }
 
     private void PlayBoostParticles()

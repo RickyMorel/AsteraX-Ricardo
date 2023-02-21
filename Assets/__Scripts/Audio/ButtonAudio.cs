@@ -15,6 +15,7 @@ public class ButtonAudio : MonoBehaviour
     public void OnClick()
     {
         Debug.Log("Play Button Sfx: " + GameManager.Instance.AudioSo.ButtonPress);
-        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.ButtonPress);
+        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.GetRandomButtonPressSound());
+        AudioSource.PlayClipAtPoint(GameManager.Instance.AudioSo.GetRandomButtonPressSound(), Camera.main.transform.position);
     }
 }
