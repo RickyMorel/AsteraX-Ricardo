@@ -42,7 +42,7 @@ public class PlayerInput : MonoBehaviour
     {
         float horizontalInput = Joystick_2.Horizontal;
         float verticalInput = Joystick_2.Vertical;
-        Vector3 lookPos = new Vector2(horizontalInput, verticalInput).normalized * 3;
+        Vector3 lookPos = new Vector2(horizontalInput, verticalInput).normalized * 2;
 
         _isShooting = lookPos.magnitude > 0;
 

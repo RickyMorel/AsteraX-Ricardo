@@ -182,7 +182,9 @@ public class Player : MonoBehaviour
 
     private void Aim()
     {
-        Vector3 direction = _playerInput.MousePosition - transform.position;
+        if(_playerInput.MousePosition.magnitude == 0) { return; }
+
+        Vector3 direction = _playerInput.MousePosition;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
