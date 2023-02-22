@@ -53,18 +53,22 @@ public class ScreenWrap : MonoBehaviour
         if(viewportPos.x > 1)
         {
             newPosition.x = -newPosition.x + 0.1f;
+            _timeSinceLastScreenWrap = 0f;
         }
         else if (viewportPos.x < 0)
         {
             newPosition.x = -newPosition.x - 0.1f;
+            _timeSinceLastScreenWrap = 0f;
         }
         if (viewportPos.y > 1)
         {
             newPosition.y = -newPosition.y + 0.1f;
+            _timeSinceLastScreenWrap = 0f;
         }
         else if (viewportPos.y < 0)
         {
             newPosition.y = -newPosition.y - 0.1f;
+            _timeSinceLastScreenWrap = 0f;
         }
 
         transform.position = newPosition;

@@ -184,7 +184,9 @@ public class AchievementManager : MonoBehaviour
     {
         achievement.IsComplete = true;
 
-        if(achievement.UnlockablePart != null)
+        if (!isLoad) { GameAudioManager.Instance.PlayAchievementSFX(); }
+
+        if (achievement.UnlockablePart != null)
             ShipPartsManager.Instance.ChangePartState(achievement.UnlockablePart.Id, achievement.UnlockablePart.Type, ShipPartState.Unlocked);
 
         if(isLoad) { return; }

@@ -8,6 +8,7 @@ public class GameAudioManager : MonoBehaviour
 
     [SerializeField] private AudioSource _respawnSource;
     [SerializeField] private AudioSource _buttonSource;
+    [SerializeField] private AudioSource _achievementSource;
 
     #endregion
 
@@ -33,6 +34,12 @@ public class GameAudioManager : MonoBehaviour
     {
         _respawnSource.PlayOneShot(GameManager.Instance.AudioSo.Respawn);
     }
+
+    public void PlayAchievementSFX()
+    {
+        _achievementSource.PlayOneShot(GameManager.Instance.AudioSo.AchievementUnlocked);
+    }
+
     public void PlayDieSFX()
     {
         _respawnSource.PlayOneShot(GameManager.Instance.AudioSo.Die);

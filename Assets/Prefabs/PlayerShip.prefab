@@ -29,8 +29,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4984033865446704184}
-  - {fileID: 1874552341196794660}
   - {fileID: 4286694293180868109}
+  - {fileID: 1874552341196794660}
   - {fileID: 7555844336168478001}
   - {fileID: 5459780646257164311}
   m_Father: {fileID: 6179109918532195239}
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 4501121675640846578}
   - component: {fileID: 6961724642735154385}
   m_Layer: 0
-  m_Name: Turret_2
+  m_Name: Turret_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,7 +425,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4128896187653560}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &4501121675640846578
 SpriteRenderer:
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eda8d7d46bf0f4458d9d25cd2073b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shipPartSO: {fileID: 11400000, guid: 06a89fe81f13c8741a57c161b0381338, type: 2}
+  _shipPartSO: {fileID: 11400000, guid: cb9c49986ec295e41ac172b4dff34593, type: 2}
 --- !u!1 &2982256610297002711
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,8 +621,8 @@ Transform:
   - {fileID: 4128896187653560}
   - {fileID: 4401920838125770}
   - {fileID: 7959623116530294066}
-  - {fileID: 8643118997993102119}
   - {fileID: 8630751902174350762}
+  - {fileID: 8643118997993102119}
   m_Father: {fileID: 4368249187107940}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 4139427986498828048}
   - component: {fileID: 2635296965236749105}
   m_Layer: 0
-  m_Name: Turret_3
+  m_Name: Turret_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,7 +657,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4128896187653560}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &4139427986498828048
 SpriteRenderer:
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eda8d7d46bf0f4458d9d25cd2073b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shipPartSO: {fileID: 11400000, guid: cb9c49986ec295e41ac172b4dff34593, type: 2}
+  _shipPartSO: {fileID: 11400000, guid: 06a89fe81f13c8741a57c161b0381338, type: 2}
 --- !u!1 &8141515246252360507
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eda8d7d46bf0f4458d9d25cd2073b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shipPartSO: {fileID: 11400000, guid: 00a38f69888012540b43febadfa92187, type: 2}
+  _shipPartSO: {fileID: 11400000, guid: 6a1dad0c23bf9aa4aa689d6e360cb778, type: 2}
 --- !u!4 &7959623116530294066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4605970816574886, guid: a96ad7905a5794a119fc82f075c53d81,
@@ -983,7 +983,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1938124355550624, guid: 0345fef261298453baac93b577b502c1, type: 3}
       propertyPath: m_Name
-      value: 'ShipBody_3 '
+      value: ShipBody_2
       objectReference: {fileID: 0}
     - target: {fileID: 1938124355550624, guid: 0345fef261298453baac93b577b502c1, type: 3}
       propertyPath: m_IsActive
@@ -991,7 +991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4729615675845028, guid: 0345fef261298453baac93b577b502c1, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4729615675845028, guid: 0345fef261298453baac93b577b502c1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1135,7 +1135,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479205242234512, guid: 095f6770c7dea47a985126995fcce71f, type: 3}
       propertyPath: m_Name
-      value: ShipBody_2
+      value: ShipBody_3
       objectReference: {fileID: 0}
     - target: {fileID: 1479205242234512, guid: 095f6770c7dea47a985126995fcce71f, type: 3}
       propertyPath: m_IsActive
@@ -1143,7 +1143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4076357542580562, guid: 095f6770c7dea47a985126995fcce71f, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4076357542580562, guid: 095f6770c7dea47a985126995fcce71f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1277,4 +1277,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eda8d7d46bf0f4458d9d25cd2073b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shipPartSO: {fileID: 11400000, guid: 6a1dad0c23bf9aa4aa689d6e360cb778, type: 2}
+  _shipPartSO: {fileID: 11400000, guid: 00a38f69888012540b43febadfa92187, type: 2}

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 139dd48bb3a74d945a58d08b35d408ac, type: 3}
   m_Name: Asteroid_C
   m_EditorClassIdentifier: 
-  AsteroidPrefab: {fileID: 1317570492134680, guid: a6d3ccfc58a1f41368479aabb6050561,
+  AsteroidPrefab: {fileID: 1029653053436338, guid: 1bd82b88c025df84797d70d755b65139,
     type: 3}
-  AsteroidPrefabMobile: {fileID: 1317570492134680, guid: 25d0cf0ef0dd8b348bb1414a52a76af9,
+  AsteroidPrefabMobile: {fileID: 1029653053436338, guid: 1bd82b88c025df84797d70d755b65139,
     type: 3}
   Speed: 3
   AngularVel: 3
   ScoreGiven: 100
-  ExplosionParticles: {fileID: 2028646928150880841, guid: dcab31cfb2b6b64448d1a9fca2051f67,
+  ExplosionParticles: {fileID: 5537283291985768089, guid: 17cebe409851b824ea98266d4eb49e21,
     type: 3}

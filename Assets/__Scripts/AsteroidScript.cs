@@ -8,10 +8,15 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof(AudioSource))]
 public class AsteroidScript : MonoBehaviour
 {
+    #region Editor Fields
+
+    [SerializeField] private SpriteRenderer _mesh;
+
+    #endregion
+
     #region Private Variables
 
     private AudioSource _audioSource;
-    private Renderer _mesh;
 
     #endregion
 
@@ -33,7 +38,6 @@ public class AsteroidScript : MonoBehaviour
         if (!IsChild) { SpawnChildrenAsteroids(); }
 
         _audioSource = GetComponent<AudioSource>();
-        _mesh = GetComponent<Renderer>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -81,9 +85,10 @@ public class AsteroidScript : MonoBehaviour
 
             if (child.parent != transform) { continue; }
 
+            if(!child.TryGetComponent(out AsteroidScript childAsteroidScript)) { continue; }
+
             //Promote child to parent astroid
             child.transform.parent = null;
-            AsteroidScript asteroidScript = child.gameObject.GetComponent<AsteroidScript>();
             Rigidbody rb = child.gameObject.AddComponent<Rigidbody>();
             child.gameObject.AddComponent<ScreenWrap>();
 
@@ -91,14 +96,14 @@ public class AsteroidScript : MonoBehaviour
             child.transform.position = new Vector3(child.transform.position.x, child.transform.position.y, 0f);
 
             //Tell it that it can't spawn sub children
-            asteroidScript.IsChild = true;
+            childAsteroidScript.IsChild = true;
             rb.useGravity = false;
-            rb.constraints = RigidbodyConstraints.FreezePositionZ;
+            rb.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
 
             //Adds Velocity
-            Vector3 randomDirection = asteroidScript.AsteroidSo.GetRandomDirection();
-            Vector3 addedForce = randomDirection * asteroidScript.ChildCount * SpeedMultiplier;
-            Vector3 angularVel = Random.insideUnitSphere * asteroidScript.AsteroidSo.AngularVel * (1 + asteroidScript.ChildCount);
+            Vector3 randomDirection = childAsteroidScript.AsteroidSo.GetRandomDirection();
+            Vector3 addedForce = randomDirection * childAsteroidScript.ChildCount * SpeedMultiplier;
+            Vector3 angularVel = Random.insideUnitSphere * childAsteroidScript.AsteroidSo.AngularVel * (1 + childAsteroidScript.ChildCount);
             rb.AddForce(addedForce, ForceMode.Impulse);
             rb.angularVelocity = angularVel;
         }
@@ -134,8 +139,8 @@ public class AsteroidScript : MonoBehaviour
 
         float maxAngle = 90f;
         Vector3 randomRotation = new Vector3(
-            Random.Range(-maxAngle, maxAngle),
-            Random.Range(-maxAngle, maxAngle),
+            Random.Range(0, 0),
+            Random.Range(0, 0),
             Random.Range(-maxAngle, maxAngle));
 
         //Sets random rotation and position on parent asteroid
