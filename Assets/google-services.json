@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "160959838997",
+    "project_id": "asterax-mobile",
+    "storage_bucket": "asterax-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160959838997:android:059c8708b725d48dfc471c",
+        "android_client_info": {
+          "package_name": "com.Ricky.AsteraX"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160959838997-r0g1544i3rs0o3dgorol3d1qa22qom4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd2uSlIrHWAo62T_mwLVUfl1RsMOP3Qyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160959838997-r0g1544i3rs0o3dgorol3d1qa22qom4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

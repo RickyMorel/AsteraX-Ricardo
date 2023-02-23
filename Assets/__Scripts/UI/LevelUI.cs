@@ -29,7 +29,7 @@ public class LevelUI : MonoBehaviour
     {
         LevelData levelData = GameManager.Instance.GetCurrentLevelData();
 
-        string newText = $"Asteroids: {levelData.Asteroids}   Children: {levelData.Children}";
+        string newText = $"Asteroids: {levelData.Asteroids}       Sub-Asteroids: {levelData.Children}";
         _asteroidsText.text = newText;
     }
 }

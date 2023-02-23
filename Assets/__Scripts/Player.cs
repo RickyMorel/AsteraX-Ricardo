@@ -67,6 +67,11 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        PlayBoostParticles();
+        CalculateEnginePitch();
+
+        if (GameManager.Instance.GameState != GameState.Playing) { return; }
+
         Move();
         CheckShoot();
         Aim();
@@ -141,12 +146,8 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        PlayBoostParticles();
-
         Vector3 moveDirection3D = new Vector3(_playerInput.MoveDirection.x, _playerInput.MoveDirection.y, 0f);
         transform.position += moveDirection3D.normalized * _moveSpeed * Time.deltaTime;
-
-        CalculateEnginePitch();
 
         _prevPos = transform.position;
     }
@@ -155,11 +156,11 @@ public class Player : MonoBehaviour
     {
         if(GameManager.Instance.GameState != GameState.Playing) { _enginePitch = 0f; }
 
-        float distance = Vector3.Distance(transform.position, _prevPos);
+        bool isMoving = _playerInput.MoveDirection.magnitude != 0f;
 
-        _engineAudioSource.volume = distance > 0f ? 1f : 0f;
+        _engineAudioSource.volume = isMoving ? 1f : 0f;
 
-        _enginePitch = Mathf.Lerp(_enginePitch, distance > 0f ? 1f : 0f, Time.deltaTime * 3f);
+        _enginePitch = Mathf.Lerp(_enginePitch, isMoving ? 1f : 0f, Time.deltaTime * 3f);
 
         _engineAudioSource.pitch = (_enginePitch + 1f);
     }
