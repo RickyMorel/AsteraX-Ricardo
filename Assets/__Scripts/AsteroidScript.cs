@@ -89,7 +89,7 @@ public class AsteroidScript : MonoBehaviour
 
             //Promote child to parent astroid
             child.transform.parent = null;
-            Rigidbody rb = child.gameObject.AddComponent<Rigidbody>();
+            Rigidbody rb = child.GetComponent<Rigidbody>() == null ? child.gameObject.AddComponent<Rigidbody>() : child.GetComponent<Rigidbody>(); 
             child.gameObject.AddComponent<ScreenWrap>();
 
             //force child back to z = 0
