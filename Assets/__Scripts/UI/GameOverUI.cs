@@ -35,6 +35,6 @@ public class GameOverUI : MonoBehaviour
 
     public void Continue()
     {
-        AdManager.Instance.ShowAd();
+        GameManager.Instance.GameOver();
     }
 }
