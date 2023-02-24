@@ -1,4 +1,5 @@
 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Free
+Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpy
 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyStride
 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemSet
 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Malloc
@@ -219,6 +220,7 @@ UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_persistentDataPath
+UnityEngine.Application::get_internetReachability
 UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.Audio.AudioClipPlayable::InternalCreateAudioClipPlayable
@@ -554,6 +556,7 @@ UnityEngine.GUIUtility::SetKeyboardControlToLastControlId
 UnityEngine.GUIUtility::set_compositionCursorPos_Injected
 UnityEngine.GUIUtility::set_imeCompositionMode
 UnityEngine.GUIUtility::set_systemCopyBuffer
+UnityEngine.ImageConversion::LoadImage
 UnityEngine.Input::CheckDisabled
 UnityEngine.Input::GetButton
 UnityEngine.Input::GetButtonDown
@@ -674,6 +677,28 @@ UnityEngine.MonoBehaviour::set_useGUILayout
 UnityEngine.MonoBehaviour::StartCoroutineManaged
 UnityEngine.MonoBehaviour::StartCoroutineManaged2
 UnityEngine.Motion::get_isLooping
+UnityEngine.Networking.CertificateHandler::Release
+UnityEngine.Networking.DownloadHandler::InternalGetByteArray
+UnityEngine.Networking.DownloadHandler::Release
+UnityEngine.Networking.DownloadHandlerTexture::Create
+UnityEngine.Networking.DownloadHandlerTexture::InternalGetTextureNative
+UnityEngine.Networking.UnityWebRequest::get_isModifiable
+UnityEngine.Networking.UnityWebRequest::get_responseCode
+UnityEngine.Networking.UnityWebRequest::Create
+UnityEngine.Networking.UnityWebRequest::GetHTTPStatusString
+UnityEngine.Networking.UnityWebRequest::GetUrl
+UnityEngine.Networking.UnityWebRequest::GetWebErrorString
+UnityEngine.Networking.UnityWebRequest::Abort
+UnityEngine.Networking.UnityWebRequest::Release
+UnityEngine.Networking.UnityWebRequest::get_result
+UnityEngine.Networking.UnityWebRequest::GetError
+UnityEngine.Networking.UnityWebRequest::SetCustomMethod
+UnityEngine.Networking.UnityWebRequest::SetDownloadHandler
+UnityEngine.Networking.UnityWebRequest::SetMethod
+UnityEngine.Networking.UnityWebRequest::SetUploadHandler
+UnityEngine.Networking.UnityWebRequest::SetUrl
+UnityEngine.Networking.UnityWebRequest::BeginWebRequest
+UnityEngine.Networking.UploadHandler::Release
 UnityEngine.NoAllocHelpers::ExtractArrayFromList
 UnityEngine.NoAllocHelpers::Internal_ResizeList
 UnityEngine.Object::GetOffsetOfInstanceIDInCPlusPlusObject
@@ -681,6 +706,7 @@ UnityEngine.Object::GetName
 UnityEngine.Object::ToString
 UnityEngine.Object::Destroy
 UnityEngine.Object::DestroyImmediate
+UnityEngine.Object::DontDestroyOnLoad
 UnityEngine.Object::SetName
 UnityEngine.Object::set_hideFlags
 UnityEngine.Object::get_hideFlags
@@ -781,6 +807,8 @@ UnityEngine.PlayerConnectionInternal::PollInternal
 UnityEngine.PlayerConnectionInternal::RegisterInternal
 UnityEngine.PlayerConnectionInternal::SendMessage
 UnityEngine.PlayerConnectionInternal::UnregisterInternal
+UnityEngine.PlayerPrefs::TrySetInt
+UnityEngine.PlayerPrefs::GetInt
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::AngleAxis_Injected
@@ -1018,6 +1046,7 @@ UnityEngine.Texture2D::GetPixelBilinearImpl_Injected
 UnityEngine.Texture2D::SetAllPixels32
 UnityEngine.Texture2D::SetPixelImpl_Injected
 UnityEngine.Texture2D::SetPixelsImpl
+UnityEngine.Texture2D::get_blackTexture
 UnityEngine.Texture2D::get_whiteTexture
 UnityEngine.Texture2D::get_format
 UnityEngine.Texture2DArray::Internal_CreateImpl

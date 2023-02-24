@@ -6765,13 +6765,14 @@ GameObject:
   - component: {fileID: 1887655266}
   - component: {fileID: 1887655265}
   - component: {fileID: 1887655264}
+  - component: {fileID: 1887655272}
   - component: {fileID: 1887655268}
   - component: {fileID: 1887655267}
   - component: {fileID: 1887655269}
   - component: {fileID: 1887655270}
   - component: {fileID: 1887655271}
   - component: {fileID: 1887655273}
-  - component: {fileID: 1887655272}
+  - component: {fileID: 1887655274}
   m_Layer: 11
   m_Name: Arena
   m_TagString: OnScreenBounds
@@ -7002,6 +7003,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99f11eebb52d94b43b0cee006e8f7277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1887655274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887655263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78766397575a9064d97f056b4fb5cdc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2004735214
