@@ -5039,7 +5039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AsteraX
+  m_text: F***  You  Asteroids!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80e1d656e9e5bb349b4b5ac907979343, type: 2}
   m_sharedMaterial: {fileID: -2366546995752144268, guid: 80e1d656e9e5bb349b4b5ac907979343,
@@ -5067,12 +5067,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 167.6
-  m_fontSizeBase: 120
+  m_fontSize: 119.73
+  m_fontSizeBase: 119.73
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 167.6
+  m_fontSizeMax: 120
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
