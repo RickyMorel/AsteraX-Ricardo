@@ -709,8 +709,6 @@ struct U3CU3Ec__DisplayClass20_0_tEE933A9DC55EBA45F7061A434DD5DF218E8C44B3;
 struct U3CU3Ec__DisplayClass32_0_tA758A79F7051FAB48FD564EFC170C8E742CD6A93;
 // GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0
 struct U3CU3Ec__DisplayClass35_0_tBBEC81BB3264F10A7D57E9F0B62F130E959CAC21;
-// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1
-struct U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17;
 // GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0
 struct U3CU3Ec__DisplayClass37_0_t9C27D91F835C1C7380A18317D55D24FF05C8E83D;
 // GooglePlayGames.Android.AndroidClient/<>c__DisplayClass39_0
@@ -743,8 +741,6 @@ struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 // UnityEngine.Canvas/WillRenderCanvases
 struct WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC;
-// GPGSAuthentication/<>c
-struct U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495;
 // GameManager/<>c
 struct U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5;
 // GameManager/<ChangeLevelCoroutine>d__47
@@ -753,8 +749,6 @@ struct U3CChangeLevelCoroutineU3Ed__47_t5A56DC4F2EE48892415D2EED2DCE3C7D6AE380C4
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 // MusicPlayer/<PlayNewMusic>d__3
 struct U3CPlayNewMusicU3Ed__3_t4E00E309C220D03D2F72A8D537690E7A88353A34;
-// GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder
-struct Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8;
 // GooglePlayGames.PlayGamesLocalUser/<>c__DisplayClass28_0
 struct U3CU3Ec__DisplayClass28_0_t5F7AC8FDFF59FA0ED17D610891C67B1D2806EB5E;
 // GooglePlayGames.PlayGamesPlatform/<>c
@@ -822,7 +816,6 @@ IL2CPP_EXTERN_C RuntimeClass* AndroidVideoClient_t59F650931D6BE68DC7D464C16A7C5B
 IL2CPP_EXTERN_C RuntimeClass* AsteroidScript_t5CC6252C973285B520CB1CC30F6F038D2D7C8480_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AsteroidSpawner_t86B3C3303FFC121FB22687503E13D1D72F52FF7F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83_il2cpp_TypeInfo_var;
@@ -842,9 +835,7 @@ IL2CPP_EXTERN_C RuntimeClass* IAchievementU5BU5D_t2EB94CCAA33FED505799D764256677
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ILeaderboard_t62C479C3D29C80B4143F9EBA159EF2ECCA8D3C93_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* ILocalUser_t8D7F34634AF940D34302E4F415AD50C7132EB7F6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IPlayGamesClient_t5A473F6C0334B8F3AB461006096AFEDC2431A4A7_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* ISocialPlatform_tA236686987B4CB8A0694EEBAB4D7EB57CBABA254_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IVideoClient_t3D06A3F47409B59D4104A28D615C5015C16C6E67_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
@@ -914,7 +905,6 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass32_0_tA758A79F7051FAB48FD564E
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass33_0_t90233C74C1473A0828280537DA58D9D734AD2FF6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass34_0_t6595E19439EC1BC463E661A3BC5E1BE714CD3964_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass35_0_tBBEC81BB3264F10A7D57E9F0B62F130E959CAC21_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass37_0_t9C27D91F835C1C7380A18317D55D24FF05C8E83D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass39_0_t6D68D36BFFC1B6ABB75DC67752AB2B7FCA40A818_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass43_0_tDCF43B8D3086C0BFD68776AC3AE1237A962EA821_il2cpp_TypeInfo_var;
@@ -934,7 +924,6 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass64_0_tF1C5C8B7F8E825241E1B465
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass71_0_tC26A619D3483ABF76555ADDC8407C4F4FE344EEF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass83_0_t0D64DC1866C7E5007BC56728B14733CD81785D0D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t3B17E4514AD1C13A3A7C99B50FA4D507DE0418F1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t7BBF355B9A870A5A3F58CA1666D3D0FFF9B3D5B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tB18E4A7C62AFA883CE8EBFA9E0BD607B37C5CF09_il2cpp_TypeInfo_var;
@@ -993,13 +982,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4BE4BA1AE4C411A4A2D2108568D4BD4E5310499E
 IL2CPP_EXTERN_C String_t* _stringLiteral4D23788AA43ADC9B8D823B0C49D5454D18C901C6;
 IL2CPP_EXTERN_C String_t* _stringLiteral4EDF37192BF8A950B434CD24D3A70E2789CCF4E3;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F159651BB274F35A4016D49CAFAEFBF01496CB0;
-IL2CPP_EXTERN_C String_t* _stringLiteral5004BB2B79B894E5CC70CDBEA1DD320044EF8F3A;
 IL2CPP_EXTERN_C String_t* _stringLiteral507DEBDD41029A85524618C56EF809539A735791;
 IL2CPP_EXTERN_C String_t* _stringLiteral5191F3EE8D5C29CD7D2CD4D4998BECD2D63B8039;
 IL2CPP_EXTERN_C String_t* _stringLiteral51C6279E31F7483126B79E3000116001A915B690;
 IL2CPP_EXTERN_C String_t* _stringLiteral520545749907F16743D700A80C93EFA48118FDE2;
 IL2CPP_EXTERN_C String_t* _stringLiteral52EA80CEBE1305E138729FB5ABBAD1FC4E7F2DC6;
-IL2CPP_EXTERN_C String_t* _stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083;
 IL2CPP_EXTERN_C String_t* _stringLiteral551C20655F52C5CB2EC4B2446F7F92D92EEC27C4;
 IL2CPP_EXTERN_C String_t* _stringLiteral55BF2D32DB1D2296598D97F93043D784A4D85171;
 IL2CPP_EXTERN_C String_t* _stringLiteral560A39348805C721897E85BF94C8EFAEF538ABBE;
@@ -1031,8 +1018,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D
 IL2CPP_EXTERN_C String_t* _stringLiteral760328492505F09086C7C44967DA208097AF7343;
 IL2CPP_EXTERN_C String_t* _stringLiteral76DCFFEA9B46EFA6E845E82ECE96341786359D80;
 IL2CPP_EXTERN_C String_t* _stringLiteral7A00E59294AD906535DB79E533FC401D34929E41;
+IL2CPP_EXTERN_C String_t* _stringLiteral7A7C5B5A6CFBAAD9B92D3045597B08A2F97A98AA;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B6669BAAD37B7226E250B52C3705FCEE60C26D8;
 IL2CPP_EXTERN_C String_t* _stringLiteral7BD850E4DDBA17AE057506A43953C4D0DB03DC66;
+IL2CPP_EXTERN_C String_t* _stringLiteral7CB89AD6B95B5454D71A2F78D09153969FE4FB60;
 IL2CPP_EXTERN_C String_t* _stringLiteral7E4656096B45FCE9DF8B120656112C8B8F1F0EF0;
 IL2CPP_EXTERN_C String_t* _stringLiteral82EFF1F33DB6FE7F1E84FF7E7211ECBD08848090;
 IL2CPP_EXTERN_C String_t* _stringLiteral84A531E1965E03FBB3BFDCA5A900E236FCE80532;
@@ -1046,6 +1035,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8B567FBA645693DFAC1932A558EC6F02DE5F8C4D
 IL2CPP_EXTERN_C String_t* _stringLiteral8DFD108D78861B40D9658A53D2D389E5F8AFF19A;
 IL2CPP_EXTERN_C String_t* _stringLiteral8E0599655322DA92B5B68ED3077B24F38366884C;
 IL2CPP_EXTERN_C String_t* _stringLiteral8E6935BA074A4B83A18624EFF90AAA36F23E30E3;
+IL2CPP_EXTERN_C String_t* _stringLiteral8FD0B0DE74150BE7CF11940180B5B8F3812BF079;
 IL2CPP_EXTERN_C String_t* _stringLiteral9033361FBD54293545960007EE3644AF49896DD5;
 IL2CPP_EXTERN_C String_t* _stringLiteral904397FEF1123C2667B80B2161A56F96B3AE3A48;
 IL2CPP_EXTERN_C String_t* _stringLiteral9174EA6AD76447DAF54F0DC41CA83BB1CDC229C5;
@@ -1065,7 +1055,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA16A5A766620C92E70C8F0C13BC707B1DD24BB40
 IL2CPP_EXTERN_C String_t* _stringLiteralA370AC23C37722BF991BA8A49C1BF152D6078A28;
 IL2CPP_EXTERN_C String_t* _stringLiteralA829415DF92B83BD2B8D67E70FF55B21B7BB7F13;
 IL2CPP_EXTERN_C String_t* _stringLiteralA8BF50363A5928C0D471A38B8FCF6076090BAD6C;
-IL2CPP_EXTERN_C String_t* _stringLiteralA9DF91FB4A133186AE97F3F3E096FF3D0539D3A4;
 IL2CPP_EXTERN_C String_t* _stringLiteralAA56B30F740A1B3D5F7C33221A5449A135CE34AF;
 IL2CPP_EXTERN_C String_t* _stringLiteralAE0CF178174CF7493A63D15F825D24B6AF363FB0;
 IL2CPP_EXTERN_C String_t* _stringLiteralAECC49933196C47F0B983FCCD83DBBB1825A04E4;
@@ -1118,12 +1107,14 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE5095ED1E5BDD7648453628CEB9DB9A9A3390A6F
 IL2CPP_EXTERN_C String_t* _stringLiteralE7283DF6CD3662B7E73544E357D8BD496F5B2F16;
 IL2CPP_EXTERN_C String_t* _stringLiteralE88EAF5F3A6779F7CDCEBAA9ABDFC6B19603F581;
 IL2CPP_EXTERN_C String_t* _stringLiteralE8DB799A9B92AE7047816EE4CC979A8EE8A6856B;
+IL2CPP_EXTERN_C String_t* _stringLiteralE93438D72B44CF3520FDADE30D0FCE88CB9CC056;
 IL2CPP_EXTERN_C String_t* _stringLiteralEC5E7DE2018BE4967A9EC207641681A98EC5978B;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0A2FDFB8146D5C7C589F10357CD3A01131F586B;
 IL2CPP_EXTERN_C String_t* _stringLiteralF16D4694D202A12DE193813F4FF291AA003B00DB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF21C9B21AA15C340E1ACE5DC27C979EA4098C680;
 IL2CPP_EXTERN_C String_t* _stringLiteralF24570483FFFA99CC0CB07CC51E94EAC331851DB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF27E4C631EBEFA337EC21BE8552E169C9DED78A2;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3E79DCB49B93D8BC636E500F738D43844EEF1AB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF441E5D0E66E334690F8F1B6B7E479CE6D56D781;
 IL2CPP_EXTERN_C String_t* _stringLiteralF52A7F41AA0A7805139481921965C616D126D7F3;
 IL2CPP_EXTERN_C String_t* _stringLiteralF6069A50CE4F9E337F11ED189E43FBB2B5F93A55;
@@ -1144,7 +1135,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_AsOnGameThreadCallback_TisStr
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_AsOnGameThreadCallback_TisUIStatus_t9791EF91973B5A4367E2CF9A53AC2037CC4523AB_m11327C5F6FFA3FE79553CC83CDF411843012690E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m78D9D9D6F28E64B1DE10B831BF5621381E372BE4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisIUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43_m0FA451D5708DFC43908884DB30685F3C10379336_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_tB8C46D5F4256CC0CA132DBC9AC2C13F863F434FA_m038A5AA61DF2F1703911DDA39C3952106F85ADE2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisSignInStatus_tEA604384246FE5BD10B6703AD004E7C780BAF714_mE7E9071B545CE6AF122B787E753EA33E4D9DBAF3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t9791EF91973B5A4367E2CF9A53AC2037CC4523AB_mD66E3D8CFC90B3A4E6B37ADE5E4D7C363A338DB3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var;
@@ -1191,6 +1181,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m294C2AB9275A7ED1B2E
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m71725ED53C7F80A884D7D239AD013A74365AFC04_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m9CACD424D6DF9D55866224B159A9A3CE4A9FD8F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GPGSAuthentication_LeaderboardUpdate_m54E749EADFCB83A6FF66761F7103DE34D4125E2C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GPGSAuthentication_U3CLoginToGooglePlayU3Eb__8_0_mCDC575ECF3961E7EC334B386534B771132DC3380_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisScreenWrap_t88874EB646C54A3C591413275B9049A192420FC8_m3CEB2FEF0AB32229520FF893B2B9032045F0E031_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisAsteroidScript_t5CC6252C973285B520CB1CC30F6F038D2D7C8480_m47046F258503D86218E32731695FCB574BC84EA6_RuntimeMethod_var;
@@ -1258,7 +1250,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAuthenticateU3Eb__34_0_m3E30FC23
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGetSelectedPartIdsU3Eb__19_0_m6D28A9D31CD854B28BA529BD6C58005474225E1F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CReadLevelsDataU3Eb__38_0_m9925A50318FA1E7A1E6311E14056442970B588FE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSignOutU3Eb__42_0_m653A9499740B44B9AF1C176CD3C7D0B876C57A27_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CStartU3Eb__1_0_m2C14FA4E0EFA19B19D323C6DFB315F357BE8147B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass18_0_U3CAuthenticateU3Eb__0_m9CA7C460A2141A54ECA9FC8565161E7FB166ED6D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass18_0_U3CGetSelectedShipPartU3Eb__0_m54662A6190CF648819F12DC036B0D6C964641D18_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass18_1_U3CAuthenticateU3Eb__1_m7A1149BB40ED7C87DDA7B9491155D74A5FE25B81_RuntimeMethod_var;
@@ -1276,7 +1267,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass34_0_U3CAuthenticateU3
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass34_0_U3CAuthenticateU3Eb__5_m452A780C40F1D0F58B910F1BFDE94A87DAC84C24_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_0_U3CLoadFriendsPaginatedU3Eb__0_m6C42812F6BA341515B61047897D263D39E5D6570_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_0_U3CLoadFriendsPaginatedU3Eb__1_m4DA0AAAE55F5C893B2C57AD6A5232F3096A84E18_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_1_U3CLoadFriendsPaginatedU3Eb__2_m11A6913988557F179721D9C86BD8BD4CA5AD8709_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_0_U3CAskForLoadFriendsResolutionU3Eb__0_m2A94ABE96366CB37D6D82105C271A9A439D60AA9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_0_U3CAskForLoadFriendsResolutionU3Eb__1_m06D6C75788BD3BF97FD03846DA9E5F9C59CDD988_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass39_0_U3CGetFriendsListVisibilityU3Eb__0_m45789F77AAE25F6ED455B3CA31224346DDD151F6_RuntimeMethod_var;
@@ -2014,15 +2004,6 @@ struct U3CU3Ec__DisplayClass35_0_tBBEC81BB3264F10A7D57E9F0B62F130E959CAC21  : pu
 	Action_1_t49ED8E06F9568BFD20DAA2EF713F2358001D0D0F* ___callback_1;
 };
 
-// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1
-struct U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17  : public RuntimeObject
-{
-	// UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::exception
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___exception_0;
-	// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0 GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::CS$<>8__locals1
-	U3CU3Ec__DisplayClass35_0_tBBEC81BB3264F10A7D57E9F0B62F130E959CAC21* ___CSU24U3CU3E8__locals1_1;
-};
-
 // GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0
 struct U3CU3Ec__DisplayClass37_0_t9C27D91F835C1C7380A18317D55D24FF05C8E83D  : public RuntimeObject
 {
@@ -2136,19 +2117,6 @@ struct U3CU3Ec__DisplayClass64_0_tF1C5C8B7F8E825241E1B465E3FD2A53010D8586A  : pu
 	Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104* ___callback_1;
 };
 
-// GPGSAuthentication/<>c
-struct U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495  : public RuntimeObject
-{
-};
-
-struct U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_StaticFields
-{
-	// GPGSAuthentication/<>c GPGSAuthentication/<>c::<>9
-	U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495* ___U3CU3E9_0;
-	// System.Action`1<System.Boolean> GPGSAuthentication/<>c::<>9__1_0
-	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___U3CU3E9__1_0_1;
-};
-
 // GameManager/<>c
 struct U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5  : public RuntimeObject
 {
@@ -2184,27 +2152,6 @@ struct U3CPlayNewMusicU3Ed__3_t4E00E309C220D03D2F72A8D537690E7A88353A34  : publi
 	MusicPlayer_t1E3A7434294237F7D4321F5B1A12E753C52AC9C5* ___U3CU3E4__this_2;
 	// UnityEngine.AudioClip MusicPlayer/<PlayNewMusic>d__3::musicClip
 	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___musicClip_3;
-};
-
-// GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder
-struct Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8  : public RuntimeObject
-{
-	// System.Boolean GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mEnableSaveGames
-	bool ___mEnableSaveGames_0;
-	// System.Collections.Generic.List`1<System.String> GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mScopes
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___mScopes_1;
-	// System.Boolean GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mHidePopups
-	bool ___mHidePopups_2;
-	// System.Boolean GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mRequestAuthCode
-	bool ___mRequestAuthCode_3;
-	// System.Boolean GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mForceRefresh
-	bool ___mForceRefresh_4;
-	// System.Boolean GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mRequestEmail
-	bool ___mRequestEmail_5;
-	// System.Boolean GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mRequestIdToken
-	bool ___mRequestIdToken_6;
-	// System.String GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::mAccountName
-	String_t* ___mAccountName_7;
 };
 
 // GooglePlayGames.PlayGamesLocalUser/<>c__DisplayClass28_0
@@ -4827,12 +4774,16 @@ struct FollowPlayer_tC92033F1F4FD4547E9C5E32B878BB3DB993E2327  : public MonoBeha
 // GPGSAuthentication
 struct GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// System.Boolean GPGSAuthentication::IsConnectedToGooglePlay
+	bool ___IsConnectedToGooglePlay_6;
 };
 
 struct GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields
 {
+	// GPGSAuthentication GPGSAuthentication::<Instance>k__BackingField
+	GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* ___U3CInstanceU3Ek__BackingField_4;
 	// GooglePlayGames.PlayGamesPlatform GPGSAuthentication::Platform
-	PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* ___Platform_4;
+	PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* ___Platform_5;
 };
 
 // GameAudioManager
@@ -6560,6 +6511,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void System.Action`1<System.Int32Enum>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
@@ -6610,8 +6563,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Misc_CheckNotNull_TisRuntimeOb
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Boolean,System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m910EDF0572CB2F28E45048A2EB215E25296E58BD_gshared (Action_2_t4E94B0FCA1084D7868DB11A50767A4916CA3D3FB* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.Void System.Action`1<System.Int32Enum>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared (Action_1_tC926860F20D428DA3E93D6FBA36420E904DD903B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Action`1<T> GooglePlayGames.PlayGamesPlatform::ToOnGameThread<System.Boolean>(System.Action`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* PlayGamesPlatform_ToOnGameThread_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m98FE84F82C2439C676952847CC58230CE3B670C1_gshared (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___toConvert0, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Boolean>::Invoke(T)
@@ -7176,27 +7127,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioClip_get_length_m6102CB29AF6598879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___seconds0, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
-// System.Void GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder__ctor_m388AB45315E2F3197C804CCF2097E650BC940894 (Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8* __this, const RuntimeMethod* method) ;
-// GooglePlayGames.BasicApi.PlayGamesClientConfiguration GooglePlayGames.BasicApi.PlayGamesClientConfiguration/Builder::Build()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayGamesClientConfiguration_tFC50AECD7C9254DCD4E5CD2771B362212F4E62A1 Builder_Build_m4625B07468AEBAB946A4350DAD11D6429A11B8C6 (Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8* __this, const RuntimeMethod* method) ;
-// System.Void GooglePlayGames.PlayGamesPlatform::InitializeInstance(GooglePlayGames.BasicApi.PlayGamesClientConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_InitializeInstance_mEFF120E290B56D988A5B8BF0C087F49D74653FE7 (PlayGamesClientConfiguration_tFC50AECD7C9254DCD4E5CD2771B362212F4E62A1 ___configuration0, const RuntimeMethod* method) ;
+// GPGSAuthentication GPGSAuthentication::get_Instance()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* GPGSAuthentication_get_Instance_m137B5418C9543840B3E59FFEC544B97B8607E5F6_inline (const RuntimeMethod* method) ;
+// System.Void GPGSAuthentication::set_Instance(GPGSAuthentication)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GPGSAuthentication_set_Instance_mD9FA7BE61832E803C64C6F1579CCF83BE9877BEE_inline (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.PlayGamesPlatform::set_DebugLogEnabled(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_set_DebugLogEnabled_mC823543763B839783B88C9770F1CC6AC31CF8B49 (bool ___value0, const RuntimeMethod* method) ;
 // GooglePlayGames.PlayGamesPlatform GooglePlayGames.PlayGamesPlatform::Activate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* PlayGamesPlatform_Activate_m7C1134FCF34F257EF013AF9BC7A124727EE6F0B1 (const RuntimeMethod* method) ;
-// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.Social::get_Active()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Social_get_Active_m54586B347AE1248C646891B24054E71C8DE5DC88 (const RuntimeMethod* method) ;
+// System.Void GPGSAuthentication::LoginToGooglePlay()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_LoginToGooglePlay_mB48D8EF999C05A523FBE62B133381BB08A7DC8EE (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) ;
+// GooglePlayGames.PlayGamesPlatform GooglePlayGames.PlayGamesPlatform::get_Instance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* PlayGamesPlatform_get_Instance_mBC25B2BC31C66AE54EFFA35D81E25F141E3B51D7 (const RuntimeMethod* method) ;
+// System.Void System.Action`1<GooglePlayGames.BasicApi.SignInStatus>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m6898D215D3645084F19344F5C95712284ED6C88E (Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GooglePlayGames.PlayGamesPlatform::Authenticate(GooglePlayGames.BasicApi.SignInInteractivity,System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_Authenticate_mE62E058410EC4C9042EF5381736F9F3A34FAC74F (PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* __this, int32_t ___signInInteractivity0, Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104* ___callback1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Int32 AchievementManager::get_HighScore()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AchievementManager_get_HighScore_m7608994CB2DE58FA59FB35A73F7389C31613063A_inline (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501_gshared)(__this, ___object0, ___method1, method);
 }
-// System.Void GPGSAuthentication/<>c::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC0C654C14B6E6543E0CBD2DFC6D47A9C5CF60695 (U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Social::ReportScore(System.Int64,System.String,System.Action`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Social_ReportScore_m00EA1D85C901167A6643A56FD090894649E4B4B6 (int64_t ___score0, String_t* ___board1, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___callback2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Social::ShowLeaderboardUI()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Social_ShowLeaderboardUI_m3C925568256ECA8A80A014F535453857DF8A1A8A (const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.ParticleSystem>()
 inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -7320,10 +7284,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_Respawn_m65C786C742DE262E0D2F28BA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementManager_CheckUpdateHighScore_m14FB5ED971A6E4C1006931CEB0F9A69B5DE97574 (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, int32_t ___currentScore0, const RuntimeMethod* method) ;
 // System.Void AchievementManager::SaveAchievements()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementManager_SaveAchievements_m47B46484429AF8C7188551BCFA765B22AFF25B92 (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, const RuntimeMethod* method) ;
-// System.Void CustomAnalytics::SendFinalShipPartChoice()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomAnalytics_SendFinalShipPartChoice_mD9511D0B7E24692A44FA324EF9B96403C9AC8CD1 (const RuntimeMethod* method) ;
-// System.Void CustomAnalytics::SendGameOver()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomAnalytics_SendGameOver_m413F504076A9218E0F95C331982D9315B3D4AA50 (const RuntimeMethod* method) ;
+// System.Void GPGSAuthentication::TrySendScoreToLeaderBoard()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_TrySendScoreToLeaderBoard_m3AF569437F823739ACD08D96D6269CFB733BA1D8 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) ;
 // System.Void GameManager::ReloadScene()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReloadScene_m428F33A2D456CC66C11F4CD7EDB09A7D47D68060 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.Int32)
@@ -7446,8 +7408,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScreenWrap_get_TimeSinceLas
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_SelfDestruct_m09735452566863AAA152A8625EF375C2A37CDBFC (Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_persistentDataPath()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
-// System.Int32 AchievementManager::get_HighScore()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AchievementManager_get_HighScore_m7608994CB2DE58FA59FB35A73F7389C31613063A_inline (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<StepTypeData> AchievementManager::get_AchievementData()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t5A2F9F8A101CC4AFECB91C6ED14F6DE6DB3B71D6* AchievementManager_get_AchievementData_mFE142BD616FF2AB7008F9E3FE03ED128C2308A3B_inline (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, const RuntimeMethod* method) ;
 // System.Void GameData::.ctor(System.Int32,System.Collections.Generic.List`1<StepTypeData>)
@@ -7655,6 +7615,8 @@ inline ShipPartsButton_tADC431B5EABEC65328983251937F7923EA5B3881* GameObject_Get
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShipPartsButton_Initialize_mC55B5DFF0802FF991B56AD731DF4D329A27815E6 (ShipPartsButton_tADC431B5EABEC65328983251937F7923EA5B3881* __this, ShipPartSO_t2F42991F4F4A50F58B1351A38F2927A4B8903E19* ___shipPartSO0, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator UnityEngine.Transform::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+// System.Void GPGSAuthentication::ShowLeaderboard()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_ShowLeaderboard_mE8049705492C1DEE1FC68FF6FED537C3115B3AA0 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) ;
 // System.Void SaveManager::DeleteSave()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveManager_DeleteSave_m7670692D62DA6D1DBB3D395FD91A2052D90DA9EE (const RuntimeMethod* method) ;
 // System.Void UIMaster::set_Instance(UIMaster)
@@ -7665,8 +7627,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameInfo_ToEscapedToken_m030A7A2AAF27B11D4ADF5802C0A25EE5484B7C72 (String_t* ___token0, const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
-// GooglePlayGames.PlayGamesPlatform GooglePlayGames.PlayGamesPlatform::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* PlayGamesPlatform_get_Instance_mBC25B2BC31C66AE54EFFA35D81E25F141E3B51D7 (const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.ReportProgress::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReportProgress__ctor_m8A85519993D0A2F0D8E5DFC4AFB9BABD85E45747 (ReportProgress_t2255A91BFC39E06EA3020A57DA0A4D7F636BAA32* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.PlayGamesAchievement::.ctor(GooglePlayGames.ReportProgress)
@@ -7829,6 +7789,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesLocalUser__ctor_mF50C262E7F037C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Logger_get_DebugLogEnabled_m43F2B04C64D7B885C844E23F84FC491B314EA52E_inline (const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.OurUtils.Logger::set_DebugLogEnabled(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Logger_set_DebugLogEnabled_m92D6697935D59302614127AD3D85A4410AA32F94_inline (bool ___value0, const RuntimeMethod* method) ;
+// System.Void GooglePlayGames.PlayGamesPlatform::InitializeInstance(GooglePlayGames.BasicApi.PlayGamesClientConfiguration)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_InitializeInstance_mEFF120E290B56D988A5B8BF0C087F49D74653FE7 (PlayGamesClientConfiguration_tFC50AECD7C9254DCD4E5CD2771B362212F4E62A1 ___configuration0, const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.PlayGamesPlatform::InitializeNearby(System.Action`1<GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_InitializeNearby_m18B0CBE19FABB556F24E9D130B99E15702601FDA (Action_1_t08190C3DE2A341BB79E3682BC80368F08F20135C* ___callback0, const RuntimeMethod* method) ;
 // System.Boolean GooglePlayGames.BasicApi.PlayGamesClientConfiguration::op_Inequality(GooglePlayGames.BasicApi.PlayGamesClientConfiguration,GooglePlayGames.BasicApi.PlayGamesClientConfiguration)
@@ -7853,6 +7815,8 @@ inline void Action_1_Invoke_m42655CCCB66B4875AE68765F115EE91710537E4B_inline (Ac
 }
 // System.Void UnityEngine.Social::set_Active(UnityEngine.SocialPlatforms.ISocialPlatform)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Social_set_Active_m3E079BA4CFB75E910F913A8477135C0282BC72FB (RuntimeObject* ___value0, const RuntimeMethod* method) ;
+// UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.Social::get_Active()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Social_get_Active_m54586B347AE1248C646891B24054E71C8DE5DC88 (const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(TKey,TValue)
 inline void Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
 {
@@ -7867,13 +7831,6 @@ inline void Action_2__ctor_mA63888DA29B85D439999BB5CAACC65C2539BE191 (Action_2_t
 }
 // System.Void GooglePlayGames.PlayGamesPlatform/<>c__DisplayClass33_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_m9C266CB499AA021855F1497FDA00BEA88B77D4FF (U3CU3Ec__DisplayClass33_0_t90233C74C1473A0828280537DA58D9D734AD2FF6* __this, const RuntimeMethod* method) ;
-// System.Void System.Action`1<GooglePlayGames.BasicApi.SignInStatus>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m6898D215D3645084F19344F5C95712284ED6C88E (Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m8EDF953DA7FF0E33AE19FB51BD7DBDB7C495CFE0_gshared)(__this, ___object0, ___method1, method);
-}
-// System.Void GooglePlayGames.PlayGamesPlatform::Authenticate(GooglePlayGames.BasicApi.SignInInteractivity,System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_Authenticate_mE62E058410EC4C9042EF5381736F9F3A34FAC74F (PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* __this, int32_t ___signInInteractivity0, Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104* ___callback1, const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.PlayGamesPlatform/<>c__DisplayClass34_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0__ctor_mC5B7C998E4AFF9CCAA201A87D2ABEBCC5FAD72A4 (U3CU3Ec__DisplayClass34_0_t6595E19439EC1BC463E661A3BC5E1BE714CD3964* __this, const RuntimeMethod* method) ;
 // GooglePlayGames.BasicApi.IPlayGamesClient GooglePlayGames.PlayGamesClientFactory::GetPlatformPlayGamesClient(GooglePlayGames.BasicApi.PlayGamesClientConfiguration)
@@ -8368,17 +8325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_LoadAchievements_m82DE3008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_SignOut_mAF587C249F9CF43AB07D8448220202C19DDDB9C7 (AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA* __this, const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.Android.AndroidClient/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m0613923BA57275848A11E068092129579282FE89 (U3CU3Ec_t7BBF355B9A870A5A3F58CA1666D3D0FFF9B3D5B2* __this, const RuntimeMethod* method) ;
-// UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.Android.AndroidJavaConverter::playersBufferToArray(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43* AndroidJavaConverter_playersBufferToArray_m3335BD9E0C7048E5D011D34928B9247360EC2906 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___playersBuffer0, const RuntimeMethod* method) ;
-// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<GooglePlayGames.BasicApi.LoadFriendsStatus>(System.Action`1<T>,T)
-inline void AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_tB8C46D5F4256CC0CA132DBC9AC2C13F863F434FA_m038A5AA61DF2F1703911DDA39C3952106F85ADE2 (Action_1_t49ED8E06F9568BFD20DAA2EF713F2358001D0D0F* ___callback0, int32_t ___data1, const RuntimeMethod* method)
-{
-	((  void (*) (Action_1_t49ED8E06F9568BFD20DAA2EF713F2358001D0D0F*, int32_t, const RuntimeMethod*))AndroidClient_InvokeCallbackOnGameThread_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mEF140EB880BB83ECD7B88531CC1E7D596E71E8D4_gshared)(___callback0, ___data1, method);
-}
-// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_1__ctor_mE71B1E5F0D3C0A66250F3A6D3D59562344522DCC (U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17* __this, const RuntimeMethod* method) ;
-// System.Void GooglePlayGames.Android.AndroidHelperFragment::IsResolutionRequired(UnityEngine.AndroidJavaObject,System.Action`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidHelperFragment_IsResolutionRequired_m7F76EA83A32FA8A1E03BA6CC5F35532A397632B0 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___friendsSharingConsentException0, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___cb1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector2::Normalize()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector2::get_sqrMagnitude()
@@ -12934,93 +12880,308 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPlayNewMusicU3Ed__3_System_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// GPGSAuthentication GPGSAuthentication::get_Instance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* GPGSAuthentication_get_Instance_m137B5418C9543840B3E59FFEC544B97B8607E5F6 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static GPGSAuthentication Instance { get; private set; }
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_0 = ((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+// System.Void GPGSAuthentication::set_Instance(GPGSAuthentication)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_set_Instance_mD9FA7BE61832E803C64C6F1579CCF83BE9877BEE (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static GPGSAuthentication Instance { get; private set; }
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_0 = ___value0;
+		((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_4), (void*)L_0);
+		return;
+	}
+}
+// System.Void GPGSAuthentication::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_Awake_m311A9F9B482619B51249E54B87A70B58D7FC378A (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (Instance != null && Instance != this)
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_0;
+		L_0 = GPGSAuthentication_get_Instance_m137B5418C9543840B3E59FFEC544B97B8607E5F6_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_2;
+		L_2 = GPGSAuthentication_get_Instance_m137B5418C9543840B3E59FFEC544B97B8607E5F6_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, __this, NULL);
+		if (!L_3)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		// Destroy(this);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(__this, NULL);
+		goto IL_0028;
+	}
+
+IL_0022:
+	{
+		// Instance = this;
+		GPGSAuthentication_set_Instance_mD9FA7BE61832E803C64C6F1579CCF83BE9877BEE_inline(__this, NULL);
+	}
+
+IL_0028:
+	{
+		// DontDestroyOnLoad(gameObject);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_4, NULL);
+		// PlayGamesPlatform.DebugLogEnabled = true;
+		PlayGamesPlatform_set_DebugLogEnabled_mC823543763B839783B88C9770F1CC6AC31CF8B49((bool)1, NULL);
+		// PlayGamesPlatform.Activate();
+		PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* L_5;
+		L_5 = PlayGamesPlatform_Activate_m7C1134FCF34F257EF013AF9BC7A124727EE6F0B1(NULL);
+		// }
+		return;
+	}
+}
 // System.Void GPGSAuthentication::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_Start_mFA4AAE2EBB98EE8D10C6380D00665AA960CA7513 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) 
+{
+	{
+		// LoginToGooglePlay();
+		GPGSAuthentication_LoginToGooglePlay_mB48D8EF999C05A523FBE62B133381BB08A7DC8EE(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GPGSAuthentication::LoginToGooglePlay()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_LoginToGooglePlay_mB48D8EF999C05A523FBE62B133381BB08A7DC8EE (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_U3CLoginToGooglePlayU3Eb__8_0_mCDC575ECF3961E7EC334B386534B771132DC3380_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
+		// {
+		//     switch (result)
+		//     {
+		//         case SignInStatus.Success:
+		//             Debug.Log("Logged in Succesfully");
+		//             IsConnectedToGooglePlay = true;
+		//             break;
+		//         default:
+		//             Debug.Log("Failed to log in :(");
+		//             IsConnectedToGooglePlay = false;
+		//             break;
+		//     }
+		// });
+		PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* L_0;
+		L_0 = PlayGamesPlatform_get_Instance_mBC25B2BC31C66AE54EFFA35D81E25F141E3B51D7(NULL);
+		Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104* L_1 = (Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104*)il2cpp_codegen_object_new(Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		Action_1__ctor_m6898D215D3645084F19344F5C95712284ED6C88E(L_1, __this, (intptr_t)((void*)GPGSAuthentication_U3CLoginToGooglePlayU3Eb__8_0_mCDC575ECF3961E7EC334B386534B771132DC3380_RuntimeMethod_var), NULL);
+		NullCheck(L_0);
+		PlayGamesPlatform_Authenticate_mE62E058410EC4C9042EF5381736F9F3A34FAC74F(L_0, 2, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GPGSAuthentication::ProcessAuthentication(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_ProcessAuthentication_m423F0688B32E782FF3EFD67E04075A9BCC45EBD2 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, bool ___success0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0E8E3E9011DD03A0E9D0EEC0EFDBBF51BE0E0C2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC1699B202A41FD1BF3FEB794F356EF17C010420D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
+		bool L_0 = ___success0;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB0E8E3E9011DD03A0E9D0EEC0EFDBBF51BE0E0C2, NULL);
+		// if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
+		__this->___IsConnectedToGooglePlay_6 = (bool)1;
+		return;
+	}
+
+IL_0015:
+	{
+		// else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC1699B202A41FD1BF3FEB794F356EF17C010420D, NULL);
+		// else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
+		__this->___IsConnectedToGooglePlay_6 = (bool)0;
+		// }
+		return;
+	}
+}
+// System.Void GPGSAuthentication::TrySendScoreToLeaderBoard()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_TrySendScoreToLeaderBoard_m3AF569437F823739ACD08D96D6269CFB733BA1D8 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILocalUser_t8D7F34634AF940D34302E4F415AD50C7132EB7F6_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISocialPlatform_tA236686987B4CB8A0694EEBAB4D7EB57CBABA254_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CStartU3Eb__1_0_m2C14FA4E0EFA19B19D323C6DFB315F357BE8147B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_LeaderboardUpdate_m54E749EADFCB83A6FF66761F7103DE34D4125E2C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE93438D72B44CF3520FDADE30D0FCE88CB9CC056);
 		s_Il2CppMethodInitialized = true;
 	}
-	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B4_0 = NULL;
-	RuntimeObject* G_B4_1 = NULL;
-	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B3_0 = NULL;
-	RuntimeObject* G_B3_1 = NULL;
 	{
-		// if (Platform == null)
-		PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* L_0 = ((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___Platform_4;
+		// if (!IsConnectedToGooglePlay) { return; }
+		bool L_0 = __this->___IsConnectedToGooglePlay_6;
 		if (L_0)
 		{
-			goto IL_0026;
+			goto IL_0009;
 		}
 	}
 	{
-		// PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().Build();
-		Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8* L_1 = (Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8*)il2cpp_codegen_object_new(Builder_t2F2F11DE8F7F4A5E55B378129088F5BD75CDCCA8_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		Builder__ctor_m388AB45315E2F3197C804CCF2097E650BC940894(L_1, NULL);
-		NullCheck(L_1);
-		PlayGamesClientConfiguration_tFC50AECD7C9254DCD4E5CD2771B362212F4E62A1 L_2;
-		L_2 = Builder_Build_m4625B07468AEBAB946A4350DAD11D6429A11B8C6(L_1, NULL);
-		// PlayGamesPlatform.InitializeInstance(config);
-		PlayGamesPlatform_InitializeInstance_mEFF120E290B56D988A5B8BF0C087F49D74653FE7(L_2, NULL);
-		// PlayGamesPlatform.DebugLogEnabled = true;
-		PlayGamesPlatform_set_DebugLogEnabled_mC823543763B839783B88C9770F1CC6AC31CF8B49((bool)1, NULL);
-		// Platform = PlayGamesPlatform.Activate();
-		PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* L_3;
-		L_3 = PlayGamesPlatform_Activate_m7C1134FCF34F257EF013AF9BC7A124727EE6F0B1(NULL);
-		((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___Platform_4 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___Platform_4), (void*)L_3);
+		// if (!IsConnectedToGooglePlay) { return; }
+		return;
 	}
 
-IL_0026:
+IL_0009:
 	{
-		// Social.Active.localUser.Authenticate(success =>
-		// {
-		//     if (success) { Debug.Log("Logged in Succesfully"); }
-		//     else { Debug.Log("Failed to log in :("); }
-		// });
-		RuntimeObject* L_4;
-		L_4 = Social_get_Active_m54586B347AE1248C646891B24054E71C8DE5DC88(NULL);
-		NullCheck(L_4);
-		RuntimeObject* L_5;
-		L_5 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* UnityEngine.SocialPlatforms.ILocalUser UnityEngine.SocialPlatforms.ISocialPlatform::get_localUser() */, ISocialPlatform_tA236686987B4CB8A0694EEBAB4D7EB57CBABA254_il2cpp_TypeInfo_var, L_4);
-		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var);
-		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_6 = ((U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var))->___U3CU3E9__1_0_1;
-		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_7 = L_6;
-		G_B3_0 = L_7;
-		G_B3_1 = L_5;
-		if (L_7)
+		// if (!AchievementManager.Instance.GotHighScore) { return; }
+		AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* L_1;
+		L_1 = AchievementManager_get_Instance_m4BEC3A52C4DFBB77323A2BC634076ECDDEB3A993_inline(NULL);
+		NullCheck(L_1);
+		bool L_2 = L_1->___GotHighScore_8;
+		if (L_2)
 		{
-			G_B4_0 = L_7;
-			G_B4_1 = L_5;
-			goto IL_004f;
+			goto IL_0016;
 		}
 	}
 	{
-		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var);
-		U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495* L_8 = ((U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var))->___U3CU3E9_0;
-		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_9 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
-		NullCheck(L_9);
-		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_9, L_8, (intptr_t)((void*)U3CU3Ec_U3CStartU3Eb__1_0_m2C14FA4E0EFA19B19D323C6DFB315F357BE8147B_RuntimeMethod_var), NULL);
-		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_10 = L_9;
-		((U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var))->___U3CU3E9__1_0_1 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var))->___U3CU3E9__1_0_1), (void*)L_10);
-		G_B4_0 = L_10;
-		G_B4_1 = G_B3_1;
+		// if (!AchievementManager.Instance.GotHighScore) { return; }
+		return;
 	}
 
-IL_004f:
+IL_0016:
 	{
-		NullCheck(G_B4_1);
-		InterfaceActionInvoker1< Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* >::Invoke(0 /* System.Void UnityEngine.SocialPlatforms.ILocalUser::Authenticate(System.Action`1<System.Boolean>) */, ILocalUser_t8D7F34634AF940D34302E4F415AD50C7132EB7F6_il2cpp_TypeInfo_var, G_B4_1, G_B4_0);
+		// Social.ReportScore(AchievementManager.Instance.HighScore, GPGSIds.leaderboard_asterax_leaderboard, LeaderboardUpdate);
+		AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* L_3;
+		L_3 = AchievementManager_get_Instance_m4BEC3A52C4DFBB77323A2BC634076ECDDEB3A993_inline(NULL);
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = AchievementManager_get_HighScore_m7608994CB2DE58FA59FB35A73F7389C31613063A_inline(L_3, NULL);
+		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_5 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_5, __this, (intptr_t)((void*)GPGSAuthentication_LeaderboardUpdate_m54E749EADFCB83A6FF66761F7103DE34D4125E2C_RuntimeMethod_var), NULL);
+		Social_ReportScore_m00EA1D85C901167A6643A56FD090894649E4B4B6(((int64_t)L_4), _stringLiteralE93438D72B44CF3520FDADE30D0FCE88CB9CC056, L_5, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GPGSAuthentication::LeaderboardUpdate(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_LeaderboardUpdate_m54E749EADFCB83A6FF66761F7103DE34D4125E2C (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, bool ___success0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8FD0B0DE74150BE7CF11940180B5B8F3812BF079);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E79DCB49B93D8BC636E500F738D43844EEF1AB);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (success) { Debug.Log("Updated Leaderboard!"); }
+		bool L_0 = ___success0;
+		if (!L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		// if (success) { Debug.Log("Updated Leaderboard!"); }
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF3E79DCB49B93D8BC636E500F738D43844EEF1AB, NULL);
+		return;
+	}
+
+IL_000e:
+	{
+		// else { Debug.Log("Unable to update leaderboard :("); }
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8FD0B0DE74150BE7CF11940180B5B8F3812BF079, NULL);
+		// }
+		return;
+	}
+}
+// System.Void GPGSAuthentication::ShowLeaderboard()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_ShowLeaderboard_mE8049705492C1DEE1FC68FF6FED537C3115B3AA0 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7CB89AD6B95B5454D71A2F78D09153969FE4FB60);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("TryShowLeaderBoards");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral7CB89AD6B95B5454D71A2F78D09153969FE4FB60, NULL);
+		// if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
+		bool L_0 = __this->___IsConnectedToGooglePlay_6;
+		if (L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		// if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
+		GPGSAuthentication_LoginToGooglePlay_mB48D8EF999C05A523FBE62B133381BB08A7DC8EE(__this, NULL);
+		// if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
+		return;
+	}
+
+IL_0019:
+	{
+		// Social.ShowLeaderboardUI();
+		Social_ShowLeaderboardUI_m3C925568256ECA8A80A014F535453857DF8A1A8A(NULL);
 		// }
 		return;
 	}
@@ -13033,42 +13194,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication__ctor_m2650F67537C275
 		return;
 	}
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void GPGSAuthentication/<>c::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mA07492FFFE302890FC75382FD056532BC199A2A8 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495* L_0 = (U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495*)il2cpp_codegen_object_new(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CU3Ec__ctor_mC0C654C14B6E6543E0CBD2DFC6D47A9C5CF60695(L_0, NULL);
-		((U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
-		return;
-	}
-}
-// System.Void GPGSAuthentication/<>c::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC0C654C14B6E6543E0CBD2DFC6D47A9C5CF60695 (U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// System.Void GPGSAuthentication/<>c::<Start>b__1_0(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CStartU3Eb__1_0_m2C14FA4E0EFA19B19D323C6DFB315F357BE8147B (U3CU3Ec_t69A8B5D23B458EA0CE174185884BC1B78F5A9495* __this, bool ___success0, const RuntimeMethod* method) 
+// System.Void GPGSAuthentication::<LoginToGooglePlay>b__8_0(GooglePlayGames.BasicApi.SignInStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_U3CLoginToGooglePlayU3Eb__8_0_mCDC575ECF3961E7EC334B386534B771132DC3380 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, int32_t ___result0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13079,25 +13206,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CStartU3Eb__1_0_m2C14FA4E0EFA1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// if (success) { Debug.Log("Logged in Succesfully"); }
-		bool L_0 = ___success0;
-		if (!L_0)
+		int32_t L_0 = ___result0;
+		if (L_0)
 		{
-			goto IL_000e;
+			goto IL_0015;
 		}
 	}
 	{
-		// if (success) { Debug.Log("Logged in Succesfully"); }
+		// Debug.Log("Logged in Succesfully");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB0E8E3E9011DD03A0E9D0EEC0EFDBBF51BE0E0C2, NULL);
+		// IsConnectedToGooglePlay = true;
+		__this->___IsConnectedToGooglePlay_6 = (bool)1;
+		// break;
 		return;
 	}
 
-IL_000e:
+IL_0015:
 	{
-		// else { Debug.Log("Failed to log in :("); }
+		// Debug.Log("Failed to log in :(");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC1699B202A41FD1BF3FEB794F356EF17C010420D, NULL);
+		// IsConnectedToGooglePlay = false;
+		__this->___IsConnectedToGooglePlay_6 = (bool)0;
 		// });
 		return;
 	}
@@ -14483,10 +14614,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_GameOver_mF1BD400E7F84A0B533
 		AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* L_2 = __this->____achievementManager_12;
 		NullCheck(L_2);
 		AchievementManager_SaveAchievements_m47B46484429AF8C7188551BCFA765B22AFF25B92(L_2, NULL);
-		// CustomAnalytics.SendFinalShipPartChoice();
-		CustomAnalytics_SendFinalShipPartChoice_mD9511D0B7E24692A44FA324EF9B96403C9AC8CD1(NULL);
-		// CustomAnalytics.SendGameOver();
-		CustomAnalytics_SendGameOver_m413F504076A9218E0F95C331982D9315B3D4AA50(NULL);
+		// GPGSAuthentication.Instance.TrySendScoreToLeaderBoard();
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_3;
+		L_3 = GPGSAuthentication_get_Instance_m137B5418C9543840B3E59FFEC544B97B8607E5F6_inline(NULL);
+		NullCheck(L_3);
+		GPGSAuthentication_TrySendScoreToLeaderBoard_m3AF569437F823739ACD08D96D6269CFB733BA1D8(L_3, NULL);
 		// ReloadScene();
 		GameManager_ReloadScene_m428F33A2D456CC66C11F4CD7EDB09A7D47D68060(__this, NULL);
 		// }
@@ -19849,6 +19981,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartGameUI_PressStart_m574AA9458F454A0A
 		return;
 	}
 }
+// System.Void StartGameUI::ViewLeaderboards()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartGameUI_ViewLeaderboards_mB0D13A7D67E1474906C00EB365CD2F9557220A77 (StartGameUI_t8E334D4F9D43B781DB1D3B11BF56BE33EB9CBC48* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A7C5B5A6CFBAAD9B92D3045597B08A2F97A98AA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("Pressed view leaderboards");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral7A7C5B5A6CFBAAD9B92D3045597B08A2F97A98AA, NULL);
+		// GPGSAuthentication.Instance.ShowLeaderboard();
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_0;
+		L_0 = GPGSAuthentication_get_Instance_m137B5418C9543840B3E59FFEC544B97B8607E5F6_inline(NULL);
+		NullCheck(L_0);
+		GPGSAuthentication_ShowLeaderboard_mE8049705492C1DEE1FC68FF6FED537C3115B3AA0(L_0, NULL);
+		// }
+		return;
+	}
+}
 // System.Void StartGameUI::DeleteSave()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartGameUI_DeleteSave_mAD8B895FC20C9D51D1512353AAF3485A0D72488C (StartGameUI_t8E334D4F9D43B781DB1D3B11BF56BE33EB9CBC48* __this, const RuntimeMethod* method) 
 {
@@ -20399,7 +20554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesAchievement__ctor_mF8E2F455A1F8
 		PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* L_1 = L_0;
 		ReportProgress_t2255A91BFC39E06EA3020A57DA0A4D7F636BAA32* L_2 = (ReportProgress_t2255A91BFC39E06EA3020A57DA0A4D7F636BAA32*)il2cpp_codegen_object_new(ReportProgress_t2255A91BFC39E06EA3020A57DA0A4D7F636BAA32_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
-		ReportProgress__ctor_m8A85519993D0A2F0D8E5DFC4AFB9BABD85E45747(L_2, L_1, (intptr_t)((void*)GetVirtualMethodInfo(L_1, 9)), NULL);
+		ReportProgress__ctor_m8A85519993D0A2F0D8E5DFC4AFB9BABD85E45747(L_2, L_1, (intptr_t)((void*)GetVirtualMethodInfo(L_1, 11)), NULL);
 		PlayGamesAchievement__ctor_m6733F9783FFD13307E8A538C0C441638FB1E235B(__this, L_2, NULL);
 		// }
 		return;
@@ -34088,253 +34243,6 @@ IL_006b:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m76B5087BB406876D440E7501089FB850726F52D7 (U3CU3Ec__DisplayClass35_0_tBBEC81BB3264F10A7D57E9F0B62F130E959CAC21* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<LoadFriendsPaginated>b__0(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CLoadFriendsPaginatedU3Eb__0_m6C42812F6BA341515B61047897D263D39E5D6570 (U3CU3Ec__DisplayClass35_0_tBBEC81BB3264F10A7D57E9F0B62F130E959CAC21* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___annotatedData0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_tB8C46D5F4256CC0CA132DBC9AC2C13F863F434FA_m038A5AA61DF2F1703911DDA39C3952106F85ADE2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5004BB2B79B894E5CC70CDBEA1DD320044EF8F3A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA9DF91FB4A133186AE97F3F3E096FF3D0539D3A4);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E);
-		s_Il2CppMethodInitialized = true;
-	}
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_0 = NULL;
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_1 = NULL;
-	bool V_2 = false;
-	int32_t G_B4_0 = 0;
-	AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA* G_B6_0 = NULL;
-	AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA* G_B5_0 = NULL;
-	int32_t G_B7_0 = 0;
-	AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA* G_B7_1 = NULL;
-	{
-		// using (var playersBuffer = annotatedData.Call<AndroidJavaObject>("get"))
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___annotatedData0;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
-		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		NullCheck(L_0);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2;
-		L_2 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_0, _stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E, L_1, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
-		V_0 = L_2;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0080:
-			{// begin finally (depth: 1)
-				{
-					AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = V_0;
-					if (!L_3)
-					{
-						goto IL_0089;
-					}
-				}
-				{
-					AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4 = V_0;
-					NullCheck(L_4);
-					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_4);
-				}
-
-IL_0089:
-				{
-					return;
-				}
-			}// end finally (depth: 1)
-		});
-		try
-		{// begin try (depth: 1)
-			{
-				// AndroidJavaObject metadata = playersBuffer.Call<AndroidJavaObject>("getMetadata");
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = V_0;
-				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
-				L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-				NullCheck(L_5);
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_7;
-				L_7 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_5, _stringLiteralA9DF91FB4A133186AE97F3F3E096FF3D0539D3A4, L_6, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
-				V_1 = L_7;
-				// var areMoreFriendsToLoad = metadata != null &&
-				//                            metadata.Call<AndroidJavaObject>("getString",
-				//                                "next_page_token") != null;
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = V_1;
-				if (!L_8)
-				{
-					goto IL_0043_1;
-				}
-			}
-			{
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_9 = V_1;
-				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_10;
-				NullCheck(L_11);
-				ArrayElementTypeCheck (L_11, _stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083);
-				(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083);
-				NullCheck(L_9);
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_12;
-				L_12 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_9, _stringLiteral5004BB2B79B894E5CC70CDBEA1DD320044EF8F3A, L_11, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
-				G_B4_0 = ((!(((RuntimeObject*)(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)L_12) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-				goto IL_0044_1;
-			}
-
-IL_0043_1:
-			{
-				G_B4_0 = 0;
-			}
-
-IL_0044_1:
-			{
-				V_2 = (bool)G_B4_0;
-				// mFriends = AndroidJavaConverter.playersBufferToArray(playersBuffer);
-				AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA* L_13 = __this->___U3CU3E4__this_0;
-				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_14 = V_0;
-				IUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43* L_15;
-				L_15 = AndroidJavaConverter_playersBufferToArray_m3335BD9E0C7048E5D011D34928B9247360EC2906(L_14, NULL);
-				NullCheck(L_13);
-				L_13->___mFriends_9 = L_15;
-				Il2CppCodeGenWriteBarrier((void**)(&L_13->___mFriends_9), (void*)L_15);
-				// mLastLoadFriendsStatus = areMoreFriendsToLoad
-				//     ? LoadFriendsStatus.LoadMore
-				//     : LoadFriendsStatus.Completed;
-				AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA* L_16 = __this->___U3CU3E4__this_0;
-				bool L_17 = V_2;
-				G_B5_0 = L_16;
-				if (L_17)
-				{
-					G_B6_0 = L_16;
-					goto IL_0062_1;
-				}
-			}
-			{
-				G_B7_0 = 1;
-				G_B7_1 = G_B5_0;
-				goto IL_0063_1;
-			}
-
-IL_0062_1:
-			{
-				G_B7_0 = 2;
-				G_B7_1 = G_B6_0;
-			}
-
-IL_0063_1:
-			{
-				NullCheck(G_B7_1);
-				G_B7_1->___mLastLoadFriendsStatus_10 = G_B7_0;
-				// InvokeCallbackOnGameThread(callback, mLastLoadFriendsStatus);
-				Action_1_t49ED8E06F9568BFD20DAA2EF713F2358001D0D0F* L_18 = __this->___callback_1;
-				AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA* L_19 = __this->___U3CU3E4__this_0;
-				NullCheck(L_19);
-				int32_t L_20 = L_19->___mLastLoadFriendsStatus_10;
-				il2cpp_codegen_runtime_class_init_inline(AndroidClient_t07EB9E94861875EB3D56CE4949597C753086D7EA_il2cpp_TypeInfo_var);
-				AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_tB8C46D5F4256CC0CA132DBC9AC2C13F863F434FA_m038A5AA61DF2F1703911DDA39C3952106F85ADE2(L_18, L_20, AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_tB8C46D5F4256CC0CA132DBC9AC2C13F863F434FA_m038A5AA61DF2F1703911DDA39C3952106F85ADE2_RuntimeMethod_var);
-				// }
-				goto IL_008a;
-			}
-		}// end try (depth: 1)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_008a:
-	{
-		// });
-		return;
-	}
-}
-// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<LoadFriendsPaginated>b__1(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CLoadFriendsPaginatedU3Eb__1_m4DA0AAAE55F5C893B2C57AD6A5232F3096A84E18 (U3CU3Ec__DisplayClass35_0_tBBEC81BB3264F10A7D57E9F0B62F130E959CAC21* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___exception0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_1_U3CLoadFriendsPaginatedU3Eb__2_m11A6913988557F179721D9C86BD8BD4CA5AD8709_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17* V_0 = NULL;
-	{
-		U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17* L_0 = (U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		U3CU3Ec__DisplayClass35_1__ctor_mE71B1E5F0D3C0A66250F3A6D3D59562344522DCC(L_0, NULL);
-		V_0 = L_0;
-		U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17* L_1 = V_0;
-		NullCheck(L_1);
-		L_1->___CSU24U3CU3E8__locals1_1 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___CSU24U3CU3E8__locals1_1), (void*)__this);
-		U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17* L_2 = V_0;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = ___exception0;
-		NullCheck(L_2);
-		L_2->___exception_0 = L_3;
-		Il2CppCodeGenWriteBarrier((void**)(&L_2->___exception_0), (void*)L_3);
-		// AndroidHelperFragment.IsResolutionRequired(exception, resolutionRequired =>
-		// {
-		//     if (resolutionRequired)
-		//     {
-		//         mFriendsResolutionException =
-		//             exception.Call<AndroidJavaObject>("getResolution");
-		//         mLastLoadFriendsStatus = LoadFriendsStatus.ResolutionRequired;
-		//         mFriends = new IUserProfile[0];
-		//         InvokeCallbackOnGameThread(callback, LoadFriendsStatus.ResolutionRequired);
-		//     }
-		//     else
-		//     {
-		//         mFriendsResolutionException = null;
-		// 
-		//         if (Misc.IsApiException(exception))
-		//         {
-		//             var statusCode = exception.Call<int>("getStatusCode");
-		//             if (statusCode == /* GamesClientStatusCodes.NETWORK_ERROR_NO_DATA */ 26504)
-		//             {
-		//                 mLastLoadFriendsStatus = LoadFriendsStatus.NetworkError;
-		//                 InvokeCallbackOnGameThread(callback, LoadFriendsStatus.NetworkError);
-		//                 return;
-		//             }
-		//         }
-		// 
-		//         mLastLoadFriendsStatus = LoadFriendsStatus.InternalError;
-		//         OurUtils.Logger.e("LoadFriends failed: " +
-		//             exception.Call<string>("toString"));
-		//         InvokeCallbackOnGameThread(callback, LoadFriendsStatus.InternalError);
-		//     }
-		// });
-		U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17* L_4 = V_0;
-		NullCheck(L_4);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = L_4->___exception_0;
-		U3CU3Ec__DisplayClass35_1_t4DB2F4F8C4E1340C739D078CF339194D9130AD17* L_6 = V_0;
-		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_7 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
-		NullCheck(L_7);
-		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_7, L_6, (intptr_t)((void*)U3CU3Ec__DisplayClass35_1_U3CLoadFriendsPaginatedU3Eb__2_m11A6913988557F179721D9C86BD8BD4CA5AD8709_RuntimeMethod_var), NULL);
-		AndroidHelperFragment_IsResolutionRequired_m7F76EA83A32FA8A1E03BA6CC5F35532A397632B0(L_5, L_7, NULL);
-		// return;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -35042,6 +34950,44 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameAudioManager_set_Instanc
 		return;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* GPGSAuthentication_get_Instance_m137B5418C9543840B3E59FFEC544B97B8607E5F6_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static GPGSAuthentication Instance { get; private set; }
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_0 = ((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GPGSAuthentication_set_Instance_mD9FA7BE61832E803C64C6F1579CCF83BE9877BEE_inline (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public static GPGSAuthentication Instance { get; private set; }
+		GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* L_0 = ___value0;
+		((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_StaticFields*)il2cpp_codegen_static_fields_for(GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_4), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AchievementManager_get_HighScore_m7608994CB2DE58FA59FB35A73F7389C31613063A_inline (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int HighScore => _highScore;
+		int32_t L_0 = __this->____highScore_6;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameManager_get_Score_m3640082785929352BF649E844AECA9184AAA6DAB_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -35329,14 +35275,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ScreenWrap_get_TimeSinceLas
 	{
 		// public float TimeSinceLastScreenWrap => _timeSinceLastScreenWrap;
 		float L_0 = __this->____timeSinceLastScreenWrap_4;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AchievementManager_get_HighScore_m7608994CB2DE58FA59FB35A73F7389C31613063A_inline (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int HighScore => _highScore;
-		int32_t L_0 = __this->____highScore_6;
 		return L_0;
 	}
 }

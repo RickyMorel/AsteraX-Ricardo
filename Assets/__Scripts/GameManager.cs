@@ -142,8 +142,7 @@ public class GameManager : MonoBehaviour
 
         _achievementManager.SaveAchievements();
 
-        CustomAnalytics.SendFinalShipPartChoice();
-        CustomAnalytics.SendGameOver();
+        GPGSAuthentication.Instance.TrySendScoreToLeaderBoard();
 
         ReloadScene();
     }

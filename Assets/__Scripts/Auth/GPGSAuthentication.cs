@@ -7,24 +7,94 @@ using GooglePlayGames;
 
 public class GPGSAuthentication : MonoBehaviour
 {
+    public static GPGSAuthentication Instance { get; private set; }
     public static PlayGamesPlatform Platform;
+    public bool IsConnectedToGooglePlay;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+
+        DontDestroyOnLoad(gameObject);
+
+        PlayGamesPlatform.DebugLogEnabled = true;
+        PlayGamesPlatform.Activate();
+    }
 
     private void Start()
     {
-        if (Platform == null)
+        LoginToGooglePlay();
+    }
+
+    private void LoginToGooglePlay()
+    {
+        //if (IsConnectedToGooglePlay) { return; }
+
+        //if (Platform == null)
+        //{
+
+        //    PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().Build();
+        //    PlayGamesPlatform.InitializeInstance(config);
+        //    PlayGamesPlatform.DebugLogEnabled = true;
+
+        //    Platform = PlayGamesPlatform.Activate();
+        //}
+
+        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
         {
-
-            PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().Build();
-            PlayGamesPlatform.InitializeInstance(config);
-            PlayGamesPlatform.DebugLogEnabled = true;
-
-            Platform = PlayGamesPlatform.Activate();
-        }
-
-        Social.Active.localUser.Authenticate(success =>
-        {
-            if (success) { Debug.Log("Logged in Succesfully"); }
-            else { Debug.Log("Failed to log in :("); }
+            switch (result)
+            {
+                case SignInStatus.Success:
+                    Debug.Log("Logged in Succesfully");
+                    IsConnectedToGooglePlay = true;
+                    break;
+                default:
+                    Debug.Log("Failed to log in :(");
+                    IsConnectedToGooglePlay = false;
+                    break;
+            }
         });
+
+        //Social.Active.localUser.Authenticate(success =>
+        //{
+        //    if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
+        //    else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
+        //});
+    }
+
+    private void ProcessAuthentication(bool success)
+    {
+        if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
+        else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
+    }
+
+    public void TrySendScoreToLeaderBoard()
+    {
+        if (!IsConnectedToGooglePlay) { return; }
+
+        if (!AchievementManager.Instance.GotHighScore) { return; }
+
+        Social.ReportScore(AchievementManager.Instance.HighScore, GPGSIds.leaderboard_asterax_leaderboard, LeaderboardUpdate);
+    }
+
+    private void LeaderboardUpdate(bool success)
+    {
+        if (success) { Debug.Log("Updated Leaderboard!"); }
+        else { Debug.Log("Unable to update leaderboard :("); }
+    }
+
+    public void ShowLeaderboard()
+    {
+        Debug.Log("TryShowLeaderBoards");
+        if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
+
+        Social.ShowLeaderboardUI();
     }
 }
