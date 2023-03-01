@@ -12,10 +12,8 @@ public class Player : MonoBehaviour
 
     [Header("Set In Inspector")]
     [SerializeField] private float _moveSpeed = 10f;
-    [SerializeField] private float _timeBetweenShots = 0.2f;
 
     [SerializeField] private Transform _turretTransform;
-    [SerializeField] private GameObject _projectilePrefab;
     [SerializeField] private Transform _shootTransform;
     [SerializeField] private ParticleSystem _boosterParticles;
     [SerializeField] private GameObject _jumpInParticles;
@@ -32,12 +30,16 @@ public class Player : MonoBehaviour
     private float _boosterParticlesTurnSmoothVel;
     private Vector3 _prevPos;
     private float _enginePitch;
+    private float _timeBetweenShots = 0.2f;
+    private GameObject _projectilePrefab;
+    private bool _bulletsAreUpgraded = false;
 
     #endregion
 
     #region Public Properties
 
     public static Player Instance { get; private set; }
+    public bool BulletsAreUpgraded => _bulletsAreUpgraded;
 
     #endregion
 
@@ -78,6 +80,13 @@ public class Player : MonoBehaviour
     }
 
     #endregion
+
+    public void ChangeBullets(GameObject newProjectilePrefab, float newTimeBetweenShots, bool bulletsAreUpgraded)
+    {
+        _projectilePrefab = newProjectilePrefab;
+        _timeBetweenShots = newTimeBetweenShots;
+        _bulletsAreUpgraded = bulletsAreUpgraded;
+    }
 
     public void Respawn(float respawnTime)
     {

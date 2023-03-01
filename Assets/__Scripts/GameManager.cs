@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     private GameState _prevGameState;
     private int _score = 0;
     private int _jumps = 3;
-    private int _level = 15;
+    private int _level = 0;
     private List<LevelData> _levelDataList = new List<LevelData>();
 
     private AchievementManager _achievementManager;
@@ -195,7 +195,7 @@ public class GameManager : MonoBehaviour
 
     public void RaiseLevel()
     {
-        _level += 1;
+        _level += 6;
 
         OnLevelUpdated?.Invoke(_level);
 
@@ -219,7 +219,7 @@ public class GameManager : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        Instantiate(levelAmbienceData.StarObj, _starFieldParticles.transform);
+        StartCoroutine(WaitToSpawnAmbienceParticles(levelAmbienceData));
 
         Camera[] allCameras = FindObjectsOfType<Camera>();
 
@@ -229,6 +229,13 @@ public class GameManager : MonoBehaviour
         }
 
         _levelUI.SetPanelColor(levelAmbienceData.BackgroundColor);
+    }
+
+    private IEnumerator WaitToSpawnAmbienceParticles(LevelAmbienceData levelAmbienceData)
+    {
+        yield return new WaitForEndOfFrame();
+
+        if (levelAmbienceData.StarObj != null) { Instantiate(levelAmbienceData.StarObj, _starFieldParticles.transform); }
     }
 
     private IEnumerator ChangeLevelCoroutine()

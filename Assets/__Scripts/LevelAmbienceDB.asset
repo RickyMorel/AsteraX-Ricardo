@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aeda2d1e99b8b54faa966ba78482962, type: 3}
   m_Name: LevelAmbienceDB
   m_EditorClassIdentifier: 
+  DefaultAmbience:
+    AsteroidColor: {r: 1, g: 1, b: 1, a: 1}
+    BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    StarObj: {fileID: 0}
   LevelAmbienceDatas:
-  - BackgroundColor: {r: 0.5294118, g: 0, b: 0.38039216, a: 0}
-    StarSprite: {fileID: 0}
+  - AsteroidColor: {r: 1, g: 1, b: 1, a: 1}
+    BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    StarObj: {fileID: 333583674397885840, guid: 9e2380088c51129449ea91a1b36ac78b,
+      type: 3}

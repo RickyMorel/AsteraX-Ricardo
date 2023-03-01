@@ -43,7 +43,9 @@ public class Projectile : MonoBehaviour
 
         _rb.AddForce(_bulletForce * transform.up, ForceMode.Impulse);
 
-        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.GetRandomLaserSound());
+        AudioClip wantedSound = Player.Instance.BulletsAreUpgraded ? GameManager.Instance.AudioSo.GetRandomUpgradedLaserSound() : GameManager.Instance.AudioSo.GetRandomLaserSound();
+
+        _audioSource.PlayOneShot(wantedSound);
 
         Invoke(nameof(SelfDestruct), 2f);
     }
