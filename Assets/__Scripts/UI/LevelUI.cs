@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.UI;
 
 public class LevelUI : MonoBehaviour
 {
     [SerializeField] private PlayableDirector _timeLine;
+    [SerializeField] private Image _panel;
     [SerializeField] private TextMeshProUGUI _levelText;
     [SerializeField] private TextMeshProUGUI _asteroidsText;
 
@@ -23,6 +25,11 @@ public class LevelUI : MonoBehaviour
     {
         int level = GameManager.Instance.Level;
         _levelText.text = $"Level: {level.ToString()}";
+    }
+
+    public void SetPanelColor(Color wantedColor)
+    {
+        _panel.color = wantedColor;
     }
 
     private void SetAsteroidsText()

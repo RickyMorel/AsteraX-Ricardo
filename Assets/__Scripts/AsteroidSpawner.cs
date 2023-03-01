@@ -75,6 +75,8 @@ public class AsteroidSpawner : MonoBehaviour
             asteroidInstance.GetComponent<Rigidbody>()
                 .AddForce(new Vector3(Random.Range(-maxForce, maxForce), Random.Range(-maxForce, maxForce), Random.Range(-maxForce, maxForce)));
 
+            asteroidInstance.GetComponentInChildren<SpriteRenderer>().color = GameManager.Instance.LevelAmbience.GetLevelAmbience(GameManager.Instance.Level).AsteroidColor;
+
             _currentAsteroids.Add(asteroidInstance);
         }
     }

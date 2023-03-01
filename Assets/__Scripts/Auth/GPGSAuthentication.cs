@@ -11,6 +11,8 @@ public class GPGSAuthentication : MonoBehaviour
     public static PlayGamesPlatform Platform;
     public bool IsConnectedToGooglePlay;
 
+    private string _debugString;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -52,11 +54,13 @@ public class GPGSAuthentication : MonoBehaviour
             switch (result)
             {
                 case SignInStatus.Success:
-                    Debug.Log("Logged in Succesfully");
+                    _debugString = $"Sucessful Login!  : {result.ToString()}";
+                    Debug.Log(_debugString);
                     IsConnectedToGooglePlay = true;
                     break;
                 default:
-                    Debug.Log("Failed to log in :(");
+                    _debugString = $"Failed to log in :(  ; {result.ToString()}";
+                    Debug.Log(_debugString);
                     IsConnectedToGooglePlay = false;
                     break;
             }
@@ -96,5 +100,10 @@ public class GPGSAuthentication : MonoBehaviour
         if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
 
         Social.ShowLeaderboardUI();
+    }
+
+    void OnGUI()
+    {
+        GUI.Label(new Rect(10, 10, 1000, 25), _debugString);
     }
 }
