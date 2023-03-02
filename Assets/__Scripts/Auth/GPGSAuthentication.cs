@@ -37,18 +37,6 @@ public class GPGSAuthentication : MonoBehaviour
 
     private void LoginToGooglePlay()
     {
-        //if (IsConnectedToGooglePlay) { return; }
-
-        //if (Platform == null)
-        //{
-
-        //    PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().Build();
-        //    PlayGamesPlatform.InitializeInstance(config);
-        //    PlayGamesPlatform.DebugLogEnabled = true;
-
-        //    Platform = PlayGamesPlatform.Activate();
-        //}
-
         PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
         {
             switch (result)
@@ -65,33 +53,27 @@ public class GPGSAuthentication : MonoBehaviour
                     break;
             }
         });
-
-        //Social.Active.localUser.Authenticate(success =>
-        //{
-        //    if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
-        //    else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
-        //});
-    }
-
-    private void ProcessAuthentication(bool success)
-    {
-        if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
-        else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
     }
 
     public void TrySendScoreToLeaderBoard()
     {
+        _debugString = "TrySendScoreToLeaderBoard";
+
         if (!IsConnectedToGooglePlay) { return; }
+
+        _debugString = "Is Connected To Google Play!";
 
         if (!AchievementManager.Instance.GotHighScore) { return; }
 
-        Social.ReportScore(AchievementManager.Instance.HighScore, GPGSIds.leaderboard_asterax_leaderboard, LeaderboardUpdate);
+        _debugString = "Got High Score!";
+
+        Social.ReportScore(AchievementManager.Instance.HighScore, GPGSIds.leaderboard_fyouasteroids_leaderboard, LeaderboardUpdate);
     }
 
     private void LeaderboardUpdate(bool success)
     {
-        if (success) { Debug.Log("Updated Leaderboard!"); }
-        else { Debug.Log("Unable to update leaderboard :("); }
+        if (success) { _debugString = "Updated Leaderboard!"; Debug.Log(_debugString); }
+        else { _debugString = "Unable to update leaderboard :(";  Debug.Log(_debugString); }
     }
 
     public void ShowLeaderboard()

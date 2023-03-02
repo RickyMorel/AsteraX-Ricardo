@@ -24,7 +24,7 @@
 
 public static class GPGSIds
 {
-        public const string leaderboard_asterax_leaderboard = "CgkIwYTt6LUXEAIQAQ"; // <GPGSID>
+        public const string leaderboard_fyouasteroids_leaderboard = "CgkIwYTt6LUXEAIQAw"; // <GPGSID>
 
 }
 

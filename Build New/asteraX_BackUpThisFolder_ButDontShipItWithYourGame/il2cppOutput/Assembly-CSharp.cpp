@@ -881,12 +881,15 @@ IL2CPP_EXTERN_C String_t* _stringLiteral76DCFFEA9B46EFA6E845E82ECE96341786359D80
 IL2CPP_EXTERN_C String_t* _stringLiteral7A7C5B5A6CFBAAD9B92D3045597B08A2F97A98AA;
 IL2CPP_EXTERN_C String_t* _stringLiteral7B6669BAAD37B7226E250B52C3705FCEE60C26D8;
 IL2CPP_EXTERN_C String_t* _stringLiteral7CB89AD6B95B5454D71A2F78D09153969FE4FB60;
+IL2CPP_EXTERN_C String_t* _stringLiteral7DDF988DB97B6BC33284DBEC237F66875F4BAC9D;
 IL2CPP_EXTERN_C String_t* _stringLiteral82EFF1F33DB6FE7F1E84FF7E7211ECBD08848090;
+IL2CPP_EXTERN_C String_t* _stringLiteral84859BC505F0327CFCFD04B46A3B9B70B691D478;
 IL2CPP_EXTERN_C String_t* _stringLiteral85F2B884A8DF6FD31F655B6806482A46DEFCAB2E;
 IL2CPP_EXTERN_C String_t* _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1;
 IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
 IL2CPP_EXTERN_C String_t* _stringLiteral8B3C7ED81885300C57F16C9FCB050F56D7A50A29;
 IL2CPP_EXTERN_C String_t* _stringLiteral8B567FBA645693DFAC1932A558EC6F02DE5F8C4D;
+IL2CPP_EXTERN_C String_t* _stringLiteral8CE8495BCA52642A61FE08B3480F461696A2C8C0;
 IL2CPP_EXTERN_C String_t* _stringLiteral8DFD108D78861B40D9658A53D2D389E5F8AFF19A;
 IL2CPP_EXTERN_C String_t* _stringLiteral8FD0B0DE74150BE7CF11940180B5B8F3812BF079;
 IL2CPP_EXTERN_C String_t* _stringLiteral9033361FBD54293545960007EE3644AF49896DD5;
@@ -902,10 +905,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9D781E16491650FBF01FEB866EF22186179EDBA3
 IL2CPP_EXTERN_C String_t* _stringLiteral9DEDD7B2D570C3F0CF8E7FE9BDCABBD395A5AEA9;
 IL2CPP_EXTERN_C String_t* _stringLiteralA0648F147EACA664FE00130816BB00451A3B3643;
 IL2CPP_EXTERN_C String_t* _stringLiteralA16A5A766620C92E70C8F0C13BC707B1DD24BB40;
+IL2CPP_EXTERN_C String_t* _stringLiteralA24ED440800CFD98960209D2E22019CFD8899ADE;
 IL2CPP_EXTERN_C String_t* _stringLiteralA829415DF92B83BD2B8D67E70FF55B21B7BB7F13;
 IL2CPP_EXTERN_C String_t* _stringLiteralA8BF50363A5928C0D471A38B8FCF6076090BAD6C;
 IL2CPP_EXTERN_C String_t* _stringLiteralAECC49933196C47F0B983FCCD83DBBB1825A04E4;
-IL2CPP_EXTERN_C String_t* _stringLiteralB0E8E3E9011DD03A0E9D0EEC0EFDBBF51BE0E0C2;
 IL2CPP_EXTERN_C String_t* _stringLiteralB378866161C6D8A70CB942D6006CB77A9F24AB5C;
 IL2CPP_EXTERN_C String_t* _stringLiteralB68AAC51067AB46309B689CAE42337B51C4A1AD9;
 IL2CPP_EXTERN_C String_t* _stringLiteralB823F51FA08DCBD192B331D861F6AD3669FDFB59;
@@ -915,7 +918,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralBE0926D93DBF2B9BF0097F03F8270600BC30EC32
 IL2CPP_EXTERN_C String_t* _stringLiteralC020982797C1200882BAD487763FEE8428CD551C;
 IL2CPP_EXTERN_C String_t* _stringLiteralC0E2DE04AE40B3B0493F0F846F34B279C6D44FE9;
 IL2CPP_EXTERN_C String_t* _stringLiteralC1003F25B0B39EA0A70315465C29B77F91F1AA46;
-IL2CPP_EXTERN_C String_t* _stringLiteralC1699B202A41FD1BF3FEB794F356EF17C010420D;
 IL2CPP_EXTERN_C String_t* _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB;
 IL2CPP_EXTERN_C String_t* _stringLiteralC2574A04774D6677423AB1999D900727071C18A6;
 IL2CPP_EXTERN_C String_t* _stringLiteralC63555F5631A509A767F8CAE7C637344AE34C6D2;
@@ -935,7 +937,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE39F2FCF87B8446A348C950B2295F2876CC47868
 IL2CPP_EXTERN_C String_t* _stringLiteralE7283DF6CD3662B7E73544E357D8BD496F5B2F16;
 IL2CPP_EXTERN_C String_t* _stringLiteralE88EAF5F3A6779F7CDCEBAA9ABDFC6B19603F581;
 IL2CPP_EXTERN_C String_t* _stringLiteralE8DB799A9B92AE7047816EE4CC979A8EE8A6856B;
-IL2CPP_EXTERN_C String_t* _stringLiteralE93438D72B44CF3520FDADE30D0FCE88CB9CC056;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0A2FDFB8146D5C7C589F10357CD3A01131F586B;
 IL2CPP_EXTERN_C String_t* _stringLiteralF16D4694D202A12DE193813F4FF291AA003B00DB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF21C9B21AA15C340E1ACE5DC27C979EA4098C680;
@@ -6638,8 +6639,6 @@ inline void Action_1__ctor_m6898D215D3645084F19344F5C95712284ED6C88E (Action_1_t
 }
 // System.Void GooglePlayGames.PlayGamesPlatform::Authenticate(GooglePlayGames.BasicApi.SignInInteractivity,System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_Authenticate_mE62E058410EC4C9042EF5381736F9F3A34FAC74F (PlayGamesPlatform_t0E3BFB8D1B6909696CC3C6F3FA21BE60BFE92D7F* __this, int32_t ___signInInteractivity0, Action_1_tB5B8487B6AD2C561AF4D9F4F12F1B297B02C5104* ___callback1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Int32 AchievementManager::get_HighScore()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AchievementManager_get_HighScore_m7608994CB2DE58FA59FB35A73F7389C31613063A_inline (AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
@@ -6649,6 +6648,8 @@ inline void Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501 (Action_1_t
 }
 // System.Void UnityEngine.Social::ReportScore(System.Int64,System.String,System.Action`1<System.Boolean>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Social_ReportScore_m00EA1D85C901167A6643A56FD090894649E4B4B6 (int64_t ___score0, String_t* ___board1, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___callback2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Social::ShowLeaderboardUI()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Social_ShowLeaderboardUI_m3C925568256ECA8A80A014F535453857DF8A1A8A (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
@@ -12987,52 +12988,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_LoginToGooglePlay_mB4
 		return;
 	}
 }
-// System.Void GPGSAuthentication::ProcessAuthentication(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_ProcessAuthentication_m423F0688B32E782FF3EFD67E04075A9BCC45EBD2 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, bool ___success0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0E8E3E9011DD03A0E9D0EEC0EFDBBF51BE0E0C2);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC1699B202A41FD1BF3FEB794F356EF17C010420D);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		// if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
-		bool L_0 = ___success0;
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		// if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB0E8E3E9011DD03A0E9D0EEC0EFDBBF51BE0E0C2, NULL);
-		// if (success) { Debug.Log("Logged in Succesfully"); IsConnectedToGooglePlay = true; }
-		__this->___IsConnectedToGooglePlay_6 = (bool)1;
-		goto IL_0030;
-	}
-
-IL_001c:
-	{
-		// else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC1699B202A41FD1BF3FEB794F356EF17C010420D, NULL);
-		// else { Debug.Log("Failed to log in :("); IsConnectedToGooglePlay = false; }
-		__this->___IsConnectedToGooglePlay_6 = (bool)0;
-	}
-
-IL_0030:
-	{
-		// }
-		return;
-	}
-}
 // System.Void GPGSAuthentication::TrySendScoreToLeaderBoard()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_TrySendScoreToLeaderBoard_m3AF569437F823739ACD08D96D6269CFB733BA1D8 (GPGSAuthentication_t6B2DA8A08C357DEA0403E736BDF0466504E25D0E* __this, const RuntimeMethod* method) 
 {
@@ -13041,28 +12996,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_TrySendScoreToLeaderB
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GPGSAuthentication_LeaderboardUpdate_m54E749EADFCB83A6FF66761F7103DE34D4125E2C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE93438D72B44CF3520FDADE30D0FCE88CB9CC056);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7DDF988DB97B6BC33284DBEC237F66875F4BAC9D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral84859BC505F0327CFCFD04B46A3B9B70B691D478);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8CE8495BCA52642A61FE08B3480F461696A2C8C0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA24ED440800CFD98960209D2E22019CFD8899ADE);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
 	{
+		// _debugString = "TrySendScoreToLeaderBoard";
+		__this->____debugString_7 = _stringLiteralA24ED440800CFD98960209D2E22019CFD8899ADE;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugString_7), (void*)_stringLiteralA24ED440800CFD98960209D2E22019CFD8899ADE);
 		// if (!IsConnectedToGooglePlay) { return; }
 		bool L_0 = __this->___IsConnectedToGooglePlay_6;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_0011;
+			goto IL_001c;
 		}
 	}
 	{
 		// if (!IsConnectedToGooglePlay) { return; }
-		goto IL_0047;
+		goto IL_0068;
 	}
 
-IL_0011:
+IL_001c:
 	{
+		// _debugString = "Is Connected To Google Play!";
+		__this->____debugString_7 = _stringLiteral8CE8495BCA52642A61FE08B3480F461696A2C8C0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugString_7), (void*)_stringLiteral8CE8495BCA52642A61FE08B3480F461696A2C8C0);
 		// if (!AchievementManager.Instance.GotHighScore) { return; }
 		AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* L_2;
 		L_2 = AchievementManager_get_Instance_m4BEC3A52C4DFBB77323A2BC634076ECDDEB3A993_inline(NULL);
@@ -13072,17 +13036,20 @@ IL_0011:
 		bool L_4 = V_1;
 		if (!L_4)
 		{
-			goto IL_0025;
+			goto IL_003b;
 		}
 	}
 	{
 		// if (!AchievementManager.Instance.GotHighScore) { return; }
-		goto IL_0047;
+		goto IL_0068;
 	}
 
-IL_0025:
+IL_003b:
 	{
-		// Social.ReportScore(AchievementManager.Instance.HighScore, GPGSIds.leaderboard_asterax_leaderboard, LeaderboardUpdate);
+		// _debugString = "Got High Score!";
+		__this->____debugString_7 = _stringLiteral84859BC505F0327CFCFD04B46A3B9B70B691D478;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugString_7), (void*)_stringLiteral84859BC505F0327CFCFD04B46A3B9B70B691D478);
+		// Social.ReportScore(AchievementManager.Instance.HighScore, GPGSIds.leaderboard_fyouasteroids_leaderboard, LeaderboardUpdate);
 		AchievementManager_t742D50386724A6825606247EB7A918D5FF53B449* L_5;
 		L_5 = AchievementManager_get_Instance_m4BEC3A52C4DFBB77323A2BC634076ECDDEB3A993_inline(NULL);
 		NullCheck(L_5);
@@ -13091,10 +13058,10 @@ IL_0025:
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_7 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		NullCheck(L_7);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_7, __this, (intptr_t)((void*)GPGSAuthentication_LeaderboardUpdate_m54E749EADFCB83A6FF66761F7103DE34D4125E2C_RuntimeMethod_var), NULL);
-		Social_ReportScore_m00EA1D85C901167A6643A56FD090894649E4B4B6(((int64_t)L_6), _stringLiteralE93438D72B44CF3520FDADE30D0FCE88CB9CC056, L_7, NULL);
+		Social_ReportScore_m00EA1D85C901167A6643A56FD090894649E4B4B6(((int64_t)L_6), _stringLiteral7DDF988DB97B6BC33284DBEC237F66875F4BAC9D, L_7, NULL);
 	}
 
-IL_0047:
+IL_0068:
 	{
 		// }
 		return;
@@ -13113,30 +13080,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPGSAuthentication_LeaderboardUpdate_m54
 	}
 	bool V_0 = false;
 	{
-		// if (success) { Debug.Log("Updated Leaderboard!"); }
+		// if (success) { _debugString = "Updated Leaderboard!"; Debug.Log(_debugString); }
 		bool L_0 = ___success0;
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
 		{
-			goto IL_0015;
+			goto IL_0021;
 		}
 	}
 	{
-		// if (success) { Debug.Log("Updated Leaderboard!"); }
+		// if (success) { _debugString = "Updated Leaderboard!"; Debug.Log(_debugString); }
+		__this->____debugString_7 = _stringLiteralF3E79DCB49B93D8BC636E500F738D43844EEF1AB;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugString_7), (void*)_stringLiteralF3E79DCB49B93D8BC636E500F738D43844EEF1AB);
+		// if (success) { _debugString = "Updated Leaderboard!"; Debug.Log(_debugString); }
+		String_t* L_2 = __this->____debugString_7;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF3E79DCB49B93D8BC636E500F738D43844EEF1AB, NULL);
-		goto IL_0022;
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
+		goto IL_003a;
 	}
 
-IL_0015:
+IL_0021:
 	{
-		// else { Debug.Log("Unable to update leaderboard :("); }
+		// else { _debugString = "Unable to update leaderboard :(";  Debug.Log(_debugString); }
+		__this->____debugString_7 = _stringLiteral8FD0B0DE74150BE7CF11940180B5B8F3812BF079;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____debugString_7), (void*)_stringLiteral8FD0B0DE74150BE7CF11940180B5B8F3812BF079);
+		// else { _debugString = "Unable to update leaderboard :(";  Debug.Log(_debugString); }
+		String_t* L_3 = __this->____debugString_7;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8FD0B0DE74150BE7CF11940180B5B8F3812BF079, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
 	}
 
-IL_0022:
+IL_003a:
 	{
 		// }
 		return;
