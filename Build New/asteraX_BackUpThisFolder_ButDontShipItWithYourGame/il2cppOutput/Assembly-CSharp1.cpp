@@ -719,6 +719,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1548115E0E4C571EE692A85B245C39217A909482
 IL2CPP_EXTERN_C String_t* _stringLiteral157FCAE4C45840A6024F39032CA1B0B23FA3A479;
 IL2CPP_EXTERN_C String_t* _stringLiteral15CDB0786867EACB432E76855051FA538BCB1E20;
 IL2CPP_EXTERN_C String_t* _stringLiteral15CEFFF79B47F5584655ED706AC5500A9165E306;
+IL2CPP_EXTERN_C String_t* _stringLiteral167CB02EB3B6343AB45006A385708C9532CBDD16;
 IL2CPP_EXTERN_C String_t* _stringLiteral1701A10DD0589B5E919D2550A547FC8F77C4CCE9;
 IL2CPP_EXTERN_C String_t* _stringLiteral17698B1A5B3CA25CC9708FAF8FBB97619723B14F;
 IL2CPP_EXTERN_C String_t* _stringLiteral17710F7581C5EF43B501A51F5029D577D1B3A07C;
@@ -7200,9 +7201,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_InitializeTokenClient_mA1B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Logger_t479AF19590C39073196CBF456A8EC0529B73C3CB_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15CEFFF79B47F5584655ED706AC5500A9165E306);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral167CB02EB3B6343AB45006A385708C9532CBDD16);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8872A3CA590C5FCE2ECF6C74D66D77E4F6AD51BA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3CC4D8FCB0AF9E4DB8DF5EC8A4ACAACD0897A83);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_0 = NULL;
@@ -7309,7 +7310,7 @@ IL_005f:
 		AndroidTokenClient_t37AC9CBC49F0FF7ABAE23CED6F2AA557AE63106B* L_11 = __this->___mTokenClient_6;
 		il2cpp_codegen_memory_barrier();
 		NullCheck(L_11);
-		AndroidTokenClient_SetWebClientId_m58C0C48F95E2A0A5714DAF7BFA179A0978159420(L_11, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		AndroidTokenClient_SetWebClientId_m58C0C48F95E2A0A5714DAF7BFA179A0978159420(L_11, _stringLiteral167CB02EB3B6343AB45006A385708C9532CBDD16, NULL);
 		// mTokenClient.SetRequestAuthCode(mConfiguration.IsRequestingAuthCode, mConfiguration.IsForcingRefresh);
 		AndroidTokenClient_t37AC9CBC49F0FF7ABAE23CED6F2AA557AE63106B* L_12 = __this->___mTokenClient_6;
 		il2cpp_codegen_memory_barrier();
