@@ -5039,7 +5039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: F***  You  Asteroids!
+  m_text: Flip  You  Asteroids!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 80e1d656e9e5bb349b4b5ac907979343, type: 2}
   m_sharedMaterial: {fileID: -2366546995752144268, guid: 80e1d656e9e5bb349b4b5ac907979343,
