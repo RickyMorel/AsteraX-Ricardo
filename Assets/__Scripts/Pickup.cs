@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pickup : MonoBehaviour
 {
     [SerializeField] private PickupType _type;
+    [SerializeField] private ParticleSystem _pickupParticles;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,6 +14,9 @@ public class Pickup : MonoBehaviour
         player.ActivatePowerup(_type);
 
         GameAudioManager.Instance.PlayPickupSFX();
+
+        _pickupParticles.transform.parent = null;
+        _pickupParticles.Play();
 
         Destroy(gameObject);    
     }

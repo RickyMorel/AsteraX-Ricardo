@@ -160,9 +160,6 @@ public class AsteroidScript : MonoBehaviour
         asteroidScript.AsteroidSo = asteroidSO;
         asteroidScript.ChildCount = childCount;
 
-        //Color Asteroid
-        wantedPrefab.GetComponentInChildren<SpriteRenderer>().color = GameManager.Instance.LevelAmbience.GetLevelAmbience(GameManager.Instance.Level).AsteroidColor;
-
         //Removes parent only asteroid components
         Destroy(asteroidInstance.GetComponent<Rigidbody>());
         Destroy(asteroidInstance.GetComponent<ScreenWrap>());

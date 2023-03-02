@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     #region Public Properties
 
-    public string LevelProgression = "1:3/2,2:4/2,3:3/3,4:4/3,5:5/3,6:3/4,7:4/4,8:5/4,9:6/4,10:3/5,";
+    public string LevelProgression = "1:3/2,2:4/2,3:3/3,4:4/3,5:5/3,6:3/4,7:4/4,8:5/4,9:6/4,10:3/5";
 
     public static GameManager Instance { get; private set; }
 
@@ -115,7 +115,7 @@ public class GameManager : MonoBehaviour
 
     public LevelData GetCurrentLevelData()
     {
-        if(Level > _levelDataList.Count - 1) 
+        if(Level > _levelDataList.Count) 
         {
             LevelData levelData = new LevelData(_levelDataList[_levelDataList.Count - 1]);
 
@@ -123,10 +123,10 @@ public class GameManager : MonoBehaviour
 
             levelData.Level = Level;
             //Every 10 levels add one more asteroid
-            levelData.Asteroids = levelData.Asteroids + Mathf.FloorToInt((Level - 10) / 10);
+            levelData.Children = (levelData.Children-2) + Mathf.FloorToInt((Level - 10) / 10);
             //Every level add an additional child
             int tensAmount = Mathf.FloorToInt(Level / 10);
-            levelData.Children = levelData.Children + (Level - (tensAmount * 10));
+            levelData.Asteroids = levelData.Asteroids + (Level - (tensAmount * 10));
 
             return levelData;
         }
@@ -195,7 +195,7 @@ public class GameManager : MonoBehaviour
 
     public void RaiseLevel()
     {
-        _level += 6;
+        _level += 1;
 
         OnLevelUpdated?.Invoke(_level);
 

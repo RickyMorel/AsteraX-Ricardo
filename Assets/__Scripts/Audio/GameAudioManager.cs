@@ -10,6 +10,7 @@ public class GameAudioManager : MonoBehaviour
     [SerializeField] private AudioSource _buttonSource;
     [SerializeField] private AudioSource _achievementSource;
     [SerializeField] private AudioSource _pickupSource;
+    [SerializeField] private AudioSource _powerDownSource;
 
     #endregion
 
@@ -49,6 +50,11 @@ public class GameAudioManager : MonoBehaviour
     public void PlayPickupSFX()
     {
         _pickupSource.PlayOneShot(GameManager.Instance.AudioSo.Pickup);
+    }
+
+    public void PlayPowerDownSFX()
+    {
+        _powerDownSource.PlayOneShot(GameManager.Instance.AudioSo.PowerDown);
     }
 
     public void PlayButtonPressSound()

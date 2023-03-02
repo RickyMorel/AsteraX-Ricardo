@@ -21,7 +21,6 @@ public class LevelAmbienceSO : ScriptableObject
 [System.Serializable]
 public class LevelAmbienceData
 {
-    public Color AsteroidColor;
     public Color BackgroundColor;
     public GameObject StarObj;
 }

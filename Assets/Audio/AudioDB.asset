@@ -40,3 +40,4 @@ MonoBehaviour:
   NextLevel: {fileID: 8300000, guid: b14c4880ac119453497d1e90423d13e4, type: 3}
   AchievementUnlocked: {fileID: 8300000, guid: f571fd369d8d143ff85ba68229363559, type: 3}
   Pickup: {fileID: 8300000, guid: becf2d19fedff7b479581f8ea2716d3c, type: 3}
+  PowerDown: {fileID: 8300000, guid: abeb1cf7802204f6886531c3ecb780e0, type: 3}

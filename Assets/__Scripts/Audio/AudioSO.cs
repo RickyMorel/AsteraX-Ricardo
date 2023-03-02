@@ -16,6 +16,7 @@ public class AudioSO : ScriptableObject
     public AudioClip NextLevel;
     public AudioClip AchievementUnlocked;
     public AudioClip Pickup;
+    public AudioClip PowerDown;
 
     public AudioClip GetRandomLaserSound()
     {

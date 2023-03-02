@@ -164,6 +164,8 @@ public class PlayerPowerupsManager : MonoBehaviour
         _shieldObj.SetActive(false);
 
         GameManager.Instance.IsInvunerable = false;
+
+        GameAudioManager.Instance.PlayPowerDownSFX();
     }
 
     private IEnumerator DowngradeBulletsCoroutine()
@@ -171,5 +173,7 @@ public class PlayerPowerupsManager : MonoBehaviour
         yield return new WaitForSeconds(_bulletBuffDuration);
 
         _player.ChangeBullets(_originalBulletPrefab, _originalTimeBetweenShots, false);
+
+        GameAudioManager.Instance.PlayPowerDownSFX();
     }
 }
