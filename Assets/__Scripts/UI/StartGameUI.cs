@@ -10,6 +10,12 @@ public class StartGameUI : MonoBehaviour
         GameManager.Instance.RaiseLevel();
     }
 
+    public void ViewLeaderboards()
+    {
+        Debug.Log("Pressed view leaderboards");
+        GPGSAuthentication.Instance.ShowLeaderboard();
+    }
+
     public void DeleteSave()
     {
         SaveManager.DeleteSave();

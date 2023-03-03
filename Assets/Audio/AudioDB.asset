@@ -20,6 +20,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fdc1f987c9a864c1db266f2f63908683, type: 3}
   - {fileID: 8300000, guid: 5e94b610ac994463bb21f494d1966f09, type: 3}
   - {fileID: 8300000, guid: ca78f6c63e6ae47e89e13ce08c8b0f30, type: 3}
+  UpgradedLasers:
+  - {fileID: 8300000, guid: a4cc3aa4970ba4469b76c20bb163371f, type: 3}
   Explosions:
   - {fileID: 8300000, guid: d11217810c791464f940f0d0d4572513, type: 3}
   - {fileID: 8300000, guid: cea6f68d3456c024aa6cc81acfba7c42, type: 3}
@@ -37,3 +39,5 @@ MonoBehaviour:
   Die: {fileID: 8300000, guid: 4668d9fcf8d264f3693f23878a14042b, type: 3}
   NextLevel: {fileID: 8300000, guid: b14c4880ac119453497d1e90423d13e4, type: 3}
   AchievementUnlocked: {fileID: 8300000, guid: f571fd369d8d143ff85ba68229363559, type: 3}
+  Pickup: {fileID: 8300000, guid: becf2d19fedff7b479581f8ea2716d3c, type: 3}
+  PowerDown: {fileID: 8300000, guid: abeb1cf7802204f6886531c3ecb780e0, type: 3}

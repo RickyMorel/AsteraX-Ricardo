@@ -30,11 +30,11 @@ public class GameOverUI : MonoBehaviour
 
     public void Retry()
     {
-        GameManager.Instance.GameOver();
+        GameManager.Instance.ReloadScene();
     }
 
     public void Continue()
     {
-        AdManager.Instance.ShowAd();
+        GameManager.Instance.ReloadScene();
     }
 }

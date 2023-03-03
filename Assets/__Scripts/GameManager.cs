@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AchievementManager))]
@@ -10,8 +11,14 @@ public class GameManager : MonoBehaviour
 {
     #region Editor Fields
 
+    [Header("SO's")]
     [SerializeField] private PlayerStatsSO _playerStatsSo;
     [SerializeField] private AudioSO _audioSo;
+    [SerializeField] private LevelAmbienceSO _levelAmbienceSo;
+    [SerializeField] private Transform _starFieldParticles;
+
+    [Header("UI")]
+    [SerializeField] private LevelUI _levelUI;
 
     #endregion
 
@@ -30,13 +37,14 @@ public class GameManager : MonoBehaviour
 
     #region Public Properties
 
-    public string LevelProgression = "1:3/2,2:4/2,3:3/3,4:4/3,5:5/3,6:3/4,7:4/4,8:5/4,9:6/4,10:3/5,";
+    public string LevelProgression = "1:3/2,2:4/2,3:3/3,4:4/3,5:5/3,6:3/4,7:4/4,8:5/4,9:6/4,10:3/5";
 
     public static GameManager Instance { get; private set; }
 
     public AudioSO AudioSo => _audioSo;
+    public LevelAmbienceSO LevelAmbience => _levelAmbienceSo;   
 
-    public bool IsPaused => _gameState == GameState.Paused;
+    public bool IsPaused => _gameState != GameState.Playing;
     public int Score => _score;
     public int Level => _level;
     public List<LevelData> LevelDataList => _levelDataList;
@@ -107,6 +115,22 @@ public class GameManager : MonoBehaviour
 
     public LevelData GetCurrentLevelData()
     {
+        if(Level > _levelDataList.Count) 
+        {
+            LevelData levelData = new LevelData(_levelDataList[_levelDataList.Count - 1]);
+
+            Debug.Log($"levelData.Asteroids: {levelData.Asteroids} ; Added Asteroids: {Mathf.FloorToInt((Level - 10) / 10)}");
+
+            levelData.Level = Level;
+            //Every 10 levels add one more asteroid
+            levelData.Children = (levelData.Children-2) + Mathf.FloorToInt((Level - 10) / 10);
+            //Every level add an additional child
+            int tensAmount = Mathf.FloorToInt(Level / 10);
+            levelData.Asteroids = levelData.Asteroids + (Level - (tensAmount * 10));
+
+            return levelData;
+        }
+
         return _levelDataList[Level - 1];
     }
 
@@ -116,7 +140,7 @@ public class GameManager : MonoBehaviour
 
         if (_gameState != GameState.Playing) { return; }
 
-        if (_jumps <= 0) { SetGameState(GameState.Over); return; }
+        if (_jumps <= 0) { GameOver(); return; }
 
         _jumps--;
 
@@ -136,16 +160,25 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        DestroyAllRemainingBullets();
+
         _achievementManager.CheckUpdateHighScore(_score);
 
         SetGameState(GameState.Over);
 
         _achievementManager.SaveAchievements();
 
-        CustomAnalytics.SendFinalShipPartChoice();
-        CustomAnalytics.SendGameOver();
+        GPGSAuthentication.Instance.TrySendScoreToLeaderBoard();
+    }
 
-        ReloadScene();
+    private void DestroyAllRemainingBullets()
+    {
+        Projectile[] bullets = FindObjectsOfType<Projectile>();
+
+        foreach (Projectile bullet in bullets)
+        {
+            Destroy(bullet);
+        }
     }
 
     public void Revive()
@@ -156,7 +189,7 @@ public class GameManager : MonoBehaviour
         ReduceJumps();
     }
 
-    private void ReloadScene()
+    public void ReloadScene()
     {
         SceneManager.LoadScene(0);
     }
@@ -172,13 +205,47 @@ public class GameManager : MonoBehaviour
 
     public void RaiseLevel()
     {
-        _level++;
+        _level += 1;
 
         OnLevelUpdated?.Invoke(_level);
 
-        StartCoroutine(ChangeLevelCoroutine());
+        TrySetNewLevelAmbience();
 
-        CustomAnalytics.SendLevelStart(_level);
+        StartCoroutine(ChangeLevelCoroutine());
+    }
+
+    private void TrySetNewLevelAmbience()
+    {
+        //if previous level was a ten behind, return
+        if(Mathf.FloorToInt(Level-1) == Mathf.FloorToInt(Level)) { return; }
+
+        LevelAmbienceData levelAmbienceData = _levelAmbienceSo.GetLevelAmbience(Level);
+
+        //Destroy all previous particles
+        foreach (Transform child in _starFieldParticles)
+        {
+            if(child == _starFieldParticles) { continue; }
+
+            Destroy(child.gameObject);
+        }
+
+        StartCoroutine(WaitToSpawnAmbienceParticles(levelAmbienceData));
+
+        Camera[] allCameras = FindObjectsOfType<Camera>();
+
+        foreach (Camera camera in allCameras)
+        {
+            camera.backgroundColor = levelAmbienceData.BackgroundColor;
+        }
+
+        _levelUI.SetPanelColor(levelAmbienceData.BackgroundColor);
+    }
+
+    private IEnumerator WaitToSpawnAmbienceParticles(LevelAmbienceData levelAmbienceData)
+    {
+        yield return new WaitForEndOfFrame();
+
+        if (levelAmbienceData.StarObj != null) { Instantiate(levelAmbienceData.StarObj, _starFieldParticles.transform); }
     }
 
     private IEnumerator ChangeLevelCoroutine()
@@ -208,6 +275,18 @@ public class LevelData
     public int Level;
     public int Asteroids;
     public int Children;
+
+    public LevelData(LevelData levelData)
+    {
+        Level = levelData.Level;
+        Asteroids = levelData.Asteroids;
+        Children = levelData.Children;
+    }
+
+    public LevelData()
+    {
+
+    }
 }
 
 public enum GameState

@@ -7,6 +7,7 @@ public class AudioSO : ScriptableObject
 {
     public AudioClip[] Musics;
     public AudioClip[] Lasers;
+    public AudioClip[] UpgradedLasers;
     public AudioClip[] Explosions;
     public AudioClip[] ButtonPress;
     public AudioClip ShipEngine;
@@ -14,12 +15,21 @@ public class AudioSO : ScriptableObject
     public AudioClip Die;
     public AudioClip NextLevel;
     public AudioClip AchievementUnlocked;
+    public AudioClip Pickup;
+    public AudioClip PowerDown;
 
     public AudioClip GetRandomLaserSound()
     {
         int randomIndex = Random.Range(0, Lasers.Length - 1);
 
         return Lasers[randomIndex];
+    }
+
+    public AudioClip GetRandomUpgradedLaserSound()
+    {
+        int randomIndex = Random.Range(0, UpgradedLasers.Length - 1);
+
+        return UpgradedLasers[randomIndex];
     }
 
     public AudioClip GetRandomButtonPressSound()
