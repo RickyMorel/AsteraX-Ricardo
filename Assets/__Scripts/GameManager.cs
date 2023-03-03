@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     public AudioSO AudioSo => _audioSo;
     public LevelAmbienceSO LevelAmbience => _levelAmbienceSo;   
 
-    public bool IsPaused => _gameState == GameState.Paused;
+    public bool IsPaused => _gameState != GameState.Playing;
     public int Score => _score;
     public int Level => _level;
     public List<LevelData> LevelDataList => _levelDataList;
@@ -140,7 +140,7 @@ public class GameManager : MonoBehaviour
 
         if (_gameState != GameState.Playing) { return; }
 
-        if (_jumps <= 0) { SetGameState(GameState.Over); return; }
+        if (_jumps <= 0) { GameOver(); return; }
 
         _jumps--;
 
@@ -160,6 +160,8 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        DestroyAllRemainingBullets();
+
         _achievementManager.CheckUpdateHighScore(_score);
 
         SetGameState(GameState.Over);
@@ -167,8 +169,16 @@ public class GameManager : MonoBehaviour
         _achievementManager.SaveAchievements();
 
         GPGSAuthentication.Instance.TrySendScoreToLeaderBoard();
+    }
 
-        ReloadScene();
+    private void DestroyAllRemainingBullets()
+    {
+        Projectile[] bullets = FindObjectsOfType<Projectile>();
+
+        foreach (Projectile bullet in bullets)
+        {
+            Destroy(bullet);
+        }
     }
 
     public void Revive()
@@ -179,7 +189,7 @@ public class GameManager : MonoBehaviour
         ReduceJumps();
     }
 
-    private void ReloadScene()
+    public void ReloadScene()
     {
         SceneManager.LoadScene(0);
     }

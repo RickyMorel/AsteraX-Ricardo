@@ -186,7 +186,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 71f76f147906b4d4eaca2c15687e6ee2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8b4e0b4e9ace694cb1fd5312372640e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -391,10 +391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 10
-  _timeBetweenShots: 0.2
   _turretTransform: {fileID: 4128896187653560}
-  _projectilePrefab: {fileID: 1657914042213664, guid: 0e9c239fd33d94404b671bc44ab4f6b4,
-    type: 3}
   _shootTransform: {fileID: 7555844336168478001}
   _boosterParticles: {fileID: 0}
   _jumpInParticles: {fileID: 2793674444497018143, guid: f183872a7d28d7743b876969e811de5e,
@@ -440,6 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 856b616b7bd051f418916697b0a4d386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bulletBuffDuration: 10
   _originalTimeBetweenShots: 0.2
   _originalBulletPrefab: {fileID: 1657914042213664, guid: 0e9c239fd33d94404b671bc44ab4f6b4,
     type: 3}
@@ -988,7 +986,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 15b4131acf8ecf84d9a34df848277ce2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a89bc6d47dc78645b502c654991abbf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
