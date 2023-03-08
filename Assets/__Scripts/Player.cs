@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     private float _timeBetweenShots = 0.2f;
     private GameObject _projectilePrefab;
     private bool _bulletsAreUpgraded = false;
+    private Movement _movement;
 
     #endregion
 
@@ -60,6 +61,8 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _playerInput = GetComponent<PlayerInput>();
+
+        _movement = new Movement(_moveSpeed);
     }
 
     private void Update()
@@ -155,8 +158,9 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        Vector3 moveDirection3D = new Vector3(_playerInput.MoveDirection.x, _playerInput.MoveDirection.y, 0f);
-        transform.position += moveDirection3D.normalized * _moveSpeed * Time.deltaTime;
+        float deltaTime = Time.deltaTime;
+
+        transform.position += _movement.CalculateMovement(_playerInput.MoveDirection.x, _playerInput.MoveDirection.y, deltaTime);
 
         _prevPos = transform.position;
     }
