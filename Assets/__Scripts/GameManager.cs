@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     private int _jumps = 3;
     private int _level = 0;
     private List<LevelData> _levelDataList = new List<LevelData>();
+    private GameManagerHumble _gameManagerHumble;
 
     private AchievementManager _achievementManager;
 
@@ -39,21 +40,19 @@ public class GameManager : MonoBehaviour
 
     public string LevelProgression = "1:3/2,2:4/2,3:3/3,4:4/3,5:5/3,6:3/4,7:4/4,8:5/4,9:6/4,10:3/5";
 
+    public int Score => _gameManagerHumble.Score;
+    public int Level => _gameManagerHumble.Level;
+    public bool IsPaused => _gameManagerHumble.GameState != GameState.Playing;
+    public GameState GameState => _gameManagerHumble.GameState;
     public static GameManager Instance { get; private set; }
-
     public AudioSO AudioSo => _audioSo;
     public LevelAmbienceSO LevelAmbience => _levelAmbienceSo;   
-
-    public bool IsPaused => _gameState != GameState.Playing;
-    public int Score => _score;
-    public int Level => _level;
     public List<LevelData> LevelDataList => _levelDataList;
 
     public static event Action<int> OnJumpsUpdated;
     public static event Action<int> OnScoreUpdated;
     public static event Action<int> OnLevelUpdated;
     public bool IsInvunerable = false;
-    public GameState GameState => _gameState;
 
     #endregion
 
@@ -76,6 +75,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _achievementManager = GetComponent<AchievementManager>();
+        _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, _gameState);
 
         _jumps = _playerStatsSo.Jumps;
 
@@ -142,7 +142,7 @@ public class GameManager : MonoBehaviour
 
         if (_jumps <= 0) { GameOver(); return; }
 
-        _jumps--;
+        _gameManagerHumble.ReduceJumps();
 
         OnJumpsUpdated?.Invoke(_jumps);
 
@@ -151,11 +151,9 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int amountAdded)
     {
-        if(_gameState != GameState.Playing) { return; }
+        _gameManagerHumble.AddScore(amountAdded);
 
-        _score += amountAdded;
-
-        OnScoreUpdated?.Invoke(_score);
+        OnScoreUpdated?.Invoke(_gameManagerHumble.Score);
     }
 
     public void GameOver()
@@ -185,8 +183,7 @@ public class GameManager : MonoBehaviour
     {
         SetGameState(GameState.Playing);
 
-        _jumps = 1;
-        ReduceJumps();
+        _gameManagerHumble.Revive();
     }
 
     public void ReloadScene()
@@ -205,9 +202,9 @@ public class GameManager : MonoBehaviour
 
     public void RaiseLevel()
     {
-        _level += 1;
+        _gameManagerHumble.RaiseLevel();
 
-        OnLevelUpdated?.Invoke(_level);
+        OnLevelUpdated?.Invoke(_gameManagerHumble.Level);
 
         TrySetNewLevelAmbience();
 
@@ -261,9 +258,7 @@ public class GameManager : MonoBehaviour
 
     public void SetGameState(GameState newState)
     {
-        _prevGameState = _gameState;
-
-        _gameState = newState;
+        _gameManagerHumble.SetGameState(newState);
 
         UIMaster.Instance.EnablePanelByState(newState);
     }

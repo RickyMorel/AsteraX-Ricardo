@@ -33,8 +33,8 @@ public class PlayerInput : MonoBehaviour
 
     private void GetMoveInputs()
     {
-        float horizontalInput = IPlayerInput.Horizontal;
-        float verticalInput = IPlayerInput.Vertical;
+        float horizontalInput = Joystick_1.Horizontal;
+        float verticalInput = Joystick_1.Vertical;
 
         _moveDirection = new Vector2(horizontalInput, verticalInput);
     }
