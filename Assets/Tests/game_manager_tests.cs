@@ -49,5 +49,61 @@ namespace Tests
 
             Assert.AreEqual(expectedScore, gameManager.Score, $"Score added in incorrect state. Expected: {expectedScore} ; Recieved: {gameManager.Score} ");
         }
+
+        [Test]
+        public void check_if_get_level_data_list_populates()
+        {
+            var gameManager = GameManagerFactory.AGameManager.Build();
+
+            Assert.Greater(gameManager.LevelDataList.Count, 0, "LevelDataList did not populate");
+        }
+
+        [Test]
+        [TestCase(1)]
+        [TestCase(6)]
+        [TestCase(10)]
+        [TestCase(60)]
+        public void check_if_get_level_data_returns_not_null(int level)
+        {
+            var gameManager = GameManagerFactory.AGameManager.WithLevel(level).Build();
+
+            Assert.IsTrue(gameManager.GetCurrentLevelData() != null, "LevelDataList did not populate");
+        }
+
+        [Test]
+        [TestCase(1)]
+        [TestCase(6)]
+        [TestCase(10)]
+        [TestCase(60)]
+        public void check_if_get_level_data_level_is_greater_than_0(int level)
+        {
+            var gameManager = GameManagerFactory.AGameManager.WithLevel(level).Build();
+
+            Assert.IsTrue(gameManager.GetCurrentLevelData().Level > 0, "LevelDataList level is less than 0");
+        }
+
+        [Test]
+        [TestCase(1)]
+        [TestCase(6)]
+        [TestCase(10)]
+        [TestCase(60)]
+        public void check_if_get_level_data_asteroids_is_greater_than_0(int level)
+        {
+            var gameManager = GameManagerFactory.AGameManager.WithLevel(level).Build();
+
+            Assert.IsTrue(gameManager.GetCurrentLevelData().Asteroids > 0, "LevelDataList asteroids is less than 0");
+        }
+
+        [Test]
+        [TestCase(1)]
+        [TestCase(6)]
+        [TestCase(10)]
+        [TestCase(60)]
+        public void check_if_get_level_data_children_is_greater_than_0(int level)
+        {
+            var gameManager = GameManagerFactory.AGameManager.WithLevel(level).Build();
+
+            Assert.IsTrue(gameManager.GetCurrentLevelData().Children > 0, "LevelDataList children is less than 0");
+        }
     }
 }
