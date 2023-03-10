@@ -34,7 +34,7 @@ public class LevelUI : MonoBehaviour
 
     private void SetAsteroidsText()
     {
-        LevelData levelData = GameManager.Instance.GetCurrentLevelData();
+        LevelData levelData = GameManager.Instance.GameManagerHumble.GetCurrentLevelData();
 
         string newText = $"Asteroids: {levelData.Asteroids}       Sub-Asteroids: {levelData.Children}";
         _asteroidsText.text = newText;

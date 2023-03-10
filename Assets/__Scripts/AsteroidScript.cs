@@ -62,7 +62,7 @@ public class AsteroidScript : MonoBehaviour
             rb.angularVelocity = angularVel;
         }
 
-        LevelData levelData = GameManager.Instance.GetCurrentLevelData();
+        LevelData levelData = GameManager.Instance.GameManagerHumble.GetCurrentLevelData();
 
         //Spawn children
         for (int i = 0; i < levelData.Children; i++)

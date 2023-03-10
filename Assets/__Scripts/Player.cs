@@ -133,7 +133,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator BecomeInvunerableCoroutine()
     {
-        GameManager.Instance.IsInvunerable = true;
+        GameManager.Instance.GameManagerHumble.SetIsInvunerable(true);
         _meshes.SetActive(false);
         yield return new WaitForSeconds(0.25f);
         _meshes.SetActive(true);
@@ -153,7 +153,7 @@ public class Player : MonoBehaviour
         _meshes.SetActive(false);
         yield return new WaitForSeconds(0.25f);
         _meshes.SetActive(true);
-        GameManager.Instance.IsInvunerable = false;
+        GameManager.Instance.GameManagerHumble.SetIsInvunerable(false);
     }
 
     private void Move()

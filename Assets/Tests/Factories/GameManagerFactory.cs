@@ -2,10 +2,11 @@ namespace Tests.Factories
 {
     public class GameManagerBuilder
     {
-        private GameState _gameState;
+        private GameState _gameState = GameState.Playing;
         private int _score;
         private int _jumps;
         private int _level;
+        private bool _isInvunerable;
 
         public GameManagerBuilder WithGameState(GameState gameState)
         {
@@ -16,6 +17,12 @@ namespace Tests.Factories
         public GameManagerBuilder WithScore(int score)
         {
             _score = score;
+            return this;
+        }
+
+        public GameManagerBuilder WithIsInvunerable(bool isInvunerable)
+        {
+            _isInvunerable = isInvunerable;
             return this;
         }
 
@@ -33,7 +40,7 @@ namespace Tests.Factories
 
         public GameManagerHumble Build()
         {
-            return new GameManagerHumble(_score, _jumps, _level, _gameState);
+            return new GameManagerHumble(_score, _jumps, _level, _gameState, _isInvunerable);
         }
     }
 

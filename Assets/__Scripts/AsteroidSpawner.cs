@@ -63,7 +63,7 @@ public class AsteroidSpawner : MonoBehaviour
 
     public void SpawnAsteroids()
     {
-        LevelData levelData = GameManager.Instance.GetCurrentLevelData();
+        LevelData levelData = GameManager.Instance.GameManagerHumble.GetCurrentLevelData();
 
         for (int i = 0; i < levelData.Asteroids; i++)
         {
