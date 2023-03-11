@@ -3,37 +3,38 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
-public class AsteroidSpawner : MonoBehaviour
+public class AsteroidSpawner
 {
     #region Editor Fields
 
-    [SerializeField] private static Asteroid[] _asteroidSOs;
+    private static Asteroid[] _asteroidSOs;
 
     #endregion
 
     #region Public Properties
 
-    public static AsteroidSpawner Instance { get; private set; }
+    //public static AsteroidSpawner Instance { get; private set; }
 
     #endregion
 
     #region Private Variables
 
-    [SerializeField] private List<GameObject> _currentAsteroids = new List<GameObject>();
+    private List<GameObject> _currentAsteroids = new List<GameObject>();
+    private AsteroidSpawnerHumble _asteroidSpawnerHumble;
 
     #endregion
 
-    private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
-    }
+    //private void Awake()
+    //{
+    //    if (Instance != null && Instance != this)
+    //    {
+    //        Destroy(this);
+    //    }
+    //    else
+    //    {
+    //        Instance = this;
+    //    }
+    //}
 
     private void Start()
     {
@@ -68,7 +69,7 @@ public class AsteroidSpawner : MonoBehaviour
         for (int i = 0; i < levelData.Asteroids; i++)
         {
             Asteroid wantedAsteroid = GetRandomAsteroid();
-            GameObject asteroidInstance = Instantiate(wantedAsteroid.AsteroidPrefab, ScreenBounds.Instance.GetRandomSpawnPos(), Quaternion.identity);
+            GameObject asteroidInstance = GameObject.Instantiate(wantedAsteroid.AsteroidPrefab, ScreenBounds.Instance.GetRandomSpawnPos(), Quaternion.identity);
             asteroidInstance.GetComponent<AsteroidScript>().AsteroidSo = wantedAsteroid;
             float maxForce = wantedAsteroid.Speed;
             asteroidInstance.GetComponent<Rigidbody>()

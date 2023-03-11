@@ -63,13 +63,13 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        _jumps = _playerStatsSo.Jumps;
+
         _achievementManager = GetComponent<AchievementManager>();
         _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, _gameState, false);
 
-        _jumps = _playerStatsSo.Jumps;
-
-        OnJumpsUpdated?.Invoke(_jumps);
-        OnScoreUpdated?.Invoke(_score);
+        OnJumpsUpdated?.Invoke(_gameManagerHumble.Jumps);
+        OnScoreUpdated?.Invoke(_gameManagerHumble.Score);
 
         SetGameState(GameState.Starting);
     }
@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
 
         _gameManagerHumble.ReduceJumps();
 
-        OnJumpsUpdated?.Invoke(_jumps);
+        OnJumpsUpdated?.Invoke(_gameManagerHumble.Jumps);
 
         Player.Instance.Respawn(_playerStatsSo.RespawnTime);
     }
