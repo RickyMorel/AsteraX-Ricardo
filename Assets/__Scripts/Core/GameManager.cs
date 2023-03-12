@@ -23,8 +23,6 @@ public class GameManager : MonoBehaviour
 
     #region Private Variables
 
-    private GameState _gameState = GameState.Starting;
-    private GameState _prevGameState;
     private int _score = 0;
     private int _jumps = 3;
     private int _level = 0;
@@ -80,7 +78,7 @@ public class GameManager : MonoBehaviour
         _jumps = _playerStatsSo.Jumps;
 
         _achievementManager = GetComponent<AchievementManager>();
-        _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, _gameState, false);
+        _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, GameState.Playing, false);
         _asteroidSpawner = new AsteroidSpawner(this, Player.Instance.gameObject);
 
         OnJumpsUpdated?.Invoke(_gameManagerHumble.Jumps);
@@ -152,7 +150,7 @@ public class GameManager : MonoBehaviour
     {
         float wantedTimeScale = isPaused ? 0f : 1f;
 
-        if (isPaused) SetGameState(GameState.Paused); else SetGameState(_prevGameState);
+        if (isPaused) SetGameState(GameState.Paused); else SetGameState(_gameManagerHumble.PrevGameState );
 
         Time.timeScale = wantedTimeScale;
     }

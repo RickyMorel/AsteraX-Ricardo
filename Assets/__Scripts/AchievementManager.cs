@@ -9,21 +9,50 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class AchievementManager : MonoBehaviour
 {
-    [SerializeField] private List<Achievement> _achievements = new List<Achievement>();
-    [SerializeField] private List<StepTypeData> _achievementData = new List<StepTypeData>();
-    [SerializeField] private int _highScore = 5000;
+    #region Private Variables
+
+    private List<Achievement> _achievements = new List<Achievement>();
+    private List<StepTypeData> _achievementData = new List<StepTypeData>();
+    private int _highScore = 5000;
+
+    #endregion
+
+    #region Public Properties
 
     public static AchievementManager Instance { get; private set; }
-    public bool GotHighScore = false;
 
+    public bool GotHighScore = false;
     public int HighScore => _highScore;
     public List<StepTypeData> AchievementData => _achievementData;
+
+    #endregion
+
+    #region Unity Loops
 
     private void Awake()
     {
         GetSingleton();
         LoadSave();
     }
+
+    private void Start()
+    {
+        Projectile.OnHit += HandleBulletHit;
+        Projectile.OnLuckyShot += HandleLuckyShot;
+        Projectile.OnBulletFired += HandleBulletFired;
+        GameManager.OnScoreUpdated += OnScoreAttained;
+        GameManager.OnLevelUpdated += OnUpdatedLevel;
+    }
+
+    private void OnDestroy()
+    {
+        Projectile.OnHit -= HandleBulletHit;
+        Projectile.OnLuckyShot -= HandleLuckyShot;
+        Projectile.OnBulletFired -= HandleBulletFired;
+        GameManager.OnScoreUpdated -= OnScoreAttained;
+        GameManager.OnLevelUpdated -= OnUpdatedLevel;
+    }
+
     private void GetSingleton()
     {
         if (Instance != null && Instance != this)
@@ -56,6 +85,8 @@ public class AchievementManager : MonoBehaviour
         }
     }
 
+    #endregion
+
     private void LoadAllAchievements()
     {
         var achievementsResources = Resources.LoadAll<Achievement>("Achievements");
@@ -80,22 +111,29 @@ public class AchievementManager : MonoBehaviour
         ShipPartsManager.Instance.ClearAllUnlocks();
     }
 
-    private void Start()
+    private void OnUpdatedLevel(int level)
     {
-        Projectile.OnHit += HandleBulletHit;
-        Projectile.OnLuckyShot += HandleLuckyShot;
-        Projectile.OnBulletFired += HandleBulletFired;
-        GameManager.OnScoreUpdated += OnScoreAttained;
-        GameManager.OnLevelUpdated += OnUpdatedLevel;
+        UpdateAndCheckAchivements(StepType.LevelUp, false, level);
     }
 
-    private void OnDestroy()
+    private void OnScoreAttained(int score)
     {
-        Projectile.OnHit -= HandleBulletHit;
-        Projectile.OnLuckyShot -= HandleLuckyShot;
-        Projectile.OnBulletFired -= HandleBulletFired;
-        GameManager.OnScoreUpdated -= OnScoreAttained;
-        GameManager.OnLevelUpdated -= OnUpdatedLevel;
+        UpdateAndCheckAchivements(StepType.ScoreAttained, false, score);
+    }
+
+    private void HandleBulletFired()
+    {
+        UpdateAndCheckAchivements(StepType.BulletsFired);
+    }
+
+    private void HandleBulletHit()
+    {
+        UpdateAndCheckAchivements(StepType.HitAsteroid);
+    }
+
+    private void HandleLuckyShot()
+    {
+        UpdateAndCheckAchivements(StepType.LuckyShot);
     }
 
     public void CheckUpdateHighScore(int currentScore)
@@ -134,31 +172,6 @@ public class AchievementManager : MonoBehaviour
         _achievementData.Add(newDataType);
 
         return newDataType;
-    }
-
-    private void OnUpdatedLevel(int level)
-    {
-        UpdateAndCheckAchivements(StepType.LevelUp, false,level);
-    }
-
-    private void OnScoreAttained(int score)
-    {
-        UpdateAndCheckAchivements(StepType.ScoreAttained, false, score);
-    }
-
-    private void HandleBulletFired()
-    {
-        UpdateAndCheckAchivements(StepType.BulletsFired);
-    }
-
-    private void HandleBulletHit()
-    {
-        UpdateAndCheckAchivements(StepType.HitAsteroid);
-    }
-
-    private void HandleLuckyShot()
-    {
-        UpdateAndCheckAchivements(StepType.LuckyShot);
     }
 
     private void UpdateAndCheckAchivements(StepType stepType, bool isLoad = false, int setValue = -1)
