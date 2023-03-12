@@ -6768,8 +6768,6 @@ GameObject:
   - component: {fileID: 1887655265}
   - component: {fileID: 1887655264}
   - component: {fileID: 1887655272}
-  - component: {fileID: 1887655268}
-  - component: {fileID: 1887655267}
   - component: {fileID: 1887655269}
   - component: {fileID: 1887655270}
   - component: {fileID: 1887655271}
@@ -6826,33 +6824,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1887655267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887655263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a42912ae93e4cd4bb1f92b53702fe43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _bounds: {x: 16, y: 9}
-  _minSpawnDistanceFromPlayer: 5
---- !u!114 &1887655268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887655263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7560b9abcff90da40a00943df2da6118, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _currentAsteroids: []
 --- !u!114 &1887655269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6867,6 +6838,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerStatsSo: {fileID: 11400000, guid: efae13383c398f54388fd2c3526cd686, type: 2}
   _audioSo: {fileID: 11400000, guid: 2bf5ce26857e0d84eab9fbb9460902c9, type: 2}
+  _bounds: {x: 16, y: 9}
+  _minSpawnDistanceFromPlayer: 5
 --- !u!114 &1887655270
 MonoBehaviour:
   m_ObjectHideFlags: 0

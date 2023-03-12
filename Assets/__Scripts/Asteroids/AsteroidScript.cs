@@ -164,7 +164,7 @@ public class AsteroidScript : MonoBehaviour
         Destroy(asteroidInstance.GetComponent<Rigidbody>());
         Destroy(asteroidInstance.GetComponent<ScreenWrap>());
 
-        AsteroidSpawner.Instance.AddChildToAsteroidList(asteroidInstance);
+        GameManager.Instance.AsteroidSpawner.AddChildToAsteroidList(asteroidInstance);
 
         return asteroidInstance;
     }

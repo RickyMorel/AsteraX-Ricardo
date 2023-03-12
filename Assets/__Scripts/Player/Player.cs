@@ -114,7 +114,7 @@ public class Player : MonoBehaviour
 
         yield return new WaitForSeconds(respawnTime);
 
-        Vector3 spawnPos = AsteroidSpawner.Instance.GetSafeSpawnPosition();
+        Vector3 spawnPos = GameManager.Instance.AsteroidSpawner.GetSafeSpawnPosition();
 
         Instantiate(_jumpInParticles, spawnPos, Quaternion.identity);
 

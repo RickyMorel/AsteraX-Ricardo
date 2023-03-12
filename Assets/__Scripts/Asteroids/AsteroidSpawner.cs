@@ -1,51 +1,31 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class AsteroidSpawner
 {
-    #region Editor Fields
+    #region Private Variables
 
     private static Asteroid[] _asteroidSOs;
+    private List<GameObject> _currentAsteroids = new List<GameObject>();
+    private GameManager _gameManager;
+    private GameObject _player;
 
     #endregion
 
     #region Public Properties
 
-    //public static AsteroidSpawner Instance { get; private set; }
+    public List<GameObject> CurrentAsteroids => _currentAsteroids;
 
     #endregion
 
-    #region Private Variables
-
-    private List<GameObject> _currentAsteroids = new List<GameObject>();
-    private AsteroidSpawnerHumble _asteroidSpawnerHumble;
-
-    #endregion
-
-    //private void Awake()
-    //{
-    //    if (Instance != null && Instance != this)
-    //    {
-    //        Destroy(this);
-    //    }
-    //    else
-    //    {
-    //        Instance = this;
-    //    }
-    //}
-
-    private void Start()
+    public AsteroidSpawner(GameManager gameManager, GameObject player)
     {
+        _gameManager = gameManager;
+        _player = player;
+
         AsteroidScript.OnAsteroidDestroyed += HandleAsteroidDestroyed;
 
         _asteroidSOs = Resources.LoadAll<Asteroid>("AsteroidSOs");
-    }
-
-    private void OnDestroy()
-    {
-        AsteroidScript.OnAsteroidDestroyed -= HandleAsteroidDestroyed;
     }
 
     private void HandleAsteroidDestroyed(GameObject asteroidObj)
@@ -59,17 +39,15 @@ public class AsteroidSpawner
     {
         if (_currentAsteroids.Count > 0) { return; }
 
-        GameManager.Instance.RaiseLevel();
+        _gameManager.RaiseLevel();
     }
 
-    public void SpawnAsteroids()
+    public void SpawnAsteroids(int asteroidsToSpawn)
     {
-        LevelData levelData = GameManager.Instance.GameManagerHumble.GetCurrentLevelData();
-
-        for (int i = 0; i < levelData.Asteroids; i++)
+        for (int i = 0; i < asteroidsToSpawn; i++)
         {
             Asteroid wantedAsteroid = GetRandomAsteroid();
-            GameObject asteroidInstance = GameObject.Instantiate(wantedAsteroid.AsteroidPrefab, ScreenBounds.Instance.GetRandomSpawnPos(), Quaternion.identity);
+            GameObject asteroidInstance = GameObject.Instantiate(wantedAsteroid.AsteroidPrefab, _gameManager.ScreenBounds.GetRandomSpawnPos(_player.transform.position), Quaternion.identity);
             asteroidInstance.GetComponent<AsteroidScript>().AsteroidSo = wantedAsteroid;
             float maxForce = wantedAsteroid.Speed;
             asteroidInstance.GetComponent<Rigidbody>()
@@ -98,7 +76,7 @@ public class AsteroidSpawner
 
         do
         {
-            spawnPos = ScreenBounds.Instance.GetRandomSpawnPos();
+            spawnPos = _gameManager.ScreenBounds.GetRandomSpawnPos(_player.transform.position);
 
             hasSafeSpawnPos = true;
 

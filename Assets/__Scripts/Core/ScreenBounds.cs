@@ -2,54 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScreenBounds : MonoBehaviour
+public class ScreenBounds
 {
-    #region Editor Fields
+    #region Private Variables
 
-    [SerializeField] private Vector2 _bounds;
-    [SerializeField] private float _minSpawnDistanceFromPlayer = 5f;
-
-    #endregion
-
-    #region Public Properties
-
-    public static ScreenBounds Instance { get; private set; }
-
-    public Vector2 Bounds => _bounds;
+    private Vector2 _bounds;
+    private float _minSpawnDistanceFromPlayer;
 
     #endregion
 
-    private void Awake()
+    public ScreenBounds(Vector2 bounds, float minSpawnDistanceFromPlayer)
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
+        _bounds = bounds;
+        _minSpawnDistanceFromPlayer = minSpawnDistanceFromPlayer;
     }
 
     public bool IsWithinBounds(Vector3 targetPos)
     {
-        if(Mathf.Abs(targetPos.y) > Bounds.y) { return false; }
+        if(Mathf.Abs(targetPos.y) > _bounds.y) { return false; }
 
-        if (Mathf.Abs(targetPos.x) > Bounds.x) { return false; }
+        if (Mathf.Abs(targetPos.x) > _bounds.x) { return false; }
 
         return true;
     }
 
-    public Vector3 GetRandomSpawnPos()
+    public Vector3 GetRandomSpawnPos(Vector3 playerPosition)
     {
         Vector3 randomPos;
         do
         {
-            float randomX = Random.Range(-Bounds.x, Bounds.x);
-            float randomY = Random.Range(-Bounds.y, Bounds.y);
+            float randomX = Random.Range(-_bounds.x, _bounds.x);
+            float randomY = Random.Range(-_bounds.y, _bounds.y);
 
             randomPos = new Vector3(randomX, randomY, 0f);
-        } while (Vector3.Distance(Player.Instance.transform.position, randomPos) < _minSpawnDistanceFromPlayer);
+        } while (Vector3.Distance(playerPosition, randomPos) < _minSpawnDistanceFromPlayer);
 
         return randomPos;
     }
