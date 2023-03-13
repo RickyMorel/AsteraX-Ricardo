@@ -88,7 +88,7 @@ public class AsteroidScript : MonoBehaviour
             if(!child.TryGetComponent(out AsteroidScript childAsteroidScript)) { continue; }
 
             //Promote child to parent astroid
-            child.transform.parent = null;
+            child.transform.parent = transform.parent;
             Rigidbody2D rb = child.GetComponent<Rigidbody2D>() == null ? child.gameObject.AddComponent<Rigidbody2D>() : child.GetComponent<Rigidbody2D>(); 
             child.gameObject.AddComponent<ScreenWrap>();
 
@@ -112,7 +112,10 @@ public class AsteroidScript : MonoBehaviour
 
         OnAsteroidDestroyed?.Invoke(gameObject);
 
-        GameObject asteroidParticles = Instantiate(AsteroidSo.ExplosionParticles, transform.position, Quaternion.identity);
+        GameObject asteroidParticles = Instantiate(AsteroidSo.ExplosionParticles, GameManager.Instance.AsteroidExplosionsParentTransform);
+        asteroidParticles.transform.position = transform.position;
+        asteroidParticles.transform.rotation = Quaternion.identity;
+
         float particleScale = 1f / (1+ ChildCount);
         asteroidParticles.transform.localScale = new Vector3(particleScale, particleScale, particleScale);
 

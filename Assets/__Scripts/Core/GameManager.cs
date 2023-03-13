@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _minSpawnDistanceFromPlayer = 5f;
 
     [Header("Misc")]
+    [SerializeField] private Transform _asteroidExplosionsParentTransform;
+    [SerializeField] private Transform _bulletsParentTransform;
     [SerializeField] private GameObject _shipPartsViewObj;
 
     #endregion
@@ -27,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     private int _score = 0;
     private int _jumps = 3;
-    private int _level = 0;
+    private int _level = 100;
     private List<LevelData> _levelDataList = new List<LevelData>();
     private GameManagerHumble _gameManagerHumble;
     private AchievementManager _achievementManager;
@@ -52,6 +54,8 @@ public class GameManager : MonoBehaviour
     public AsteroidSpawner AsteroidSpawner => _asteroidSpawner;
     public ScreenBounds ScreenBounds => _screenBounds;
     public AchievementManager AchievementManager => _achievementManager;
+    public Transform AsteroidExplosionsParentTransform => _asteroidExplosionsParentTransform;
+    public Transform BulletsParentTransform => _bulletsParentTransform;
     public AudioSO AudioSo => _audioSo;
     public List<LevelData> LevelDataList => _levelDataList;
 
