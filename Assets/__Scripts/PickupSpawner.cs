@@ -42,6 +42,6 @@ public class PickupSpawner : MonoBehaviour
 
         _prevIndex = randomPickup;
 
-        Instantiate(_pickupPrefabs[randomPickup], ScreenBounds.Instance.GetRandomSpawnPos(), Quaternion.identity);
+        Instantiate(_pickupPrefabs[randomPickup], GameManager.Instance.ScreenBounds.GetRandomSpawnPos(Player.Instance.transform.position), Quaternion.identity);
     }
 }

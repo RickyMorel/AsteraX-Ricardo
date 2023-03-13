@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerInput : MonoBehaviour
 {
     public Joystick Joystick_1;
     public Joystick Joystick_2;
+
+    public IPlayerInput IPlayerInput { get; set; }
 
     #region Private Variables
 
@@ -48,4 +49,18 @@ public class PlayerInput : MonoBehaviour
 
         _mousePosition = lookPos;
     }
+}
+
+public class PlayerInputHumble : IPlayerInput
+{
+    public float Horizontal => Input.GetAxis("Horizontal");
+    public float Vertical => Input.GetAxis("Vertical");
+    public Vector2 MoveDirection => new Vector2(Horizontal, Vertical);
+}
+
+public interface IPlayerInput
+{
+    float Horizontal { get; }
+    float Vertical { get; }
+    Vector2 MoveDirection { get; }
 }

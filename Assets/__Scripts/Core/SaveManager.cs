@@ -19,8 +19,8 @@ public static class SaveManager
 
     public static void Save()
     {
-        var highScore = AchievementManager.Instance.HighScore;
-        var achievementData = AchievementManager.Instance.AchievementData;
+        var highScore = GameManager.Instance.AchievementManager.HighScore;
+        var achievementData = GameManager.Instance.AchievementManager.AchievementData;
 
         _GAME_DATA = new GameData(highScore, achievementData);
 
@@ -47,7 +47,7 @@ public static class SaveManager
 
         File.Delete(_FILE_PATH);
 
-        AchievementManager.Instance.ClearStepsAndAchievements();
+        GameManager.Instance.AchievementManager.ClearStepsAndAchievements();
 
         ShipPartsManager.Instance.EquipShipParts();
     }

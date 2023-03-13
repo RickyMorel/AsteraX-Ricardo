@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     private float _timeBetweenShots = 0.2f;
     private GameObject _projectilePrefab;
     private bool _bulletsAreUpgraded = false;
+    private Movement _movement;
 
     #endregion
 
@@ -60,6 +61,8 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _playerInput = GetComponent<PlayerInput>();
+
+        _movement = new Movement(_moveSpeed);
     }
 
     private void Update()
@@ -111,7 +114,7 @@ public class Player : MonoBehaviour
 
         yield return new WaitForSeconds(respawnTime);
 
-        Vector3 spawnPos = AsteroidSpawner.Instance.GetSafeSpawnPosition();
+        Vector3 spawnPos = GameManager.Instance.AsteroidSpawner.GetSafeSpawnPosition();
 
         Instantiate(_jumpInParticles, spawnPos, Quaternion.identity);
 
@@ -130,7 +133,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator BecomeInvunerableCoroutine()
     {
-        GameManager.Instance.IsInvunerable = true;
+        GameManager.Instance.GameManagerHumble.SetIsInvunerable(true);
         _meshes.SetActive(false);
         yield return new WaitForSeconds(0.25f);
         _meshes.SetActive(true);
@@ -150,13 +153,14 @@ public class Player : MonoBehaviour
         _meshes.SetActive(false);
         yield return new WaitForSeconds(0.25f);
         _meshes.SetActive(true);
-        GameManager.Instance.IsInvunerable = false;
+        GameManager.Instance.GameManagerHumble.SetIsInvunerable(false);
     }
 
     private void Move()
     {
-        Vector3 moveDirection3D = new Vector3(_playerInput.MoveDirection.x, _playerInput.MoveDirection.y, 0f);
-        transform.position += moveDirection3D.normalized * _moveSpeed * Time.deltaTime;
+        float deltaTime = Time.deltaTime;
+
+        transform.position += _movement.CalculateMovement(_playerInput.MoveDirection.x, _playerInput.MoveDirection.y, deltaTime);
 
         _prevPos = transform.position;
     }

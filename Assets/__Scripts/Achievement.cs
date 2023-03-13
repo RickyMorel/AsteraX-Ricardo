@@ -10,6 +10,21 @@ public class Achievement : ScriptableObject
     public ShipPartSO UnlockablePart;
     [HideInInspector]
     public bool IsComplete;
+
+    public Achievement()
+    {
+
+    }
+
+    public Achievement(Achievement achievement)
+    {
+        Name = achievement.Name;
+        Description =achievement.Description;
+        StepType = achievement.StepType;
+        StepCount = achievement.StepCount;
+        UnlockablePart = achievement.UnlockablePart;
+        IsComplete = achievement.IsComplete;
+    }
 }
 
 public enum StepType

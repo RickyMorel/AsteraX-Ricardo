@@ -67,6 +67,9 @@ public class AchievementUI : MonoBehaviour
 
         string descriptionText = achievement.Description;
 
+        Debug.Log("achievement.StepCount: " + achievement.StepCount);
+        Debug.Log("descriptionText: " + descriptionText);
+
         if (descriptionText.Contains("#")) { descriptionText = descriptionText.Replace("#", achievement.StepCount.ToString()); }
 
         _nameText.text = achievement.Name;

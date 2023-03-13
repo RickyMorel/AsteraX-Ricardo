@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+
 public class GameOverUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _gameOverText;
@@ -16,7 +17,7 @@ public class GameOverUI : MonoBehaviour
 
     private void SetTitleText()
     {
-        string wantedText = AchievementManager.Instance.GotHighScore ? "High Score!" : "Game Over";
+        string wantedText = GameManager.Instance.AchievementManager.GotHighScore ? "High Score!" : "Game Over";
         _gameOverText.text = wantedText;
     }
 

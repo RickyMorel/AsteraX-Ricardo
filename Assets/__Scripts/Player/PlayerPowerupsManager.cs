@@ -54,7 +54,7 @@ public class PlayerPowerupsManager : MonoBehaviour
     {
         _shieldObj.SetActive(true);
 
-        GameManager.Instance.IsInvunerable = true;
+        GameManager.Instance.GameManagerHumble.SetIsInvunerable(true);
 
         StartCoroutine(FlashShieldCoroutine());
     }
@@ -163,7 +163,7 @@ public class PlayerPowerupsManager : MonoBehaviour
 
         _shieldObj.SetActive(false);
 
-        GameManager.Instance.IsInvunerable = false;
+        GameManager.Instance.GameManagerHumble.SetIsInvunerable(false);
 
         GameAudioManager.Instance.PlayPowerDownSFX();
     }

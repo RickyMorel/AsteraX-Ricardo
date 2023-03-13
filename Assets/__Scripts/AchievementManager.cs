@@ -7,33 +7,35 @@ using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.Impl;
 
-public class AchievementManager : MonoBehaviour
+public class AchievementManager
 {
-    [SerializeField] private List<Achievement> _achievements = new List<Achievement>();
-    [SerializeField] private List<StepTypeData> _achievementData = new List<StepTypeData>();
-    [SerializeField] private int _highScore = 5000;
+    #region Private Variables
 
-    public static AchievementManager Instance { get; private set; }
+    private List<Achievement> _achievements = new List<Achievement>();
+    private List<StepTypeData> _achievementData = new List<StepTypeData>();
+    private int _highScore = 5000;
+
+    #endregion
+
+    #region Public Properties
+
     public bool GotHighScore = false;
-
     public int HighScore => _highScore;
     public List<StepTypeData> AchievementData => _achievementData;
 
-    private void Awake()
+    #endregion
+
+    #region Unity Loops
+
+    public AchievementManager()
     {
-        GetSingleton();
         LoadSave();
-    }
-    private void GetSingleton()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
+
+        Projectile.OnHit += HandleBulletHit;
+        Projectile.OnLuckyShot += HandleLuckyShot;
+        Projectile.OnBulletFired += HandleBulletFired;
+        GameManager.OnScoreUpdated += OnScoreAttained;
+        GameManager.OnLevelUpdated += OnUpdatedLevel;
     }
 
     private void LoadSave()
@@ -56,13 +58,15 @@ public class AchievementManager : MonoBehaviour
         }
     }
 
+    #endregion
+
     private void LoadAllAchievements()
     {
         var achievementsResources = Resources.LoadAll<Achievement>("Achievements");
 
         foreach (var achievement in achievementsResources)
         {
-            Achievement achievementInstance = Instantiate(achievement);
+            Achievement achievementInstance = new Achievement(achievement);
             _achievements.Add(achievementInstance);
         }
     }
@@ -80,22 +84,29 @@ public class AchievementManager : MonoBehaviour
         ShipPartsManager.Instance.ClearAllUnlocks();
     }
 
-    private void Start()
+    private void OnUpdatedLevel(int level)
     {
-        Projectile.OnHit += HandleBulletHit;
-        Projectile.OnLuckyShot += HandleLuckyShot;
-        Projectile.OnBulletFired += HandleBulletFired;
-        GameManager.OnScoreUpdated += OnScoreAttained;
-        GameManager.OnLevelUpdated += OnUpdatedLevel;
+        UpdateAndCheckAchivements(StepType.LevelUp, false, level);
     }
 
-    private void OnDestroy()
+    private void OnScoreAttained(int score)
     {
-        Projectile.OnHit -= HandleBulletHit;
-        Projectile.OnLuckyShot -= HandleLuckyShot;
-        Projectile.OnBulletFired -= HandleBulletFired;
-        GameManager.OnScoreUpdated -= OnScoreAttained;
-        GameManager.OnLevelUpdated -= OnUpdatedLevel;
+        UpdateAndCheckAchivements(StepType.ScoreAttained, false, score);
+    }
+
+    private void HandleBulletFired()
+    {
+        UpdateAndCheckAchivements(StepType.BulletsFired);
+    }
+
+    private void HandleBulletHit()
+    {
+        UpdateAndCheckAchivements(StepType.HitAsteroid);
+    }
+
+    private void HandleLuckyShot()
+    {
+        UpdateAndCheckAchivements(StepType.LuckyShot);
     }
 
     public void CheckUpdateHighScore(int currentScore)
@@ -136,31 +147,6 @@ public class AchievementManager : MonoBehaviour
         return newDataType;
     }
 
-    private void OnUpdatedLevel(int level)
-    {
-        UpdateAndCheckAchivements(StepType.LevelUp, false,level);
-    }
-
-    private void OnScoreAttained(int score)
-    {
-        UpdateAndCheckAchivements(StepType.ScoreAttained, false, score);
-    }
-
-    private void HandleBulletFired()
-    {
-        UpdateAndCheckAchivements(StepType.BulletsFired);
-    }
-
-    private void HandleBulletHit()
-    {
-        UpdateAndCheckAchivements(StepType.HitAsteroid);
-    }
-
-    private void HandleLuckyShot()
-    {
-        UpdateAndCheckAchivements(StepType.LuckyShot);
-    }
-
     private void UpdateAndCheckAchivements(StepType stepType, bool isLoad = false, int setValue = -1)
     {
         StepTypeData wantedData = CheckIfHasStepType(stepType);
@@ -175,6 +161,8 @@ public class AchievementManager : MonoBehaviour
             if(achievement.StepCount > wantedData.CurrentAmount) { continue; }
 
             if (achievement.IsComplete) { continue; }
+
+            Debug.Log("achievement complete!: " + achievement.Name);
 
             UnlockAchievement(achievement, isLoad);
         }
@@ -191,9 +179,12 @@ public class AchievementManager : MonoBehaviour
 
         if(isLoad) { return; }
 
+        Debug.Log("achievement: " + achievement);
+        Debug.Log("achievement.descrption: " + achievement.Description);
+
         AchievementUI.Instance.AddAchievementToQueue(achievement);
 
-        CustomAnalytics.SendAchievementUnlocked(achievement);
+       // CustomAnalytics.SendAchievementUnlocked(achievement);
 
         SaveManager.Save();
     }
