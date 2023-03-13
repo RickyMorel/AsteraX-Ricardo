@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Vector2 _bounds = new Vector2(16, 9);
     [SerializeField] private float _minSpawnDistanceFromPlayer = 5f;
 
+    [Header("Misc")]
+    [SerializeField] private GameObject _shipPartsViewObj;
+
     #endregion
 
     #region Private Variables
@@ -85,6 +88,15 @@ public class GameManager : MonoBehaviour
         OnScoreUpdated?.Invoke(_gameManagerHumble.Score);
 
         SetGameState(GameState.Starting);
+
+        StartCoroutine(LateStart());
+    }
+
+    private IEnumerator LateStart()
+    {
+        yield return new WaitForEndOfFrame();
+
+        _shipPartsViewObj.SetActive(false);
     }
 
     #endregion
@@ -149,6 +161,8 @@ public class GameManager : MonoBehaviour
     public void PauseGame(bool isPaused)
     {
         float wantedTimeScale = isPaused ? 0f : 1f;
+
+        _shipPartsViewObj.SetActive(isPaused);
 
         if (isPaused) SetGameState(GameState.Paused); else SetGameState(_gameManagerHumble.PrevGameState );
 

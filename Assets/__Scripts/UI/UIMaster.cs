@@ -7,7 +7,7 @@ public class UIMaster : MonoBehaviour
     #region Editor Fields
 
     [SerializeField] private GameObject _startGamePanel;
-    [SerializeField] private GameObject _playerStatsPanel;
+    [SerializeField] private Canvas _playerStatsCanvas;
     [SerializeField] private GameObject _gameOverPanel;
     [SerializeField] private GameObject _levelPanel;
     [SerializeField] private GameObject _pausePanel;
@@ -42,18 +42,19 @@ public class UIMaster : MonoBehaviour
         _gameOverPanel.SetActive(false);
         _levelPanel.SetActive(false);
         _pausePanel.SetActive(false);
+        _playerStatsCanvas.enabled = false;
 
         switch (state)
         {
             case GameState.Starting:
-                _playerStatsPanel.SetActive(false);
+                _playerStatsCanvas.enabled = false;
                 _startGamePanel.SetActive(true);
                 break;
             case GameState.Playing:
-                _playerStatsPanel.SetActive(true);
+                _playerStatsCanvas.enabled = true;
                 break;
             case GameState.Respawning:
-                _playerStatsPanel.SetActive(true);
+                _playerStatsCanvas.enabled = true;
                 break;
             case GameState.LevelChange:
                 _levelPanel.SetActive(true);
@@ -62,7 +63,7 @@ public class UIMaster : MonoBehaviour
                 _pausePanel.SetActive(true);
                 break;
             case GameState.Over:
-                _playerStatsPanel.SetActive(false);
+                _playerStatsCanvas.enabled = false;
                 _gameOverPanel.SetActive(true);
                 break;
         }
