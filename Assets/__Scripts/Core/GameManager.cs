@@ -6,7 +6,6 @@ using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(AchievementManager))]
 public class GameManager : MonoBehaviour
 {
     #region Editor Fields
@@ -49,6 +48,7 @@ public class GameManager : MonoBehaviour
     public GameManagerHumble GameManagerHumble => _gameManagerHumble;
     public AsteroidSpawner AsteroidSpawner => _asteroidSpawner;
     public ScreenBounds ScreenBounds => _screenBounds;
+    public AchievementManager AchievementManager => _achievementManager;
     public AudioSO AudioSo => _audioSo;
     public List<LevelData> LevelDataList => _levelDataList;
 
@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
     {
         _jumps = _playerStatsSo.Jumps;
 
-        _achievementManager = GetComponent<AchievementManager>();
+        _achievementManager = new AchievementManager();
         _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, GameState.Playing, false);
         _asteroidSpawner = new AsteroidSpawner(this, Player.Instance.gameObject);
 

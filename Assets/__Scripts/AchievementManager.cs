@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.Impl;
 
-public class AchievementManager : MonoBehaviour
+public class AchievementManager
 {
     #region Private Variables
 
@@ -19,8 +19,6 @@ public class AchievementManager : MonoBehaviour
 
     #region Public Properties
 
-    public static AchievementManager Instance { get; private set; }
-
     public bool GotHighScore = false;
     public int HighScore => _highScore;
     public List<StepTypeData> AchievementData => _achievementData;
@@ -29,40 +27,15 @@ public class AchievementManager : MonoBehaviour
 
     #region Unity Loops
 
-    private void Awake()
+    public AchievementManager()
     {
-        GetSingleton();
         LoadSave();
-    }
 
-    private void Start()
-    {
         Projectile.OnHit += HandleBulletHit;
         Projectile.OnLuckyShot += HandleLuckyShot;
         Projectile.OnBulletFired += HandleBulletFired;
         GameManager.OnScoreUpdated += OnScoreAttained;
         GameManager.OnLevelUpdated += OnUpdatedLevel;
-    }
-
-    private void OnDestroy()
-    {
-        Projectile.OnHit -= HandleBulletHit;
-        Projectile.OnLuckyShot -= HandleLuckyShot;
-        Projectile.OnBulletFired -= HandleBulletFired;
-        GameManager.OnScoreUpdated -= OnScoreAttained;
-        GameManager.OnLevelUpdated -= OnUpdatedLevel;
-    }
-
-    private void GetSingleton()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
     }
 
     private void LoadSave()
@@ -93,7 +66,7 @@ public class AchievementManager : MonoBehaviour
 
         foreach (var achievement in achievementsResources)
         {
-            Achievement achievementInstance = Instantiate(achievement);
+            Achievement achievementInstance = new Achievement(achievement);
             _achievements.Add(achievementInstance);
         }
     }
@@ -189,6 +162,8 @@ public class AchievementManager : MonoBehaviour
 
             if (achievement.IsComplete) { continue; }
 
+            Debug.Log("achievement complete!: " + achievement.Name);
+
             UnlockAchievement(achievement, isLoad);
         }
     }
@@ -204,9 +179,12 @@ public class AchievementManager : MonoBehaviour
 
         if(isLoad) { return; }
 
+        Debug.Log("achievement: " + achievement);
+        Debug.Log("achievement.descrption: " + achievement.Description);
+
         AchievementUI.Instance.AddAchievementToQueue(achievement);
 
-        CustomAnalytics.SendAchievementUnlocked(achievement);
+       // CustomAnalytics.SendAchievementUnlocked(achievement);
 
         SaveManager.Save();
     }

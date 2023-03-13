@@ -63,11 +63,11 @@ public class GPGSAuthentication : MonoBehaviour
 
         _debugString = "Is Connected To Google Play!";
 
-        if (!AchievementManager.Instance.GotHighScore) { return; }
+        if (!GameManager.Instance.AchievementManager.GotHighScore) { return; }
 
         _debugString = "Got High Score!";
 
-        Social.ReportScore(AchievementManager.Instance.HighScore, GPGSIds.leaderboard_fyouasteroids_leaderboard, LeaderboardUpdate);
+        Social.ReportScore(GameManager.Instance.AchievementManager.HighScore, GPGSIds.leaderboard_fyouasteroids_leaderboard, LeaderboardUpdate);
     }
 
     private void LeaderboardUpdate(bool success)
