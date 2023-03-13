@@ -50,7 +50,7 @@ public class AsteroidSpawner
             GameObject asteroidInstance = GameObject.Instantiate(wantedAsteroid.AsteroidPrefab, _gameManager.ScreenBounds.GetRandomSpawnPos(_player.transform.position), Quaternion.identity);
             asteroidInstance.GetComponent<AsteroidScript>().AsteroidSo = wantedAsteroid;
             float maxForce = wantedAsteroid.Speed;
-            asteroidInstance.GetComponent<Rigidbody>()
+            asteroidInstance.GetComponent<Rigidbody2D>()
                 .AddForce(new Vector3(Random.Range(-maxForce, maxForce), Random.Range(-maxForce, maxForce), Random.Range(-maxForce, maxForce)));
 
             _currentAsteroids.Add(asteroidInstance);

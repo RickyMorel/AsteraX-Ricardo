@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(ScreenWrap))]
 [RequireComponent(typeof(AudioSource))]
 public class Projectile : MonoBehaviour
@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
 
     #region Private Variables
 
-    private Rigidbody _rb;
+    private Rigidbody2D _rb;
     private ScreenWrap _screenWrap;
     private AudioSource _audioSource;   
 
@@ -32,7 +32,7 @@ public class Projectile : MonoBehaviour
 
     private void Awake()
     {
-        _rb = GetComponent<Rigidbody>();
+        _rb = GetComponent<Rigidbody2D>();
         _screenWrap = GetComponent<ScreenWrap>();
         _audioSource = GetComponent<AudioSource>();
     }
@@ -41,7 +41,7 @@ public class Projectile : MonoBehaviour
     {
         OnBulletFired?.Invoke();
 
-        _rb.AddForce(_bulletForce * transform.up, ForceMode.Impulse);
+        _rb.AddForce(_bulletForce * transform.up, ForceMode2D.Impulse);
 
         AudioClip wantedSound = Player.Instance.BulletsAreUpgraded ? GameManager.Instance.AudioSo.GetRandomUpgradedLaserSound() : GameManager.Instance.AudioSo.GetRandomLaserSound();
 
@@ -55,7 +55,7 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!collision.gameObject.TryGetComponent<AsteroidScript>(out AsteroidScript asteroid)) { return; }
 

@@ -40,9 +40,9 @@ public class AsteroidScript : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag != "Player") { return; }
+        if (collision.gameObject.tag != "Player") { return; }
 
         Damage(true);
 
@@ -54,12 +54,12 @@ public class AsteroidScript : MonoBehaviour
     private void SpawnChildrenAsteroids()
     {
         //Add velocity to parent astroid
-        if (TryGetComponent<Rigidbody>(out Rigidbody rb))
+        if (TryGetComponent<Rigidbody2D>(out Rigidbody2D rb))
         {
             Vector3 addedForce = AsteroidSo.GetRandomDirection();
             Vector3 angularVel = Random.insideUnitSphere * AsteroidSo.AngularVel * (1 + ChildCount*0.25f);
-            rb.AddForce(addedForce, ForceMode.Impulse);
-            rb.angularVelocity = angularVel;
+            rb.AddForce(addedForce, ForceMode2D.Impulse);
+            rb.angularVelocity = angularVel.z;
         }
 
         LevelData levelData = GameManager.Instance.GameManagerHumble.GetCurrentLevelData();
@@ -89,7 +89,7 @@ public class AsteroidScript : MonoBehaviour
 
             //Promote child to parent astroid
             child.transform.parent = null;
-            Rigidbody rb = child.GetComponent<Rigidbody>() == null ? child.gameObject.AddComponent<Rigidbody>() : child.GetComponent<Rigidbody>(); 
+            Rigidbody2D rb = child.GetComponent<Rigidbody2D>() == null ? child.gameObject.AddComponent<Rigidbody2D>() : child.GetComponent<Rigidbody2D>(); 
             child.gameObject.AddComponent<ScreenWrap>();
 
             //force child back to z = 0
@@ -97,15 +97,15 @@ public class AsteroidScript : MonoBehaviour
 
             //Tell it that it can't spawn sub children
             childAsteroidScript.IsChild = true;
-            rb.useGravity = false;
-            rb.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY;
+            rb.gravityScale = 0;
+            //rb.constraints = RigidbodyConstraints2D.FreezePositionZ | Rigidbody2DConstraints.FreezeRotationX | Rigidbody2DConstraints.FreezeRotationY;
 
             //Adds Velocity
             Vector3 randomDirection = childAsteroidScript.AsteroidSo.GetRandomDirection();
             Vector3 addedForce = randomDirection * childAsteroidScript.ChildCount * SpeedMultiplier;
             Vector3 angularVel = Random.insideUnitSphere * childAsteroidScript.AsteroidSo.AngularVel * (1 + childAsteroidScript.ChildCount);
-            rb.AddForce(addedForce, ForceMode.Impulse);
-            rb.angularVelocity = angularVel;
+            rb.AddForce(addedForce, ForceMode2D.Impulse);
+            rb.angularVelocity = angularVel.z;
         }
 
         if (!hitPlayer) { GameManager.Instance.AddScore(AsteroidSo.ScoreGiven * (1 + ChildCount)); }
@@ -161,7 +161,7 @@ public class AsteroidScript : MonoBehaviour
         asteroidScript.ChildCount = childCount;
 
         //Removes parent only asteroid components
-        Destroy(asteroidInstance.GetComponent<Rigidbody>());
+        Destroy(asteroidInstance.GetComponent<Rigidbody2D>());
         Destroy(asteroidInstance.GetComponent<ScreenWrap>());
 
         GameManager.Instance.AsteroidSpawner.AddChildToAsteroidList(asteroidInstance);

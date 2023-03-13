@@ -7,9 +7,9 @@ public class Pickup : MonoBehaviour
     [SerializeField] private PickupType _type;
     [SerializeField] private ParticleSystem _pickupParticles;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(!other.gameObject.TryGetComponent(out PlayerPowerupsManager player)) { return; }
+        if (!collision.gameObject.TryGetComponent(out PlayerPowerupsManager player)) { return; }
 
         player.ActivatePowerup(_type);
 
@@ -18,7 +18,7 @@ public class Pickup : MonoBehaviour
         _pickupParticles.transform.parent = null;
         _pickupParticles.Play();
 
-        Destroy(gameObject);    
+        Destroy(gameObject);
     }
 }
 
