@@ -29,12 +29,13 @@ public class GameManager : MonoBehaviour
 
     private int _score = 0;
     private int _jumps = 3;
-    private int _level = 100;
+    private int _level = 0;
     private List<LevelData> _levelDataList = new List<LevelData>();
     private GameManagerHumble _gameManagerHumble;
     private AchievementManager _achievementManager;
     private AsteroidSpawner _asteroidSpawner;
     private ScreenBounds _screenBounds;
+    private ObjectPool _objectPool;
 
     #endregion
 
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
     public AsteroidSpawner AsteroidSpawner => _asteroidSpawner;
     public ScreenBounds ScreenBounds => _screenBounds;
     public AchievementManager AchievementManager => _achievementManager;
+    public ObjectPool ObjectPool => _objectPool;
     public Transform AsteroidExplosionsParentTransform => _asteroidExplosionsParentTransform;
     public Transform BulletsParentTransform => _bulletsParentTransform;
     public AudioSO AudioSo => _audioSo;
@@ -85,8 +87,9 @@ public class GameManager : MonoBehaviour
         _jumps = _playerStatsSo.Jumps;
 
         _achievementManager = new AchievementManager();
-        _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, GameState.Playing, false);
+        _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, GameState.Playing, false, false);
         _asteroidSpawner = new AsteroidSpawner(this, Player.Instance.gameObject);
+        _objectPool = new ObjectPool(AsteroidSpawner.AsteroidSos[0].ExplosionParticles, _asteroidExplosionsParentTransform);
 
         OnJumpsUpdated?.Invoke(_gameManagerHumble.Jumps);
         OnScoreUpdated?.Invoke(_gameManagerHumble.Score);

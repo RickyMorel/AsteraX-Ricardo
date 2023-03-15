@@ -61,21 +61,20 @@ namespace Tests
         [Test]
         public void check_asteroid_go_mobile_has_apropiate_collider_size()
         {
-            BoxCollider asteroidCollider = _asteroidSO.AsteroidPrefabMobile.GetComponent<BoxCollider>();
+            BoxCollider2D asteroidCollider = _asteroidSO.AsteroidPrefabMobile.GetComponent<BoxCollider2D>();
 
-            Vector3 minimumExpectedSize = new Vector3(1.5f, 1.5f, 0.9f);
+            Vector2 minimumExpectedSize = new Vector2(1.5f, 1.5f);
 
             Assert.IsTrue(minimumExpectedSize.x < asteroidCollider.size.x, "Asteroid collider X was too small");
             Assert.IsTrue(minimumExpectedSize.y < asteroidCollider.size.y, "Asteroid collider Y was too small");
-            Assert.IsTrue(minimumExpectedSize.z < asteroidCollider.size.x, "Asteroid collider Z was too small");
         }
 
         [Test]
         public void check_asteroid_go_mobile_has_apropiate_rb_constraints()
         {
-            Rigidbody asteroidRb = _asteroidSO.AsteroidPrefabMobile.GetComponent<Rigidbody>();
+            Rigidbody2D asteroidRb = _asteroidSO.AsteroidPrefabMobile.GetComponent<Rigidbody2D>();
 
-            RigidbodyConstraints expectedConstraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ;
+            RigidbodyConstraints2D expectedConstraints = RigidbodyConstraints2D.None;
 
             Assert.AreEqual(asteroidRb.constraints, expectedConstraints, "Rigidbody constraints don't match");
         }

@@ -15,6 +15,7 @@ public class AsteroidSpawner
 
     #region Public Properties
 
+    public static Asteroid[] AsteroidSos => _asteroidSOs;
     public List<GameObject> CurrentAsteroids => _currentAsteroids;
 
     #endregion
@@ -23,10 +24,9 @@ public class AsteroidSpawner
     {
         _gameManager = gameManager;
         _player = player;
+        _asteroidSOs = Resources.LoadAll<Asteroid>("AsteroidSOs");
 
         AsteroidScript.OnAsteroidDestroyed += HandleAsteroidDestroyed;
-
-        _asteroidSOs = Resources.LoadAll<Asteroid>("AsteroidSOs");
 
         CreateAsteroidParentTransform();
     }

@@ -9738,7 +9738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5912ef53476885746a86c56121ee8bad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnEveryLevel: 4
+  _spawnEveryLevel: 1
   _pickupPrefabs:
   - {fileID: 4461551224211067444, guid: 20fe1292191da8c459518200e6c2752c, type: 3}
   - {fileID: 4157734977151841467, guid: ec0fcad056f4787449621fc8c761cae6, type: 3}

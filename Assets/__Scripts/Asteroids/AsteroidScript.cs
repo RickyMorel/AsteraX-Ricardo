@@ -85,11 +85,11 @@ public class AsteroidScript : MonoBehaviour
 
             if (child.parent != transform) { continue; }
 
-            if(!child.TryGetComponent(out AsteroidScript childAsteroidScript)) { continue; }
+            if (!child.TryGetComponent(out AsteroidScript childAsteroidScript)) { continue; }
 
             //Promote child to parent astroid
             child.transform.parent = transform.parent;
-            Rigidbody2D rb = child.GetComponent<Rigidbody2D>() == null ? child.gameObject.AddComponent<Rigidbody2D>() : child.GetComponent<Rigidbody2D>(); 
+            Rigidbody2D rb = child.GetComponent<Rigidbody2D>() == null ? child.gameObject.AddComponent<Rigidbody2D>() : child.GetComponent<Rigidbody2D>();
             child.gameObject.AddComponent<ScreenWrap>();
 
             //force child back to z = 0
@@ -98,7 +98,6 @@ public class AsteroidScript : MonoBehaviour
             //Tell it that it can't spawn sub children
             childAsteroidScript.IsChild = true;
             rb.gravityScale = 0;
-            //rb.constraints = RigidbodyConstraints2D.FreezePositionZ | Rigidbody2DConstraints.FreezeRotationX | Rigidbody2DConstraints.FreezeRotationY;
 
             //Adds Velocity
             Vector3 randomDirection = childAsteroidScript.AsteroidSo.GetRandomDirection();
@@ -112,19 +111,29 @@ public class AsteroidScript : MonoBehaviour
 
         OnAsteroidDestroyed?.Invoke(gameObject);
 
-        GameObject asteroidParticles = Instantiate(AsteroidSo.ExplosionParticles, GameManager.Instance.AsteroidExplosionsParentTransform);
-        asteroidParticles.transform.position = transform.position;
-        asteroidParticles.transform.rotation = Quaternion.identity;
+        PlayExplosionFX();
 
-        float particleScale = 1f / (1+ ChildCount);
-        asteroidParticles.transform.localScale = new Vector3(particleScale, particleScale, particleScale);
-
-        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.GetRandomExplosionSound());
         _mesh.enabled = false;
         //set to no damage layer
         gameObject.layer = 14;
 
         Invoke(nameof(DestroySelf), 3f);
+    }
+
+    private void PlayExplosionFX()
+    {
+        GameObject asteroidParticles = GameManager.Instance.ObjectPool.GetExplosionParticle();
+        _audioSource.PlayOneShot(GameManager.Instance.AudioSo.GetRandomExplosionSound());
+
+        if (asteroidParticles == null) { return; }
+
+        Debug.Log("asteroidParticles: " + asteroidParticles.name);
+        //GameObject asteroidParticles = Instantiate(AsteroidSo.ExplosionParticles, GameManager.Instance.AsteroidExplosionsParentTransform);
+        asteroidParticles.transform.position = transform.position;
+        asteroidParticles.transform.rotation = Quaternion.identity;
+
+        float particleScale = 1f / (1 + ChildCount);
+        asteroidParticles.transform.localScale = new Vector3(particleScale, particleScale, particleScale);
     }
 
     private void DestroySelf()
