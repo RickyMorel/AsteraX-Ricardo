@@ -54,7 +54,7 @@ public class AsteroidScript : MonoBehaviour
     private void SpawnChildrenAsteroids()
     {
         //Add velocity to parent astroid
-        if (TryGetComponent<Rigidbody2D>(out Rigidbody2D rb))
+        if (TryGetComponent(out Rigidbody2D rb))
         {
             Vector3 addedForce = AsteroidSo.GetRandomDirection();
             Vector3 angularVel = Random.insideUnitSphere * AsteroidSo.AngularVel * (1 + ChildCount*0.25f);
@@ -127,8 +127,6 @@ public class AsteroidScript : MonoBehaviour
 
         if (asteroidParticles == null) { return; }
 
-        Debug.Log("asteroidParticles: " + asteroidParticles.name);
-        //GameObject asteroidParticles = Instantiate(AsteroidSo.ExplosionParticles, GameManager.Instance.AsteroidExplosionsParentTransform);
         asteroidParticles.transform.position = transform.position;
         asteroidParticles.transform.rotation = Quaternion.identity;
 
