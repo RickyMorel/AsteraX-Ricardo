@@ -8,7 +8,6 @@ public class ObjectPool
 
     public ObjectPool(GameObject explosionParticles, Transform parentTransform)
     {
-        Debug.Log("explosionParticles: " + explosionParticles.name);
         CreatePool(ExplosionParticlePool, explosionParticles, 40, parentTransform);
     }
 
@@ -36,10 +35,8 @@ public class ObjectPool
 
     public GameObject GetFromPool(List<GameObject> pool)
     {
-        Debug.Log("GetFromPool: " + pool.Count);
         foreach (GameObject obj in pool)
         {
-            Debug.Log("obj in pool: " + obj.name + " " + obj.activeSelf);
             if (obj.activeSelf == true) { continue; }
 
             obj.SetActive(true);
