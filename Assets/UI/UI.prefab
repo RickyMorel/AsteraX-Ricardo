@@ -4579,7 +4579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3184523085224463686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5499,7 +5499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3184523086017177515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6047,7 +6047,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startGamePanel: {fileID: 8731234448465459086}
-  _playerStatsCanvas: {fileID: 3184523085224463683}
+  _playerStatsCanvases:
+  - {fileID: 3184523085224463683}
+  - {fileID: 3184523086017177509}
   _gameOverPanel: {fileID: 3184523086249535131}
   _levelPanels:
   - {fileID: 4548827728203489345}

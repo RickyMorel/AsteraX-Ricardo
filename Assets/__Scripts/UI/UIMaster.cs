@@ -7,7 +7,7 @@ public class UIMaster : MonoBehaviour
     #region Editor Fields
 
     [SerializeField] private GameObject _startGamePanel;
-    [SerializeField] private Canvas _playerStatsCanvas;
+    [SerializeField] private Canvas[] _playerStatsCanvases;
     [SerializeField] private GameObject _gameOverPanel;
     [SerializeField] private GameObject[] _levelPanels;
     [SerializeField] private GameObject _pausePanel;
@@ -44,19 +44,19 @@ public class UIMaster : MonoBehaviour
         _storePanel.SetActive(false);
         EnablePanels(_levelPanels, false);
         _pausePanel.SetActive(false);
-        _playerStatsCanvas.enabled = false;
+        EnableCanvases(_playerStatsCanvases, false);
 
         switch (state)
         {
             case GameState.Starting:
-                _playerStatsCanvas.enabled = false;
+                EnableCanvases(_playerStatsCanvases, false);
                 _startGamePanel.SetActive(true);
                 break;
             case GameState.Playing:
-                _playerStatsCanvas.enabled = true;
+                EnableCanvases(_playerStatsCanvases, true);
                 break;
             case GameState.Respawning:
-                _playerStatsCanvas.enabled = true;
+                EnableCanvases(_playerStatsCanvases, true);
                 break;
             case GameState.LevelChange:
                 EnablePanels(_levelPanels, true);
@@ -65,7 +65,7 @@ public class UIMaster : MonoBehaviour
                 _pausePanel.SetActive(true);
                 break;
             case GameState.Over:
-                _playerStatsCanvas.enabled = false;
+                EnableCanvases(_playerStatsCanvases, false);
                 _gameOverPanel.SetActive(true);
                 break;
             case GameState.ViewingStore:
@@ -79,6 +79,14 @@ public class UIMaster : MonoBehaviour
         foreach (GameObject panel in panels)
         {
             panel.SetActive(isEnabled);
+        }
+    }
+
+    private void EnableCanvases(Canvas[] canvases, bool isEnabled)
+    {
+        foreach (Canvas canvas in canvases)
+        {
+            canvas.enabled = isEnabled;
         }
     }
 }
