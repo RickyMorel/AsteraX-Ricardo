@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,11 +26,25 @@ public class StoreUI : MonoBehaviour
 
     public void FillUserData()
     {
-        Texture2D iconTexture = Social.localUser.image;
+        Debug.Log("FillUserData: " + Social.localUser.userName);
+        _playerNameText.text = Social.localUser.userName;
+
+        StartCoroutine(GetImage());
+    }
+
+    private IEnumerator GetImage()
+    {
+        Texture2D iconTexture;
+
+        while(Social.localUser.image == null)
+        {
+            yield return null;
+        }
+        
+        iconTexture = Social.localUser.image;
+        Debug.Log("iconTexture: " + iconTexture);
         Sprite icon = Sprite.Create(iconTexture, new Rect(0f, 0f, iconTexture.width, iconTexture.height), new Vector2(0f, 0f));
         _playerIcon.sprite = icon;
-
-        _playerNameText.text = Social.localUser.userName;
     }
 
 }
