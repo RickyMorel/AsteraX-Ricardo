@@ -644,7 +644,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7392947822563145925}
+      - m_Target: {fileID: 1774443543880033336}
         m_TargetAssemblyTypeName: StartGameUI, Scripts
         m_MethodName: ViewStore
         m_Mode: 6
@@ -889,7 +889,7 @@ RectTransform:
   m_Children:
   - {fileID: 1999047962}
   m_Father: {fileID: 3184523084703647107}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1922,7 +1922,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7392947822563145925}
+      - m_Target: {fileID: 1774443543880033336}
         m_TargetAssemblyTypeName: StartGameUI, Scripts
         m_MethodName: ViewStore
         m_Mode: 6
@@ -3015,9 +3015,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7392947822563145925}
-        m_TargetAssemblyTypeName: StartGameUI, Assembly-CSharp
-        m_MethodName: ViewLeaderboards
+      - m_Target: {fileID: 1842450795408689822}
+        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3027,9 +3027,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1842450795408689822}
-        m_TargetAssemblyTypeName: ButtonAudio, Assembly-CSharp
-        m_MethodName: OnClick
+      - m_Target: {fileID: 1774443543880033336}
+        m_TargetAssemblyTypeName: StartGameUI, Scripts
+        m_MethodName: ViewLeaderboards
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3272,8 +3272,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7392947822563145925}
-        m_TargetAssemblyTypeName: StartGameUI, Assembly-CSharp
+      - m_Target: {fileID: 1774443543880033336}
+        m_TargetAssemblyTypeName: StartGameUI, Scripts
         m_MethodName: PressStart
         m_Mode: 1
         m_Arguments:
@@ -3691,10 +3691,10 @@ Transform:
   m_Children:
   - {fileID: 3184523085224463686}
   - {fileID: 3184523086017177515}
-  - {fileID: 3184523086565317510}
   - {fileID: 3184523085894344071}
   - {fileID: 3184523085070399004}
   - {fileID: 932696823}
+  - {fileID: 3184523086565317510}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4297,7 +4297,7 @@ RectTransform:
   m_Children:
   - {fileID: 3184523085002901438}
   m_Father: {fileID: 3184523084703647107}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5431,7 +5431,7 @@ RectTransform:
   m_Children:
   - {fileID: 9168584026013791715}
   m_Father: {fileID: 3184523084703647107}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5943,6 +5943,7 @@ GameObject:
   - component: {fileID: 3184523086565317508}
   - component: {fileID: 3184523086565317509}
   - component: {fileID: 3184523086565317514}
+  - component: {fileID: 1774443543880033336}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5966,7 +5967,7 @@ RectTransform:
   - {fileID: 3195698984379836491}
   - {fileID: 8831851815099998785}
   m_Father: {fileID: 3184523084703647107}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6056,6 +6057,18 @@ MonoBehaviour:
   - {fileID: 3184523085002901439}
   _pausePanel: {fileID: 2251555932368903634}
   _storePanel: {fileID: 1999047961}
+--- !u!114 &1774443543880033336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184523086565317515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bd36aec25c9b640955ff49cd722c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4057834732904031658
 GameObject:
   m_ObjectHideFlags: 0
@@ -7079,8 +7092,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7392947822563145925}
-        m_TargetAssemblyTypeName: StartGameUI, Assembly-CSharp
+      - m_Target: {fileID: 1774443543880033336}
+        m_TargetAssemblyTypeName: StartGameUI, Scripts
         m_MethodName: DeleteSave
         m_Mode: 1
         m_Arguments:
@@ -7773,7 +7786,6 @@ GameObject:
   - component: {fileID: 3195698984379836491}
   - component: {fileID: 2961386941668802315}
   - component: {fileID: 2460659271277670452}
-  - component: {fileID: 7392947822563145925}
   m_Layer: 5
   m_Name: StartGamePanel
   m_TagString: Untagged
@@ -7844,18 +7856,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7392947822563145925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8731234448465459086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8bd36aec25c9b640955ff49cd722c99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1067617634647371067
 PrefabInstance:
   m_ObjectHideFlags: 0

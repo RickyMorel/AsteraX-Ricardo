@@ -175,7 +175,9 @@ extern void Enumerable_Max_mF33848068459BE74BF534D16F6B678BB677EE704 (void);
 // 0x0000009C T System.Collections.Generic.HashSet`1/Enumerator::get_Current()
 // 0x0000009D System.Object System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.get_Current()
 // 0x0000009E System.Void System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.Reset()
-static Il2CppMethodPointer s_methodPointers[158] = 
+// 0x0000009F System.Void System.Collections.Generic.ICollectionDebugView`1::.ctor(System.Collections.Generic.ICollection`1<T>)
+// 0x000000A0 T[] System.Collections.Generic.ICollectionDebugView`1::get_Items()
+static Il2CppMethodPointer s_methodPointers[160] = 
 {
 	Error_ArgumentNull_m1141D2C9AF8AB6ACC45E7488789598C5283D4EEE,
 	Error_MoreThanOneMatch_mE8ABBCC1C5FBA4D7BBE5B0647992D20F005F7A97,
@@ -335,12 +337,14 @@ static Il2CppMethodPointer s_methodPointers[158] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
+	NULL,
 };
-static const int32_t s_InvokerIndices[158] = 
+static const int32_t s_InvokerIndices[160] = 
 {
-	5498,
-	5744,
-	5744,
+	5563,
+	5820,
+	5820,
 	0,
 	0,
 	0,
@@ -369,8 +373,10 @@ static const int32_t s_InvokerIndices[158] =
 	0,
 	0,
 	0,
-	5439,
-	5439,
+	5504,
+	5504,
+	0,
+	0,
 	0,
 	0,
 	0,
@@ -497,7 +503,7 @@ static const int32_t s_InvokerIndices[158] =
 	0,
 	0,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[55] = 
+static const Il2CppTokenRangePair s_rgctxIndices[56] = 
 {
 	{ 0x02000004, { 141, 5 } },
 	{ 0x02000005, { 146, 13 } },
@@ -519,6 +525,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[55] =
 	{ 0x02000017, { 306, 8 } },
 	{ 0x02000018, { 314, 41 } },
 	{ 0x0200001A, { 355, 2 } },
+	{ 0x0200001B, { 357, 4 } },
 	{ 0x06000004, { 0, 10 } },
 	{ 0x06000005, { 10, 10 } },
 	{ 0x06000006, { 20, 5 } },
@@ -912,7 +919,11 @@ extern const uint32_t g_rgctx_T_t1A61667A2FF6D68BB3DAC186281F928B7ED2DB94;
 extern const uint32_t g_rgctx_IEqualityComparer_1_GetHashCode_mB43AB2E622EB30D675693CDC96CA5D836DE43336;
 extern const uint32_t g_rgctx_Enumerator_get_Current_m6F22509C5AEA1EA15942F7F9C9866256CB3EA347;
 extern const uint32_t g_rgctx_T_t6D22409F37413B725563BF484486F55FB7202BB8;
-static const Il2CppRGCTXDefinition s_rgctxValues[357] = 
+extern const uint32_t g_rgctx_ICollection_1_tFEFB414626FD111D128FEBCF2B2893D2D1BFA23B;
+extern const uint32_t g_rgctx_ICollection_1_get_Count_m59A49BC41F6F347F1A5161D5C655CC8F14B4465C;
+extern const uint32_t g_rgctx_TU5BU5D_t7141ABD7B24C6F56B55DB7911E6CE85CAACA4FFF;
+extern const uint32_t g_rgctx_ICollection_1_CopyTo_m142EAE547CEB167F8913259B3A9EBEF7718F80AD;
+static const Il2CppRGCTXDefinition s_rgctxValues[361] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Iterator_1_tAFB7558C92D3848C170203685AA45B10B6035464 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Iterator_1_Where_mB33345A6D2213AB59B7B357292542E752C9AEEF2 },
@@ -1271,23 +1282,28 @@ static const Il2CppRGCTXDefinition s_rgctxValues[357] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEqualityComparer_1_GetHashCode_mB43AB2E622EB30D675693CDC96CA5D836DE43336 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_m6F22509C5AEA1EA15942F7F9C9866256CB3EA347 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t6D22409F37413B725563BF484486F55FB7202BB8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ICollection_1_tFEFB414626FD111D128FEBCF2B2893D2D1BFA23B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ICollection_1_get_Count_m59A49BC41F6F347F1A5161D5C655CC8F14B4465C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t7141ABD7B24C6F56B55DB7911E6CE85CAACA4FFF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ICollection_1_CopyTo_m142EAE547CEB167F8913259B3A9EBEF7718F80AD },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationSystem_Core;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Core_CodeGenModule;
 const Il2CppCodeGenModule g_System_Core_CodeGenModule = 
 {
 	"System.Core.dll",
-	158,
+	160,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	55,
+	56,
 	s_rgctxIndices,
-	357,
+	361,
 	s_rgctxValues,
-	NULL,
+	&g_DebuggerMetadataRegistrationSystem_Core,
 	NULL, // module initializer,
 	NULL,
 	NULL,

@@ -13,9 +13,18 @@ public class StoreUI : MonoBehaviour
 
     #endregion
 
-    private void OnEnable()
+    private void Start()
     {
-        if(Social.localUser == null) { Debug.Log("Isn't signed in"); return; }
+        GPGSAuthentication.Instance.OnSignedIn += FillUserData;
+    }
+
+    private void OnDestroy()
+    {
+        GPGSAuthentication.Instance.OnSignedIn -= FillUserData;
+    }
+
+    public void FillUserData()
+    {
         Texture2D iconTexture = Social.localUser.image;
         Sprite icon = Sprite.Create(iconTexture, new Rect(0f, 0f, iconTexture.width, iconTexture.height), new Vector2(0f, 0f));
         _playerIcon.sprite = icon;

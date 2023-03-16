@@ -452,6 +452,7 @@ UnityEngine.GUIStyle::get_fixedHeight
 UnityEngine.GUIStyle::get_fixedWidth
 UnityEngine.GUIStyle::Internal_GetSelectedRenderedText_Injected
 UnityEngine.GUIStyle::get_rawName
+UnityEngine.GUIStyle::AssignRectOffset
 UnityEngine.GUIStyle::Internal_CalcSize_Injected
 UnityEngine.GUIStyle::Internal_Destroy
 UnityEngine.GUIStyle::Internal_Draw2_Injected
@@ -743,6 +744,8 @@ UnityEngine.PlayerConnectionInternal::SendMessage
 UnityEngine.PlayerConnectionInternal::UnregisterInternal
 UnityEngine.PlayerPrefs::TrySetInt
 UnityEngine.PlayerPrefs::GetInt
+UnityEngine.Profiling.Profiler::BeginSampleImpl
+UnityEngine.Profiling.Profiler::EndSample
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::AngleAxis_Injected
