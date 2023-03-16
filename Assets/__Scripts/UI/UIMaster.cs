@@ -11,6 +11,7 @@ public class UIMaster : MonoBehaviour
     [SerializeField] private GameObject _gameOverPanel;
     [SerializeField] private GameObject[] _levelPanels;
     [SerializeField] private GameObject _pausePanel;
+    [SerializeField] private GameObject _storePanel;
 
     #endregion
 
@@ -40,6 +41,7 @@ public class UIMaster : MonoBehaviour
     {
         _startGamePanel.SetActive(false);
         _gameOverPanel.SetActive(false);
+        _storePanel.SetActive(false);
         EnablePanels(_levelPanels, false);
         _pausePanel.SetActive(false);
         _playerStatsCanvas.enabled = false;
@@ -65,6 +67,9 @@ public class UIMaster : MonoBehaviour
             case GameState.Over:
                 _playerStatsCanvas.enabled = false;
                 _gameOverPanel.SetActive(true);
+                break;
+            case GameState.ViewingStore:
+                _storePanel.SetActive(true);
                 break;
         }
     }

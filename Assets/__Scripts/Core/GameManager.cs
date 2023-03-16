@@ -234,4 +234,5 @@ public enum GameState
     Respawning = 4,
     LevelChange = 5,
     Paused = 6,
+    ViewingStore = 7,
 }

@@ -78,10 +78,16 @@ public class GPGSAuthentication : MonoBehaviour
 
     public void ShowLeaderboard()
     {
-        Debug.Log("TryShowLeaderBoards");
         if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
 
         Social.ShowLeaderboardUI();
+    }
+
+    public bool ShowStore()
+    {
+        if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return false; }
+
+        return true;
     }
 
     void OnGUI()
