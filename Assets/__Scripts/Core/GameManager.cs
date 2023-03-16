@@ -18,6 +18,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Vector2 _bounds = new Vector2(16, 9);
     [SerializeField] private float _minSpawnDistanceFromPlayer = 5f;
 
+    [Header("Misc")]
+    [SerializeField] private Transform _asteroidExplosionsParentTransform;
+    [SerializeField] private Transform _bulletsParentTransform;
+    [SerializeField] private GameObject _shipPartsViewObj;
+
     #endregion
 
     #region Private Variables
@@ -30,6 +35,7 @@ public class GameManager : MonoBehaviour
     private AchievementManager _achievementManager;
     private AsteroidSpawner _asteroidSpawner;
     private ScreenBounds _screenBounds;
+    private ObjectPool _objectPool;
 
     #endregion
 
@@ -49,6 +55,9 @@ public class GameManager : MonoBehaviour
     public AsteroidSpawner AsteroidSpawner => _asteroidSpawner;
     public ScreenBounds ScreenBounds => _screenBounds;
     public AchievementManager AchievementManager => _achievementManager;
+    public ObjectPool ObjectPool => _objectPool;
+    public Transform AsteroidExplosionsParentTransform => _asteroidExplosionsParentTransform;
+    public Transform BulletsParentTransform => _bulletsParentTransform;
     public AudioSO AudioSo => _audioSo;
     public List<LevelData> LevelDataList => _levelDataList;
 
@@ -78,13 +87,23 @@ public class GameManager : MonoBehaviour
         _jumps = _playerStatsSo.Jumps;
 
         _achievementManager = new AchievementManager();
-        _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, GameState.Playing, false);
+        _gameManagerHumble = new GameManagerHumble(_score, _jumps, _level, GameState.Playing, false, false);
         _asteroidSpawner = new AsteroidSpawner(this, Player.Instance.gameObject);
+        _objectPool = new ObjectPool(AsteroidSpawner.AsteroidSos[0].ExplosionParticles, _asteroidExplosionsParentTransform);
 
         OnJumpsUpdated?.Invoke(_gameManagerHumble.Jumps);
         OnScoreUpdated?.Invoke(_gameManagerHumble.Score);
 
         SetGameState(GameState.Starting);
+
+        StartCoroutine(LateStart());
+    }
+
+    private IEnumerator LateStart()
+    {
+        yield return new WaitForEndOfFrame();
+
+        _shipPartsViewObj.SetActive(false);
     }
 
     #endregion
@@ -149,6 +168,8 @@ public class GameManager : MonoBehaviour
     public void PauseGame(bool isPaused)
     {
         float wantedTimeScale = isPaused ? 0f : 1f;
+
+        _shipPartsViewObj.SetActive(isPaused);
 
         if (isPaused) SetGameState(GameState.Paused); else SetGameState(_gameManagerHumble.PrevGameState );
 

@@ -162,8 +162,6 @@ public class AchievementManager
 
             if (achievement.IsComplete) { continue; }
 
-            Debug.Log("achievement complete!: " + achievement.Name);
-
             UnlockAchievement(achievement, isLoad);
         }
     }
@@ -178,9 +176,6 @@ public class AchievementManager
             ShipPartsManager.Instance.ChangePartState(achievement.UnlockablePart.Id, achievement.UnlockablePart.Type, ShipPartState.Unlocked);
 
         if(isLoad) { return; }
-
-        Debug.Log("achievement: " + achievement);
-        Debug.Log("achievement.descrption: " + achievement.Description);
 
         AchievementUI.Instance.AddAchievementToQueue(achievement);
 

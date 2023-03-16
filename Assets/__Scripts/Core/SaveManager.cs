@@ -13,8 +13,6 @@ public static class SaveManager
     static SaveManager()
     {
         _FILE_PATH = Application.persistentDataPath + "/AsteraX.save";
-
-        Debug.Log(_FILE_PATH);
     }
 
     public static void Save()

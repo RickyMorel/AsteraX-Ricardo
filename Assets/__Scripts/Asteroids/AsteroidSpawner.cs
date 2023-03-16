@@ -9,11 +9,13 @@ public class AsteroidSpawner
     private List<GameObject> _currentAsteroids = new List<GameObject>();
     private GameManager _gameManager;
     private GameObject _player;
+    private Transform _asteroidParentTransform;
 
     #endregion
 
     #region Public Properties
 
+    public static Asteroid[] AsteroidSos => _asteroidSOs;
     public List<GameObject> CurrentAsteroids => _currentAsteroids;
 
     #endregion
@@ -22,10 +24,16 @@ public class AsteroidSpawner
     {
         _gameManager = gameManager;
         _player = player;
+        _asteroidSOs = Resources.LoadAll<Asteroid>("AsteroidSOs");
 
         AsteroidScript.OnAsteroidDestroyed += HandleAsteroidDestroyed;
 
-        _asteroidSOs = Resources.LoadAll<Asteroid>("AsteroidSOs");
+        CreateAsteroidParentTransform();
+    }
+
+    public void CreateAsteroidParentTransform()
+    {
+        _asteroidParentTransform = GameObject.Find("All_Asteroids").transform;
     }
 
     private void HandleAsteroidDestroyed(GameObject asteroidObj)
@@ -47,10 +55,14 @@ public class AsteroidSpawner
         for (int i = 0; i < asteroidsToSpawn; i++)
         {
             Asteroid wantedAsteroid = GetRandomAsteroid();
-            GameObject asteroidInstance = GameObject.Instantiate(wantedAsteroid.AsteroidPrefab, _gameManager.ScreenBounds.GetRandomSpawnPos(_player.transform.position), Quaternion.identity);
+            GameObject asteroidInstance = GameObject.Instantiate(wantedAsteroid.AsteroidPrefab, _asteroidParentTransform);
+            asteroidInstance.transform.position = _gameManager.ScreenBounds.GetRandomSpawnPos(_player.transform.position);
+            asteroidInstance.transform.rotation = Quaternion.identity;
+
             asteroidInstance.GetComponent<AsteroidScript>().AsteroidSo = wantedAsteroid;
+
             float maxForce = wantedAsteroid.Speed;
-            asteroidInstance.GetComponent<Rigidbody>()
+            asteroidInstance.GetComponent<Rigidbody2D>()
                 .AddForce(new Vector3(Random.Range(-maxForce, maxForce), Random.Range(-maxForce, maxForce), Random.Range(-maxForce, maxForce)));
 
             _currentAsteroids.Add(asteroidInstance);

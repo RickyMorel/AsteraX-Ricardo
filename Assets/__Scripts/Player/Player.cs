@@ -207,7 +207,9 @@ public class Player : MonoBehaviour
 
         _timeSinceLastShot = 0f;
 
-        Instantiate(_projectilePrefab, _shootTransform.position, _shootTransform.rotation);
+        GameObject projectile = Instantiate(_projectilePrefab, GameManager.Instance.BulletsParentTransform);
+        projectile.transform.position = _shootTransform.position;
+        projectile.transform.rotation = _shootTransform.rotation;
     }
 
 #if DEBUG_TurretPointAtMouse_DrawMousePoint

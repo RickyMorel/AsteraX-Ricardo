@@ -13,16 +13,18 @@ public class GameManagerHumble
     public int Jumps { get; private set; }
     public int Level { get; private set; }
     public bool IsInvunerable { get; private set; }
+    public bool ShieldIsActive { get; private set; }
     public List<LevelData> LevelDataList { get; private set; } = new List<LevelData>();
 
 
-    public GameManagerHumble(int score, int jumps, int level, GameState gameState, bool isInvunerable)
+    public GameManagerHumble(int score, int jumps, int level, GameState gameState, bool isInvunerable, bool shieldIsActive)
     {
         GameState = gameState;
         Score = score;
         Jumps = jumps;
         Level = level;
         IsInvunerable = isInvunerable;
+        ShieldIsActive = shieldIsActive;
 
         ReadLevelsData();
     }
@@ -52,8 +54,13 @@ public class GameManagerHumble
         Jumps--;
     }
 
-    public void SetIsInvunerable(bool isInvunerable)
+    public void SetIsInvunerable(bool isInvunerable, int shieldIsActive = -1)
     {
+        if (shieldIsActive != -1) { ShieldIsActive = shieldIsActive == 1; }
+
+        //Don't set isInvunerable false if shield is active
+        if (ShieldIsActive && !isInvunerable) { IsInvunerable = true; return; }
+
         IsInvunerable = isInvunerable;
     }
 

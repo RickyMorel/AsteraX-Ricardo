@@ -5,7 +5,45 @@ namespace Tests
 {
     public class game_manager_tests
     {
-        
+        //TODO FIX: Player still stays invunerable even after disabling shield
+        [Test]
+        [TestCase(false, false, -1, false)]
+        [TestCase(false, false, 0, false)]
+        [TestCase(false, false, 1, true)]
+        [TestCase(true, false, -1, true)]
+        [TestCase(true, false, 0, true)]
+        [TestCase(true, false, 1, true)]
+        [TestCase(false, true, -1, true)]
+        [TestCase(false, true, 0, false)]
+        [TestCase(false, true, 1, true)]
+        [TestCase(true, true, -1, true)]
+        [TestCase(true, true, 0, true)]
+        [TestCase(true, true, 1, true)]
+        public void check_if_set_isInvunerable_correctly(bool setIsInvunerable, bool shieldIsActive, int newShieldState, bool expectedIsInvunerable)
+        {
+            var gameManager = GameManagerFactory.AGameManager.WithShieldIsActive(shieldIsActive).Build();
+
+            gameManager.SetIsInvunerable(setIsInvunerable, newShieldState);
+
+            Assert.AreEqual(expectedIsInvunerable, gameManager.IsInvunerable, $"IsInvunerable set incorrectly. Expected: {expectedIsInvunerable} ; Recieved: {gameManager.IsInvunerable}");
+        }
+
+        [Test]
+        [TestCase(true, -1, false)]
+        [TestCase(true, 0, false)]
+        [TestCase(true, 1, true)]
+        [TestCase(false, -1, false)]
+        [TestCase(false, 0, false)]
+        [TestCase(false, 1, true)]
+        public void check_if_set_shieldIsActive_correctly(bool setIsInvunerable, int shieldIsActive, bool expectedShieldIsActive)
+        {
+            var gameManager = GameManagerFactory.AGameManager.Build();
+
+            gameManager.SetIsInvunerable(setIsInvunerable, shieldIsActive);
+
+            Assert.AreEqual(expectedShieldIsActive, gameManager.ShieldIsActive, $"ShieldIsActive set incorrectly. Expected: {expectedShieldIsActive} ; Recieved: {gameManager.ShieldIsActive}");
+        }
+
         [Test]
         [TestCase(3, 2, false, GameState.Playing)]
         [TestCase(0, 0, false, GameState.Playing)]

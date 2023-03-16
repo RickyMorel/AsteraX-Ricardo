@@ -7,6 +7,7 @@ namespace Tests.Factories
         private int _jumps;
         private int _level;
         private bool _isInvunerable;
+        private bool _shieldIsActive;
 
         public GameManagerBuilder WithGameState(GameState gameState)
         {
@@ -38,9 +39,15 @@ namespace Tests.Factories
             return this;
         }
 
+        public GameManagerBuilder WithShieldIsActive(bool isActive)
+        {
+            _shieldIsActive = isActive;
+            return this;
+        }
+
         public GameManagerHumble Build()
         {
-            return new GameManagerHumble(_score, _jumps, _level, _gameState, _isInvunerable);
+            return new GameManagerHumble(_score, _jumps, _level, _gameState, _isInvunerable, _shieldIsActive);
         }
     }
 
