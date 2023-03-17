@@ -1,14 +1,18 @@
-using Newtonsoft.Json;
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-using UnityEngine.Purchasing.MiniJSON;
+using UnityEngine.Purchasing;
 
 public static class SaveManager
 {
     private static GameData _GAME_DATA;
     private static string _FILE_PATH;
+
+    private const string DeadGodsShipId = "com.machomangames.fyouasteroids.deadgodsship";
+    private const string DeadGodsShipKey = "DeadGodsShip";
+
+    public static event Action OnProductBought;
 
     static SaveManager()
     {
@@ -25,6 +29,31 @@ public static class SaveManager
         string jsonData = JsonUtility.ToJson(_GAME_DATA, true);
 
         File.WriteAllText(_FILE_PATH, jsonData);
+    }
+
+    public static void SavePurchase(Product product)
+    {
+        if (product.definition.id == DeadGodsShipId)
+        {
+            PlayerPrefs.SetInt(DeadGodsShipKey, 1);
+        }
+
+        OnProductBought?.Invoke();
+    }
+
+    public static List<ShipPartSO> LoadPurchases()
+    {
+        List<ShipPartSO> unlockedParts = new List<ShipPartSO>();
+
+        if (PlayerPrefs.GetInt(DeadGodsShipKey, 0) == 1)
+        {
+            ShipPartSO unlockedTurretPart = new ShipPartSO(5, ShipPartType.Turret);
+            ShipPartSO unlockedBodyPart = new ShipPartSO(5, ShipPartType.Body);
+            unlockedParts.Add(unlockedTurretPart);
+            unlockedParts.Add(unlockedBodyPart);
+        }
+
+        return unlockedParts;
     }
 
     public static GameData Load()

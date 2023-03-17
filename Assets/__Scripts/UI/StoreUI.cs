@@ -26,7 +26,6 @@ public class StoreUI : MonoBehaviour
 
     public void FillUserData()
     {
-        Debug.Log("FillUserData: " + Social.localUser.userName);
         _playerNameText.text = Social.localUser.userName;
 
         StartCoroutine(GetImage());
@@ -42,7 +41,6 @@ public class StoreUI : MonoBehaviour
         }
         
         iconTexture = Social.localUser.image;
-        Debug.Log("iconTexture: " + iconTexture);
         Sprite icon = Sprite.Create(iconTexture, new Rect(0f, 0f, iconTexture.width, iconTexture.height), new Vector2(0f, 0f));
         _playerIcon.sprite = icon;
     }

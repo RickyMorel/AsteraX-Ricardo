@@ -19,6 +19,10 @@ public class StartGameUI : MonoBehaviour
     {
         bool isSignedIn = GPGSAuthentication.Instance.ShowStore();
 
+#if UNITY_EDITOR
+        isSignedIn = true;
+#endif
+
         GameState state = isViewingStore && isSignedIn ? GameState.ViewingStore : GameState.Starting;
 
         GameManager.Instance.SetGameState(state);

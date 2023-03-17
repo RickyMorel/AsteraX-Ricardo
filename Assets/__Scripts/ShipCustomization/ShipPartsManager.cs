@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.Rendering;
@@ -40,7 +41,15 @@ public class ShipPartsManager : MonoBehaviour
 
     private void Start()
     {
+        SaveManager.OnProductBought += UnlockBoughtSkins;
+
+        UnlockBoughtSkins();
         EquipShipParts();
+    }
+
+    private void OnDestroy()
+    {
+        SaveManager.OnProductBought -= UnlockBoughtSkins;
     }
 
     public void EquipShipParts()
@@ -101,6 +110,8 @@ public class ShipPartsManager : MonoBehaviour
 
             partSO.State = ShipPartState.Locked;
         }
+
+        UnlockBoughtSkins();
     }
 
     public void EquipPart(ShipPartSO shipPartSO)
@@ -151,5 +162,15 @@ public class ShipPartsManager : MonoBehaviour
         }
 
         return selectedPartIds;
+    }
+
+    public void UnlockBoughtSkins()
+    {
+        List<ShipPartSO> boughtParts = SaveManager.LoadPurchases();
+
+        foreach (ShipPartSO part in boughtParts)
+        {
+            ChangePartState(part.Id, part.Type, ShipPartState.Unlocked);
+        }
     }
 }

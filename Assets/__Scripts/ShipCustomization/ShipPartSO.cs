@@ -11,6 +11,17 @@ public class ShipPartSO : ScriptableObject
 
     [HideInInspector]
     public ShipPartState State = ShipPartState.Locked;
+
+    public ShipPartSO()
+    {
+
+    }
+
+    public ShipPartSO(int id, ShipPartType type)
+    {
+        Id = id;
+        Type = type;
+    }
 }
 
 public enum ShipPartType
