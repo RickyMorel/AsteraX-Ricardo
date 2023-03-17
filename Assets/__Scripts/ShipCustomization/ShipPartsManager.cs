@@ -67,9 +67,10 @@ public class ShipPartsManager : MonoBehaviour
 
     private void LoadShipParts()
     {
-        var shipPartResources = Resources.LoadAll<ShipPartSO>("ShipParts");
+        ShipPartSO[] shipPartResources = Resources.LoadAll<ShipPartSO>("ShipParts");
+        List<ShipPartSO> sortedList = shipPartResources.ToList().OrderBy(x => x.Id).ToList();
 
-        foreach (var shipPart in shipPartResources)
+        foreach (var shipPart in sortedList)
         {
             ShipPartSO shipPartInstance = Instantiate(shipPart);
             _shipParts.Add(shipPartInstance);
