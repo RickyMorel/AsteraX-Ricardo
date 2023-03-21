@@ -127,9 +127,6 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 // UnityEngine.RectTransform/ReapplyDrivenProperties
 struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsJoyStick[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_UI[];
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
@@ -140,91 +137,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3C95DC36BC35028D124872E120F7701E290A66F6
 IL2CPP_EXTERN_C String_t* _stringLiteralFDA32DC2E96C00474CE484C62A98501A5FB8786E;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DynamicJoystick_HandleInput_mCAE97BAA61DADB82382779333C0DBC3DB25F642C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DynamicJoystick_OnPointerDown_m6C941EFC85903429A05475FCA3D3F433B48F79C5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DynamicJoystick_OnPointerUp_mC3D37CF544CFB590758ADCDCC88A7211C2408FBA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DynamicJoystick_Start_m6CDBF0DC80E8522B589E4FE3022FBC3287662881_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DynamicJoystick__ctor_m888E8D07886D358BD3FA2926D98BE42AF79B5356_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DynamicJoystick_get_MoveThreshold_m738812CC8D3F6B27BB20D12BFB70E32E56F9DE3E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DynamicJoystick_set_MoveThreshold_m1CCCA4CCA18EE0EC56BED3D910323D713E93CD29_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FixedJoystick__ctor_mEB04C5EB3F4F14A3819DADDB6C816C510E2F4AFD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FloatingJoystick_OnPointerDown_mE9925CD78E45F5C27F4DFF54573C188D5F9F3248_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FloatingJoystick_OnPointerUp_m970AE3F888399B2E5F2409C56EC72E3488D1D661_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FloatingJoystick_Start_mA6BAD2A50D7ACFEC299D148C7373C616E4265FE1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* FloatingJoystick__ctor_m09D3A5ADF5D411659B42C430F59631A66A9D869F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickPlayerExample_FixedUpdate_mE3ABA42D74A8DEB3B0320AD9916F1FC0EF448D34_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickPlayerExample__ctor_mA88F4E9EC4DF0C474A722772676D00267A0BD0B1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickSetterExample_AxisChanged_mB1C8ED70CF610CF2F8089E9D91CE7A546E5B76C0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickSetterExample_ModeChanged_m92B5E1D80DA6522BD63CFCC2D21AC5590B459B2F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickSetterExample_SnapX_mF5918DFF813FAD89D877447F179E30F947BAEF30_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickSetterExample_SnapY_m851D52A9D145205C22824242558B74712469D963_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickSetterExample_Update_m499998CE361234B56C6F5ED1E1B82251D6B53415_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JoystickSetterExample__ctor_m8A1C64498AD8980D42430B3D385561C58F14F1F1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_FormatInput_m99FD10AD0E68135596BC174403CBFF840D2D1BEF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_OnDrag_m1C44D4CA5394E32DBBCEC2ACC083350070841319_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_ScreenPointToAnchoredPosition_mC1AAEA270786D389CA40DD39823FAE9100C8E7E5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_SnapFloat_m7E6D4EEFB6930982844A3769A6DB0CF0F23AAB2E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_Start_m8AD98F5F051201DD38DAD91D0773F82880FC7335_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_AxisOptions_mDD4DE6B40224DF568A02CC5579FE457B277DC869_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_DeadZone_mB94F4C12240464DAABF96F2C15038A39D494B72C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_Direction_m33265F4ECE1D7EA865BD81BABD6F2A1F390B854F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_HandleRange_mA8FDBCEFE7BC0D2066ECC8D15E91099F8BDCA4A2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_Horizontal_mF53EE4D5EB5C983A2BE3824BAD6EC7298320317C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_SnapX_m7D6638DB365864F5EC5ED9FB60EA788ACCBCB7E4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_SnapY_m245F01EF6C3BE3CE5DA7F8D4575AF62E430BA86B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_get_Vertical_mBB917FCA0497504C75428F9211C050A36EF38E52_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_set_DeadZone_m9F393CDAE25CFB481CF9E61DAA5B479BF9337EBF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_set_HandleRange_m8CCF971534C9B9D220E05E44FB3E6258BD386262_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick_HandleInput_m8D8575F3F12E7C8E60B96F53252701DCB0E2B6D1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick_OnPointerDown_mFE1433A4211ABF6EE92C295DEBA128ECDC95DBF7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick_OnPointerUp_m087A30312C3FB4C8CCA11F68C03DA50DC76614FD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick_Start_mF28548B6585EBD2E20B354FA7BB93F60456990D3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick__ctor_m320951F553702B5034A62E86A5F6E843B17007B7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick_get_MoveThreshold_m37D728A9525972FED553A3A1B0DB5CC27CBBFB6C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VariableJoystick_set_MoveThreshold_m9AD2E68BA692C22D93D12210876092A39BCCC0D5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Angle_mD94AAEA690169FE5882D60F8489C8BF63300C221_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Division_m707994C12D356E65E453CEE8F767E652B60911BF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* AxisOptions_t531212BCB5B183CF8B38AC4E12BEF8F146471AE8_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* JoystickPlayerExample_tF36384CDE696FC998E452A1B199CB4AD42723E14_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
 
 struct SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B;
 
@@ -978,13 +890,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1
 // System.Void VariableJoystick::SetMode(JoystickType)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5 (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, int32_t ___joystickType0, const RuntimeMethod* method) ;
 // System.Void Joystick::set_AxisOptions(AxisOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_inline (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, int32_t ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___value0, const RuntimeMethod* method) ;
 // System.Void Joystick::set_SnapX(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0_inline (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void Joystick::set_SnapY(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43_inline (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 Joystick::get_Direction()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Joystick_get_Direction_m33265F4ECE1D7EA865BD81BABD6F2A1F390B854F (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.Vector2::ToString()
@@ -1115,95 +1027,48 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D2
 // System.Void JoystickPlayerExample::FixedUpdate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickPlayerExample_FixedUpdate_mE3ABA42D74A8DEB3B0320AD9916F1FC0EF448D34 (JoystickPlayerExample_tF36384CDE696FC998E452A1B199CB4AD42723E14* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickPlayerExample_FixedUpdate_mE3ABA42D74A8DEB3B0320AD9916F1FC0EF448D34_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickPlayerExample_tF36384CDE696FC998E452A1B199CB4AD42723E14_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickPlayerExample_FixedUpdate_mE3ABA42D74A8DEB3B0320AD9916F1FC0EF448D34_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 0));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 1));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 2));
 		// Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 3));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 4));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 4));
 		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_1 = __this->___variableJoystick_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 5));
 		NullCheck(L_1);
 		float L_2;
 		L_2 = Joystick_get_Vertical_mBB917FCA0497504C75428F9211C050A36EF38E52(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 5));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 6));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_0, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 6));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 7));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 7));
 		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_5 = __this->___variableJoystick_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 8));
 		NullCheck(L_5);
 		float L_6;
 		L_6 = Joystick_get_Horizontal_mF53EE4D5EB5C983A2BE3824BAD6EC7298320317C(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 8));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 9));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_4, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 9));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 10));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 10));
 		V_0 = L_8;
 		// rb.AddForce(direction * speed * Time.fixedDeltaTime, ForceMode.VelocityChange);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 11));
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_9 = __this->___rb_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		float L_11 = __this->___speed_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 12));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 12));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 13));
 		float L_13;
 		L_13 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 13));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 14));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_12, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 14));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 15));
 		NullCheck(L_9);
 		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_9, L_14, 2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 15));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 16));
 		return;
 	}
 }
 // System.Void JoystickPlayerExample::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickPlayerExample__ctor_mA88F4E9EC4DF0C474A722772676D00267A0BD0B1 (JoystickPlayerExample_tF36384CDE696FC998E452A1B199CB4AD42723E14* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickPlayerExample__ctor_mA88F4E9EC4DF0C474A722772676D00267A0BD0B1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickPlayerExample__ctor_mA88F4E9EC4DF0C474A722772676D00267A0BD0B1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -1220,306 +1085,163 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickPlayerExample__ctor_mA88F4E9EC4D
 // System.Void JoystickSetterExample::ModeChanged(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickSetterExample_ModeChanged_m92B5E1D80DA6522BD63CFCC2D21AC5590B459B2F (JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D* __this, int32_t ___index0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_ModeChanged_m92B5E1D80DA6522BD63CFCC2D21AC5590B459B2F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickSetterExample_ModeChanged_m92B5E1D80DA6522BD63CFCC2D21AC5590B459B2F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 17));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 18));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 19));
-		// switch(index)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 20));
 		int32_t L_0 = ___index0;
-		V_1 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 21));
-		int32_t L_1 = V_1;
-		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 22));
-		int32_t L_2 = V_0;
-		switch (L_2)
+		switch (L_0)
 		{
 			case 0:
 			{
-				goto IL_0019;
+				goto IL_0013;
 			}
 			case 1:
 			{
-				goto IL_0028;
+				goto IL_0020;
 			}
 			case 2:
 			{
-				goto IL_0037;
+				goto IL_002d;
 			}
 		}
 	}
 	{
-		goto IL_0046;
+		return;
 	}
 
-IL_0019:
+IL_0013:
 	{
 		// variableJoystick.SetMode(JoystickType.Fixed);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 23));
-		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_3 = __this->___variableJoystick_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 24));
-		NullCheck(L_3);
-		VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5(L_3, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 24));
+		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_1 = __this->___variableJoystick_4;
+		NullCheck(L_1);
+		VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5(L_1, 0, NULL);
 		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 25));
-		goto IL_0048;
+		return;
 	}
 
-IL_0028:
+IL_0020:
 	{
 		// variableJoystick.SetMode(JoystickType.Floating);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 26));
-		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_4 = __this->___variableJoystick_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 27));
-		NullCheck(L_4);
-		VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5(L_4, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 27));
+		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_2 = __this->___variableJoystick_4;
+		NullCheck(L_2);
+		VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5(L_2, 1, NULL);
 		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 28));
-		goto IL_0048;
+		return;
 	}
 
-IL_0037:
+IL_002d:
 	{
 		// variableJoystick.SetMode(JoystickType.Dynamic);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 29));
-		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_5 = __this->___variableJoystick_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 30));
-		NullCheck(L_5);
-		VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5(L_5, 2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 30));
-		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 31));
-		goto IL_0048;
-	}
-
-IL_0046:
-	{
-		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 32));
-		goto IL_0048;
-	}
-
-IL_0048:
-	{
+		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_3 = __this->___variableJoystick_4;
+		NullCheck(L_3);
+		VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5(L_3, 2, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 33));
 		return;
 	}
 }
 // System.Void JoystickSetterExample::AxisChanged(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickSetterExample_AxisChanged_mB1C8ED70CF610CF2F8089E9D91CE7A546E5B76C0 (JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D* __this, int32_t ___index0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_AxisChanged_mB1C8ED70CF610CF2F8089E9D91CE7A546E5B76C0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___index0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickSetterExample_AxisChanged_mB1C8ED70CF610CF2F8089E9D91CE7A546E5B76C0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 34));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 35));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 36));
-		// switch (index)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 37));
 		int32_t L_0 = ___index0;
-		V_1 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 38));
-		int32_t L_1 = V_1;
-		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 39));
-		int32_t L_2 = V_0;
-		switch (L_2)
+		switch (L_0)
 		{
 			case 0:
 			{
-				goto IL_0019;
+				goto IL_0013;
 			}
 			case 1:
 			{
-				goto IL_003c;
+				goto IL_0033;
 			}
 			case 2:
 			{
-				goto IL_005f;
+				goto IL_0053;
 			}
 		}
 	}
 	{
-		goto IL_0082;
+		return;
 	}
 
-IL_0019:
+IL_0013:
 	{
 		// variableJoystick.AxisOptions = AxisOptions.Both;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 40));
-		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_3 = __this->___variableJoystick_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 41));
-		NullCheck(L_3);
-		Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2(L_3, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 41));
+		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_1 = __this->___variableJoystick_4;
+		NullCheck(L_1);
+		Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_inline(L_1, 0, NULL);
 		// background.sprite = axisSprites[index];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 42));
-		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___background_6;
-		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_5 = __this->___axisSprites_7;
-		int32_t L_6 = ___index0;
-		NullCheck(L_5);
-		int32_t L_7 = L_6;
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 43));
-		NullCheck(L_4);
-		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_4, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 43));
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___background_6;
+		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_3 = __this->___axisSprites_7;
+		int32_t L_4 = ___index0;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_2);
+		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_2, L_6, NULL);
 		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 44));
-		goto IL_0084;
+		return;
 	}
 
-IL_003c:
+IL_0033:
 	{
 		// variableJoystick.AxisOptions = AxisOptions.Horizontal;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 45));
-		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_9 = __this->___variableJoystick_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 46));
-		NullCheck(L_9);
-		Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2(L_9, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 46));
+		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_7 = __this->___variableJoystick_4;
+		NullCheck(L_7);
+		Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_inline(L_7, 1, NULL);
 		// background.sprite = axisSprites[index];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 47));
-		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_10 = __this->___background_6;
-		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_11 = __this->___axisSprites_7;
-		int32_t L_12 = ___index0;
-		NullCheck(L_11);
-		int32_t L_13 = L_12;
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 48));
-		NullCheck(L_10);
-		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_10, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 48));
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = __this->___background_6;
+		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_9 = __this->___axisSprites_7;
+		int32_t L_10 = ___index0;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_8);
+		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_8, L_12, NULL);
 		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 49));
-		goto IL_0084;
+		return;
 	}
 
-IL_005f:
+IL_0053:
 	{
 		// variableJoystick.AxisOptions = AxisOptions.Vertical;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 50));
-		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_15 = __this->___variableJoystick_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 51));
-		NullCheck(L_15);
-		Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2(L_15, 2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 51));
+		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_13 = __this->___variableJoystick_4;
+		NullCheck(L_13);
+		Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_inline(L_13, 2, NULL);
 		// background.sprite = axisSprites[index];
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 52));
-		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_16 = __this->___background_6;
-		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_17 = __this->___axisSprites_7;
-		int32_t L_18 = ___index0;
-		NullCheck(L_17);
-		int32_t L_19 = L_18;
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 53));
-		NullCheck(L_16);
-		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_16, L_20, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 53));
-		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 54));
-		goto IL_0084;
-	}
-
-IL_0082:
-	{
-		// break;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 55));
-		goto IL_0084;
-	}
-
-IL_0084:
-	{
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = __this->___background_6;
+		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_15 = __this->___axisSprites_7;
+		int32_t L_16 = ___index0;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck(L_14);
+		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_14, L_18, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 56));
 		return;
 	}
 }
 // System.Void JoystickSetterExample::SnapX(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickSetterExample_SnapX_mF5918DFF813FAD89D877447F179E30F947BAEF30 (JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D* __this, bool ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_SnapX_mF5918DFF813FAD89D877447F179E30F947BAEF30_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickSetterExample_SnapX_mF5918DFF813FAD89D877447F179E30F947BAEF30_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 57));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 58));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 59));
 		// variableJoystick.SnapX = value;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 60));
 		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_0 = __this->___variableJoystick_4;
 		bool L_1 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 61));
 		NullCheck(L_0);
-		Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 61));
+		Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0_inline(L_0, L_1, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 62));
 		return;
 	}
 }
 // System.Void JoystickSetterExample::SnapY(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickSetterExample_SnapY_m851D52A9D145205C22824242558B74712469D963 (JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D* __this, bool ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_SnapY_m851D52A9D145205C22824242558B74712469D963_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickSetterExample_SnapY_m851D52A9D145205C22824242558B74712469D963_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 63));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 64));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 65));
 		// variableJoystick.SnapY = value;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 66));
 		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_0 = __this->___variableJoystick_4;
 		bool L_1 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 67));
 		NullCheck(L_0);
-		Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 67));
+		Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43_inline(L_0, L_1, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 68));
 		return;
 	}
 }
@@ -1529,58 +1251,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickSetterExample_Update_m499998CE36
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_Update_m499998CE361234B56C6F5ED1E1B82251D6B53415_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFDA32DC2E96C00474CE484C62A98501A5FB8786E);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickSetterExample_Update_m499998CE361234B56C6F5ED1E1B82251D6B53415_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 69));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 70));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 71));
 		// valueText.text = "Current Value: " + variableJoystick.Direction;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 72));
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___valueText_5;
 		VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* L_1 = __this->___variableJoystick_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 73));
 		NullCheck(L_1);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Joystick_get_Direction_m33265F4ECE1D7EA865BD81BABD6F2A1F390B854F(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 73));
 		V_0 = L_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 74));
 		String_t* L_3;
 		L_3 = Vector2_ToString_mB47B29ECB21FA3A4ACEABEFA18077A5A6BBCCB27((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 74));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 75));
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFDA32DC2E96C00474CE484C62A98501A5FB8786E, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 75));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 76));
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_4);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 76));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 77));
 		return;
 	}
 }
 // System.Void JoystickSetterExample::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickSetterExample__ctor_m8A1C64498AD8980D42430B3D385561C58F14F1F1 (JoystickSetterExample_t3AA3F4FAEAC0EEEFDE29A8500D1AA620197F510D* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JoystickSetterExample__ctor_m8A1C64498AD8980D42430B3D385561C58F14F1F1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JoystickSetterExample__ctor_m8A1C64498AD8980D42430B3D385561C58F14F1F1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -1597,470 +1293,172 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickSetterExample__ctor_m8A1C64498AD
 // System.Single Joystick::get_Horizontal()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Joystick_get_Horizontal_mF53EE4D5EB5C983A2BE3824BAD6EC7298320317C (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_Horizontal_mF53EE4D5EB5C983A2BE3824BAD6EC7298320317C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_Horizontal_mF53EE4D5EB5C983A2BE3824BAD6EC7298320317C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 78));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 79));
-	float G_B3_0 = 0.0f;
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 80));
 		// public float Horizontal { get { return (snapX) ? SnapFloat(input.x, AxisOptions.Horizontal) : input.x; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 81));
 		bool L_0 = __this->___snapX_7;
 		if (L_0)
 		{
-			goto IL_0016;
+			goto IL_0014;
 		}
 	}
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1 = (&__this->___input_14);
 		float L_2 = L_1->___x_0;
-		G_B3_0 = L_2;
-		goto IL_0028;
+		return L_2;
 	}
 
-IL_0016:
+IL_0014:
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3 = (&__this->___input_14);
 		float L_4 = L_3->___x_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 82));
 		float L_5;
 		L_5 = Joystick_SnapFloat_m7E6D4EEFB6930982844A3769A6DB0CF0F23AAB2E(__this, L_4, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 82));
-		G_B3_0 = L_5;
-	}
-
-IL_0028:
-	{
-		V_0 = G_B3_0;
-		goto IL_002b;
-	}
-
-IL_002b:
-	{
-		// public float Horizontal { get { return (snapX) ? SnapFloat(input.x, AxisOptions.Horizontal) : input.x; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 83));
-		float L_6 = V_0;
-		return L_6;
+		return L_5;
 	}
 }
 // System.Single Joystick::get_Vertical()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Joystick_get_Vertical_mBB917FCA0497504C75428F9211C050A36EF38E52 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_Vertical_mBB917FCA0497504C75428F9211C050A36EF38E52_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_Vertical_mBB917FCA0497504C75428F9211C050A36EF38E52_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 84));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 85));
-	float G_B3_0 = 0.0f;
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 86));
 		// public float Vertical { get { return (snapY) ? SnapFloat(input.y, AxisOptions.Vertical) : input.y; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 87));
 		bool L_0 = __this->___snapY_8;
 		if (L_0)
 		{
-			goto IL_0016;
+			goto IL_0014;
 		}
 	}
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1 = (&__this->___input_14);
 		float L_2 = L_1->___y_1;
-		G_B3_0 = L_2;
-		goto IL_0028;
+		return L_2;
 	}
 
-IL_0016:
+IL_0014:
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_3 = (&__this->___input_14);
 		float L_4 = L_3->___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 88));
 		float L_5;
 		L_5 = Joystick_SnapFloat_m7E6D4EEFB6930982844A3769A6DB0CF0F23AAB2E(__this, L_4, 2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 88));
-		G_B3_0 = L_5;
-	}
-
-IL_0028:
-	{
-		V_0 = G_B3_0;
-		goto IL_002b;
-	}
-
-IL_002b:
-	{
-		// public float Vertical { get { return (snapY) ? SnapFloat(input.y, AxisOptions.Vertical) : input.y; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 89));
-		float L_6 = V_0;
-		return L_6;
+		return L_5;
 	}
 }
 // UnityEngine.Vector2 Joystick::get_Direction()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Joystick_get_Direction_m33265F4ECE1D7EA865BD81BABD6F2A1F390B854F (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_Direction_m33265F4ECE1D7EA865BD81BABD6F2A1F390B854F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_Direction_m33265F4ECE1D7EA865BD81BABD6F2A1F390B854F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 90));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 91));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 92));
 		// public Vector2 Direction { get { return new Vector2(Horizontal, Vertical); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 93));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 94));
 		float L_0;
 		L_0 = Joystick_get_Horizontal_mF53EE4D5EB5C983A2BE3824BAD6EC7298320317C(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 94));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 95));
 		float L_1;
 		L_1 = Joystick_get_Vertical_mBB917FCA0497504C75428F9211C050A36EF38E52(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 95));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 96));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_2), L_0, L_1, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 96));
-		V_0 = L_2;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		// public Vector2 Direction { get { return new Vector2(Horizontal, Vertical); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 97));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = V_0;
-		return L_3;
+		return L_2;
 	}
 }
 // System.Single Joystick::get_HandleRange()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Joystick_get_HandleRange_mA8FDBCEFE7BC0D2066ECC8D15E91099F8BDCA4A2 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_HandleRange_mA8FDBCEFE7BC0D2066ECC8D15E91099F8BDCA4A2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_HandleRange_mA8FDBCEFE7BC0D2066ECC8D15E91099F8BDCA4A2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 98));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 99));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 100));
 		// get { return handleRange; }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 101));
 		float L_0 = __this->___handleRange_4;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// get { return handleRange; }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 102));
-		float L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Joystick::set_HandleRange(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_HandleRange_m8CCF971534C9B9D220E05E44FB3E6258BD386262 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, float ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_set_HandleRange_m8CCF971534C9B9D220E05E44FB3E6258BD386262_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_set_HandleRange_m8CCF971534C9B9D220E05E44FB3E6258BD386262_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 103));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 104));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 105));
 		// set { handleRange = Mathf.Abs(value); }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 106));
 		float L_0 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 107));
 		float L_1;
 		L_1 = fabsf(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 107));
 		__this->___handleRange_4 = L_1;
 		// set { handleRange = Mathf.Abs(value); }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 108));
 		return;
 	}
 }
 // System.Single Joystick::get_DeadZone()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Joystick_get_DeadZone_mB94F4C12240464DAABF96F2C15038A39D494B72C (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_DeadZone_mB94F4C12240464DAABF96F2C15038A39D494B72C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_DeadZone_mB94F4C12240464DAABF96F2C15038A39D494B72C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 109));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 110));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 111));
 		// get { return deadZone; }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 112));
 		float L_0 = __this->___deadZone_5;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// get { return deadZone; }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 113));
-		float L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Joystick::set_DeadZone(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_DeadZone_m9F393CDAE25CFB481CF9E61DAA5B479BF9337EBF (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, float ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_set_DeadZone_m9F393CDAE25CFB481CF9E61DAA5B479BF9337EBF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_set_DeadZone_m9F393CDAE25CFB481CF9E61DAA5B479BF9337EBF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 114));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 115));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 116));
 		// set { deadZone = Mathf.Abs(value); }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 117));
 		float L_0 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 118));
 		float L_1;
 		L_1 = fabsf(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 118));
 		__this->___deadZone_5 = L_1;
 		// set { deadZone = Mathf.Abs(value); }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 119));
 		return;
 	}
 }
 // AxisOptions Joystick::get_AxisOptions()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Joystick_get_AxisOptions_mDD4DE6B40224DF568A02CC5579FE457B277DC869 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisOptions_t531212BCB5B183CF8B38AC4E12BEF8F146471AE8_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_AxisOptions_mDD4DE6B40224DF568A02CC5579FE457B277DC869_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_AxisOptions_mDD4DE6B40224DF568A02CC5579FE457B277DC869_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 120));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 121));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 122));
 		// public AxisOptions AxisOptions { get { return AxisOptions; } set { axisOptions = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 123));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 124));
 		int32_t L_0;
 		L_0 = Joystick_get_AxisOptions_mDD4DE6B40224DF568A02CC5579FE457B277DC869(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 124));
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public AxisOptions AxisOptions { get { return AxisOptions; } set { axisOptions = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 125));
-		int32_t L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Joystick::set_AxisOptions(AxisOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, int32_t ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 126));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 127));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 128));
 		// public AxisOptions AxisOptions { get { return AxisOptions; } set { axisOptions = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 129));
 		int32_t L_0 = ___value0;
 		__this->___axisOptions_6 = L_0;
 		// public AxisOptions AxisOptions { get { return AxisOptions; } set { axisOptions = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 130));
 		return;
 	}
 }
 // System.Boolean Joystick::get_SnapX()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Joystick_get_SnapX_m7D6638DB365864F5EC5ED9FB60EA788ACCBCB7E4 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_SnapX_m7D6638DB365864F5EC5ED9FB60EA788ACCBCB7E4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_SnapX_m7D6638DB365864F5EC5ED9FB60EA788ACCBCB7E4_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 131));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 132));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 133));
 		// public bool SnapX { get { return snapX; } set { snapX = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 134));
 		bool L_0 = __this->___snapX_7;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public bool SnapX { get { return snapX; } set { snapX = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 135));
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Joystick::set_SnapX(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 136));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 137));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 138));
 		// public bool SnapX { get { return snapX; } set { snapX = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 139));
 		bool L_0 = ___value0;
 		__this->___snapX_7 = L_0;
 		// public bool SnapX { get { return snapX; } set { snapX = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 140));
 		return;
 	}
 }
 // System.Boolean Joystick::get_SnapY()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Joystick_get_SnapY_m245F01EF6C3BE3CE5DA7F8D4575AF62E430BA86B (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_get_SnapY_m245F01EF6C3BE3CE5DA7F8D4575AF62E430BA86B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_get_SnapY_m245F01EF6C3BE3CE5DA7F8D4575AF62E430BA86B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 141));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 142));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 143));
 		// public bool SnapY { get { return snapY; } set { snapY = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 144));
 		bool L_0 = __this->___snapY_8;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public bool SnapY { get { return snapY; } set { snapY = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 145));
-		bool L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void Joystick::set_SnapY(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 146));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 147));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 148));
 		// public bool SnapY { get { return snapY; } set { snapY = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 149));
 		bool L_0 = ___value0;
 		__this->___snapY_8 = L_0;
 		// public bool SnapY { get { return snapY; } set { snapY = value; } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 150));
 		return;
 	}
 }
@@ -2070,160 +1468,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_Start_m8AD98F5F051201DD38DAD91D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_Start_m8AD98F5F051201DD38DAD91D0773F82880FC7335_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3C95DC36BC35028D124872E120F7701E290A66F6);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_Start_m8AD98F5F051201DD38DAD91D0773F82880FC7335_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 151));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 152));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 153));
 		// HandleRange = handleRange;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 154));
 		float L_0 = __this->___handleRange_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 155));
 		Joystick_set_HandleRange_m8CCF971534C9B9D220E05E44FB3E6258BD386262(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 155));
 		// DeadZone = deadZone;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 156));
 		float L_1 = __this->___deadZone_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 157));
 		Joystick_set_DeadZone_m9F393CDAE25CFB481CF9E61DAA5B479BF9337EBF(__this, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 157));
 		// baseRect = GetComponent<RectTransform>();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 158));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 159));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2;
 		L_2 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 159));
 		__this->___baseRect_11 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___baseRect_11), (void*)L_2);
 		// canvas = GetComponentInParent<Canvas>();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 160));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 161));
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_3;
 		L_3 = Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3(__this, Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 161));
 		__this->___canvas_12 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___canvas_12), (void*)L_3);
 		// if (canvas == null)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 162));
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4 = __this->___canvas_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 163));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 163));
-		V_1 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 164));
-		bool L_6 = V_1;
-		if (!L_6)
+		if (!L_5)
 		{
-			goto IL_004e;
+			goto IL_0048;
 		}
 	}
 	{
 		// Debug.LogError("The Joystick is not placed inside a canvas");
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 165));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 166));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral3C95DC36BC35028D124872E120F7701E290A66F6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 166));
 	}
 
-IL_004e:
+IL_0048:
 	{
 		// Vector2 center = new Vector2(0.5f, 0.5f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 167));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 168));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), (0.5f), (0.5f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 168));
 		// background.pivot = center;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 169));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = __this->___background_9;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 170));
-		NullCheck(L_7);
-		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_7, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 170));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___background_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
+		NullCheck(L_6);
+		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_6, L_7, NULL);
 		// handle.anchorMin = center;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 171));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = __this->___handle_10;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 172));
-		NullCheck(L_9);
-		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 172));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = __this->___handle_10;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
+		NullCheck(L_8);
+		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_8, L_9, NULL);
 		// handle.anchorMax = center;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 173));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = __this->___handle_10;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 174));
-		NullCheck(L_11);
-		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_11, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 174));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = __this->___handle_10;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_0;
+		NullCheck(L_10);
+		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_10, L_11, NULL);
 		// handle.pivot = center;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 175));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = __this->___handle_10;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 176));
-		NullCheck(L_13);
-		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 176));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = __this->___handle_10;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_0;
+		NullCheck(L_12);
+		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_12, L_13, NULL);
 		// handle.anchoredPosition = Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 177));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = __this->___handle_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 178));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
-		L_16 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 178));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 179));
-		NullCheck(L_15);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_15, L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 179));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___handle_10;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		L_15 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		NullCheck(L_14);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_14, L_15, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 180));
 		return;
 	}
 }
 // System.Void Joystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 181));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 182));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 183));
 		// OnDrag(eventData);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 184));
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 185));
 		Joystick_OnDrag_m1C44D4CA5394E32DBBCEC2ACC083350070841319(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 185));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 186));
 		return;
 	}
 }
@@ -2233,451 +1561,312 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_OnDrag_m1C44D4CA5394E32DBBCEC2A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_OnDrag_m1C44D4CA5394E32DBBCEC2ACC083350070841319_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	bool V_2 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_OnDrag_m1C44D4CA5394E32DBBCEC2ACC083350070841319_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 187));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 188));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 189));
 		// cam = null;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 190));
 		__this->___cam_13 = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cam_13), (void*)(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL);
 		// if (canvas.renderMode == RenderMode.ScreenSpaceCamera)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 191));
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___canvas_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 192));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Canvas_get_renderMode_m1BEF259548C6CAD27E4466F31D20752D246688CC(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 192));
-		V_2 = (bool)((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 193));
-		bool L_2 = V_2;
-		if (!L_2)
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
-			goto IL_002b;
+			goto IL_0026;
 		}
 	}
 	{
 		// cam = canvas.worldCamera;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 194));
-		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_3 = __this->___canvas_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 195));
-		NullCheck(L_3);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4;
-		L_4 = Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 195));
-		__this->___cam_13 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___cam_13), (void*)L_4);
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2 = __this->___canvas_12;
+		NullCheck(L_2);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
+		L_3 = Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853(L_2, NULL);
+		__this->___cam_13 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cam_13), (void*)L_3);
 	}
 
-IL_002b:
+IL_0026:
 	{
 		// Vector2 position = RectTransformUtility.WorldToScreenPoint(cam, background.position);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 196));
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5 = __this->___cam_13;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 197));
-		NullCheck(L_6);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
-		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 197));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 198));
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4 = __this->___cam_13;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___background_9;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
-		L_8 = RectTransformUtility_WorldToScreenPoint_mC8701032E223BA296C43799F4AEE98626686238F(L_5, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 198));
-		V_0 = L_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		L_7 = RectTransformUtility_WorldToScreenPoint_mC8701032E223BA296C43799F4AEE98626686238F(L_4, L_6, NULL);
+		V_0 = L_7;
 		// Vector2 radius = background.sizeDelta / 2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 199));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = __this->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 200));
-		NullCheck(L_9);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = __this->___background_9;
+		NullCheck(L_8);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
+		L_9 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_8, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
-		L_10 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 200));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 201));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
-		L_11 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(L_10, (2.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 201));
-		V_1 = L_11;
+		L_10 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(L_9, (2.0f), NULL);
+		V_1 = L_10;
 		// input = (eventData.position - position) / (radius * canvas.scaleFactor);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 202));
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_12 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 203));
-		NullCheck(L_12);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
-		L_13 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 203));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 204));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
-		L_15 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 204));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = V_1;
-		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_17 = __this->___canvas_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 205));
-		NullCheck(L_17);
-		float L_18;
-		L_18 = Canvas_get_scaleFactor_m6B8D694A68376EE5E13D9B0B0F037E2E90C99921(L_17, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 205));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 206));
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_11 = ___eventData0;
+		NullCheck(L_11);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
+		L_12 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_11, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
+		L_14 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_12, L_13, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_1;
+		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_16 = __this->___canvas_12;
+		NullCheck(L_16);
+		float L_17;
+		L_17 = Canvas_get_scaleFactor_m6B8D694A68376EE5E13D9B0B0F037E2E90C99921(L_16, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
+		L_18 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_15, L_17, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
-		L_19 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_16, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 206));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 207));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
-		L_20 = Vector2_op_Division_m707994C12D356E65E453CEE8F767E652B60911BF_inline(L_15, L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 207));
-		__this->___input_14 = L_20;
+		L_19 = Vector2_op_Division_m707994C12D356E65E453CEE8F767E652B60911BF_inline(L_14, L_18, NULL);
+		__this->___input_14 = L_19;
 		// FormatInput();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 208));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 209));
 		Joystick_FormatInput_m99FD10AD0E68135596BC174403CBFF840D2D1BEF(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 209));
 		// HandleInput(input.magnitude, input.normalized, radius, cam);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 210));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_21 = (&__this->___input_14);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 211));
-		float L_22;
-		L_22 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline(L_21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 211));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_23 = (&__this->___input_14);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 212));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24;
-		L_24 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline(L_23, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 212));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25 = V_1;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_26 = __this->___cam_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 213));
-		VirtualActionInvoker4< float, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(9 /* System.Void Joystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera) */, __this, L_22, L_24, L_25, L_26);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 213));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_20 = (&__this->___input_14);
+		float L_21;
+		L_21 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline(L_20, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_22 = (&__this->___input_14);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
+		L_23 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline(L_22, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = V_1;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_25 = __this->___cam_13;
+		VirtualActionInvoker4< float, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(9 /* System.Void Joystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera) */, __this, L_21, L_23, L_24, L_25);
 		// handle.anchoredPosition = input * radius * handleRange;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 214));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_27 = __this->___handle_10;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = __this->___input_14;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 215));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30;
-		L_30 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_28, L_29, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 215));
-		float L_31 = __this->___handleRange_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 216));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32;
-		L_32 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_30, L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 216));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 217));
-		NullCheck(L_27);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_27, L_32, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 217));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_26 = __this->___handle_10;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27 = __this->___input_14;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29;
+		L_29 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_27, L_28, NULL);
+		float L_30 = __this->___handleRange_4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31;
+		L_31 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_29, L_30, NULL);
+		NullCheck(L_26);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_26, L_31, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 218));
 		return;
 	}
 }
 // System.Void Joystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, float ___magnitude0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___normalised1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___radius2, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___magnitude0), (&___normalised1), (&___radius2), (&___cam3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 219));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 220));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 221));
 		// if (magnitude > deadZone)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 222));
 		float L_0 = ___magnitude0;
 		float L_1 = __this->___deadZone_5;
-		V_0 = (bool)((((float)L_0) > ((float)L_1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 223));
-		bool L_2 = V_0;
-		if (!L_2)
+		if ((!(((float)L_0) > ((float)L_1))))
 		{
-			goto IL_0025;
+			goto IL_0019;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 224));
 		// if (magnitude > 1)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 225));
-		float L_3 = ___magnitude0;
-		V_1 = (bool)((((float)L_3) > ((float)(1.0f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 226));
-		bool L_4 = V_1;
-		if (!L_4)
+		float L_2 = ___magnitude0;
+		if ((!(((float)L_2) > ((float)(1.0f)))))
 		{
-			goto IL_0022;
+			goto IL_0024;
 		}
 	}
 	{
 		// input = normalised;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 227));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___normalised1;
-		__this->___input_14 = L_5;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___normalised1;
+		__this->___input_14 = L_3;
+		return;
 	}
 
-IL_0022:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 228));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 229));
-		goto IL_0030;
-	}
-
-IL_0025:
+IL_0019:
 	{
 		// input = Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 230));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 231));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
-		L_6 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 231));
-		__this->___input_14 = L_6;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		__this->___input_14 = L_4;
 	}
 
-IL_0030:
+IL_0024:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 232));
 		return;
 	}
 }
 // System.Void Joystick::FormatInput()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_FormatInput_m99FD10AD0E68135596BC174403CBFF840D2D1BEF (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_FormatInput_m99FD10AD0E68135596BC174403CBFF840D2D1BEF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_FormatInput_m99FD10AD0E68135596BC174403CBFF840D2D1BEF_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 233));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 234));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 235));
 		// if (axisOptions == AxisOptions.Horizontal)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 236));
 		int32_t L_0 = __this->___axisOptions_6;
-		V_0 = (bool)((((int32_t)L_0) == ((int32_t)1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 237));
-		bool L_1 = V_0;
-		if (!L_1)
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
-			goto IL_002b;
+			goto IL_0025;
 		}
 	}
 	{
 		// input = new Vector2(input.x, 0f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 238));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2 = (&__this->___input_14);
-		float L_3 = L_2->___x_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 239));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
-		memset((&L_4), 0, sizeof(L_4));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4), L_3, (0.0f), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 239));
-		__this->___input_14 = L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 240));
-		goto IL_0053;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1 = (&__this->___input_14);
+		float L_2 = L_1->___x_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3), L_2, (0.0f), /*hidden argument*/NULL);
+		__this->___input_14 = L_3;
+		return;
 	}
 
-IL_002b:
+IL_0025:
 	{
 		// else if (axisOptions == AxisOptions.Vertical)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 241));
-		int32_t L_5 = __this->___axisOptions_6;
-		V_1 = (bool)((((int32_t)L_5) == ((int32_t)2))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 242));
-		bool L_6 = V_1;
-		if (!L_6)
+		int32_t L_4 = __this->___axisOptions_6;
+		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
 		{
-			goto IL_0053;
+			goto IL_0049;
 		}
 	}
 	{
 		// input = new Vector2(0f, input.y);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 243));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_7 = (&__this->___input_14);
-		float L_8 = L_7->___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 244));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
-		memset((&L_9), 0, sizeof(L_9));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_9), (0.0f), L_8, /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 244));
-		__this->___input_14 = L_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_5 = (&__this->___input_14);
+		float L_6 = L_5->___y_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_7), (0.0f), L_6, /*hidden argument*/NULL);
+		__this->___input_14 = L_7;
 	}
 
-IL_0053:
+IL_0049:
 	{
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 245));
 		return;
 	}
 }
 // System.Single Joystick::SnapFloat(System.Single,AxisOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Joystick_SnapFloat_m7E6D4EEFB6930982844A3769A6DB0CF0F23AAB2E (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, float ___value0, int32_t ___snapAxis1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
+	float V_0 = 0.0f;
+	int32_t G_B10_0 = 0;
+	int32_t G_B18_0 = 0;
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_SnapFloat_m7E6D4EEFB6930982844A3769A6DB0CF0F23AAB2E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	float V_1 = 0.0f;
-	bool V_2 = false;
-	float V_3 = 0.0f;
-	bool V_4 = false;
-	bool V_5 = false;
-	bool V_6 = false;
-	bool V_7 = false;
-	bool V_8 = false;
-	bool V_9 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0), (&___snapAxis1));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_SnapFloat_m7E6D4EEFB6930982844A3769A6DB0CF0F23AAB2E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 246));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 247));
-	int32_t G_B7_0 = 0;
-	int32_t G_B12_0 = 0;
-	int32_t G_B17_0 = 0;
-	int32_t G_B22_0 = 0;
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 248));
 		// if (value == 0)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 249));
 		float L_0 = ___value0;
-		V_0 = (bool)((((float)L_0) == ((float)(0.0f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 250));
-		bool L_1 = V_0;
-		if (!L_1)
+		if ((!(((float)L_0) == ((float)(0.0f)))))
 		{
-			goto IL_0014;
+			goto IL_000a;
 		}
 	}
 	{
 		// return value;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 251));
-		float L_2 = ___value0;
-		V_1 = L_2;
-		goto IL_00eb;
+		float L_1 = ___value0;
+		return L_1;
 	}
 
-IL_0014:
+IL_000a:
 	{
 		// if (axisOptions == AxisOptions.Both)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 252));
-		int32_t L_3 = __this->___axisOptions_6;
-		V_2 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 253));
-		bool L_4 = V_2;
-		if (!L_4)
-		{
-			goto IL_00b5;
-		}
-	}
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 254));
-		// float angle = Vector2.Angle(input, Vector2.up);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 255));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = __this->___input_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 256));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
-		L_6 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 256));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 257));
-		float L_7;
-		L_7 = Vector2_Angle_mD94AAEA690169FE5882D60F8489C8BF63300C221_inline(L_5, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 257));
-		V_3 = L_7;
-		// if (snapAxis == AxisOptions.Horizontal)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 258));
-		int32_t L_8 = ___snapAxis1;
-		V_4 = (bool)((((int32_t)L_8) == ((int32_t)1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 259));
-		bool L_9 = V_4;
-		if (!L_9)
+		int32_t L_2 = __this->___axisOptions_6;
+		if (L_2)
 		{
 			goto IL_0075;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 260));
-		// if (angle < 22.5f || angle > 157.5f)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 261));
-		float L_10 = V_3;
-		if ((((float)L_10) < ((float)(22.5f))))
+		// float angle = Vector2.Angle(input, Vector2.up);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = __this->___input_14;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_inline(NULL);
+		float L_5;
+		L_5 = Vector2_Angle_mD94AAEA690169FE5882D60F8489C8BF63300C221_inline(L_3, L_4, NULL);
+		V_0 = L_5;
+		// if (snapAxis == AxisOptions.Horizontal)
+		int32_t L_6 = ___snapAxis1;
+		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
 		{
-			goto IL_0053;
+			goto IL_004b;
 		}
 	}
 	{
-		float L_11 = V_3;
-		G_B7_0 = ((((float)L_11) > ((float)(157.5f)))? 1 : 0);
-		goto IL_0054;
+		// if (angle < 22.5f || angle > 157.5f)
+		float L_7 = V_0;
+		if ((((float)L_7) < ((float)(22.5f))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		float L_8 = V_0;
+		if ((!(((float)L_8) > ((float)(157.5f)))))
+		{
+			goto IL_003d;
+		}
 	}
 
-IL_0053:
+IL_0037:
 	{
-		G_B7_0 = 1;
+		// return 0;
+		return (0.0f);
 	}
 
-IL_0054:
+IL_003d:
 	{
-		V_5 = (bool)G_B7_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 262));
-		bool L_12 = V_5;
-		if (!L_12)
+		// return (value > 0) ? 1 : -1;
+		float L_9 = ___value0;
+		if ((((float)L_9) > ((float)(0.0f))))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		G_B10_0 = (-1);
+		goto IL_0049;
+	}
+
+IL_0048:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_0049:
+	{
+		return ((float)G_B10_0);
+	}
+
+IL_004b:
+	{
+		// else if (snapAxis == AxisOptions.Vertical)
+		int32_t L_10 = ___snapAxis1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)2))))
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		// if (angle > 67.5f && angle < 112.5f)
+		float L_11 = V_0;
+		if ((!(((float)L_11) > ((float)(67.5f)))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		float L_12 = V_0;
+		if ((!(((float)L_12) < ((float)(112.5f)))))
 		{
 			goto IL_0065;
 		}
 	}
 	{
 		// return 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 263));
-		V_1 = (0.0f);
-		goto IL_00eb;
+		return (0.0f);
 	}
 
 IL_0065:
 	{
 		// return (value > 0) ? 1 : -1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 264));
 		float L_13 = ___value0;
 		if ((((float)L_13) > ((float)(0.0f))))
 		{
@@ -2685,202 +1874,76 @@ IL_0065:
 		}
 	}
 	{
-		G_B12_0 = (-1);
+		G_B18_0 = (-1);
 		goto IL_0071;
 	}
 
 IL_0070:
 	{
-		G_B12_0 = 1;
+		G_B18_0 = 1;
 	}
 
 IL_0071:
 	{
-		V_1 = ((float)G_B12_0);
-		goto IL_00eb;
+		return ((float)G_B18_0);
+	}
+
+IL_0073:
+	{
+		// return value;
+		float L_14 = ___value0;
+		return L_14;
 	}
 
 IL_0075:
 	{
-		// else if (snapAxis == AxisOptions.Vertical)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 265));
-		int32_t L_14 = ___snapAxis1;
-		V_6 = (bool)((((int32_t)L_14) == ((int32_t)2))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 266));
-		bool L_15 = V_6;
-		if (!L_15)
-		{
-			goto IL_00b1;
-		}
-	}
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 267));
-		// if (angle > 67.5f && angle < 112.5f)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 268));
-		float L_16 = V_3;
-		if ((!(((float)L_16) > ((float)(67.5f)))))
-		{
-			goto IL_0092;
-		}
-	}
-	{
-		float L_17 = V_3;
-		G_B17_0 = ((((float)L_17) < ((float)(112.5f)))? 1 : 0);
-		goto IL_0093;
-	}
-
-IL_0092:
-	{
-		G_B17_0 = 0;
-	}
-
-IL_0093:
-	{
-		V_7 = (bool)G_B17_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 269));
-		bool L_18 = V_7;
-		if (!L_18)
-		{
-			goto IL_00a1;
-		}
-	}
-	{
-		// return 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 270));
-		V_1 = (0.0f);
-		goto IL_00eb;
-	}
-
-IL_00a1:
-	{
-		// return (value > 0) ? 1 : -1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 271));
-		float L_19 = ___value0;
-		if ((((float)L_19) > ((float)(0.0f))))
-		{
-			goto IL_00ac;
-		}
-	}
-	{
-		G_B22_0 = (-1);
-		goto IL_00ad;
-	}
-
-IL_00ac:
-	{
-		G_B22_0 = 1;
-	}
-
-IL_00ad:
-	{
-		V_1 = ((float)G_B22_0);
-		goto IL_00eb;
-	}
-
-IL_00b1:
-	{
-		// return value;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 272));
-		float L_20 = ___value0;
-		V_1 = L_20;
-		goto IL_00eb;
-	}
-
-IL_00b5:
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 273));
 		// if (value > 0)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 274));
-		float L_21 = ___value0;
-		V_8 = (bool)((((float)L_21) > ((float)(0.0f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 275));
-		bool L_22 = V_8;
-		if (!L_22)
+		float L_15 = ___value0;
+		if ((!(((float)L_15) > ((float)(0.0f)))))
 		{
-			goto IL_00cc;
+			goto IL_0083;
 		}
 	}
 	{
 		// return 1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 276));
-		V_1 = (1.0f);
-		goto IL_00eb;
+		return (1.0f);
 	}
 
-IL_00cc:
+IL_0083:
 	{
 		// if (value < 0)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 277));
-		float L_23 = ___value0;
-		V_9 = (bool)((((float)L_23) < ((float)(0.0f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 278));
-		bool L_24 = V_9;
-		if (!L_24)
+		float L_16 = ___value0;
+		if ((!(((float)L_16) < ((float)(0.0f)))))
 		{
-			goto IL_00e2;
+			goto IL_0091;
 		}
 	}
 	{
 		// return -1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 279));
-		V_1 = (-1.0f);
-		goto IL_00eb;
+		return (-1.0f);
 	}
 
-IL_00e2:
+IL_0091:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 280));
 		// return 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 281));
-		V_1 = (0.0f);
-		goto IL_00eb;
-	}
-
-IL_00eb:
-	{
-		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 282));
-		float L_25 = V_1;
-		return L_25;
+		return (0.0f);
 	}
 }
 // System.Void Joystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 283));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 284));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 285));
 		// input = Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 286));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 287));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 287));
 		__this->___input_14 = L_0;
 		// handle.anchoredPosition = Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 288));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___handle_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 289));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 289));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 290));
 		NullCheck(L_1);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 290));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 291));
 		return;
 	}
 }
@@ -2890,178 +1953,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_ScreenPointToAnchoredPosition_mC1AAEA270786D389CA40DD39823FAE9100C8E7E5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	bool V_1 = false;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___screenPosition0));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick_ScreenPointToAnchoredPosition_mC1AAEA270786D389CA40DD39823FAE9100C8E7E5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 292));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 293));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 294));
 		// Vector2 localPoint = Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 295));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 296));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 296));
 		V_0 = L_0;
 		// if (RectTransformUtility.ScreenPointToLocalPointInRectangle(baseRect, screenPosition, cam, out localPoint))
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 297));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___baseRect_11;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___screenPosition0;
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3 = __this->___cam_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 298));
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195(L_1, L_2, L_3, (&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 298));
-		V_1 = L_4;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 299));
-		bool L_5 = V_1;
-		if (!L_5)
+		if (!L_4)
 		{
-			goto IL_0066;
+			goto IL_0060;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 300));
 		// Vector2 pivotOffset = baseRect.pivot * baseRect.sizeDelta;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 301));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___baseRect_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 302));
-		NullCheck(L_6);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
-		L_7 = RectTransform_get_pivot_mA8334AF05AA7FF09A173A2430F2BB9E85E5CBFFF(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 302));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = __this->___baseRect_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 303));
-		NullCheck(L_8);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___baseRect_11;
+		NullCheck(L_5);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
+		L_6 = RectTransform_get_pivot_mA8334AF05AA7FF09A173A2430F2BB9E85E5CBFFF(L_5, NULL);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = __this->___baseRect_11;
+		NullCheck(L_7);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		L_8 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_7, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
-		L_9 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 303));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 304));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
-		L_10 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_7, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 304));
-		V_2 = L_10;
+		L_9 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_6, L_8, NULL);
+		V_1 = L_9;
 		// return localPoint - (background.anchorMax * baseRect.sizeDelta) + pivotOffset;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 305));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_0;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = __this->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 306));
-		NullCheck(L_12);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
-		L_13 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 306));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___baseRect_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 307));
-		NullCheck(L_14);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = V_0;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = __this->___background_9;
+		NullCheck(L_11);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
+		L_12 = RectTransform_get_anchorMax_mEF870BE2A134CEB9C2326930A71D3961271297DB(L_11, NULL);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = __this->___baseRect_11;
+		NullCheck(L_13);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
+		L_14 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_13, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
-		L_15 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 307));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 308));
+		L_15 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_12, L_14, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
-		L_16 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_13, L_15, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 308));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 309));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
-		L_17 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_11, L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 309));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 310));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
-		L_19 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_17, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 310));
-		V_3 = L_19;
-		goto IL_006e;
+		L_16 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_10, L_15, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = V_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
+		L_18 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_16, L_17, NULL);
+		return L_18;
 	}
 
-IL_0066:
+IL_0060:
 	{
 		// return Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 311));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 312));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
-		L_20 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 312));
-		V_3 = L_20;
-		goto IL_006e;
-	}
-
-IL_006e:
-	{
-		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 313));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_3;
-		return L_21;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
+		L_19 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		return L_19;
 	}
 }
 // System.Void Joystick::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738 (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 314));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 315));
 	{
 		// [SerializeField] private float handleRange = 1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 316));
 		__this->___handleRange_4 = (1.0f);
-		// [SerializeField] private float deadZone = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 317));
-		__this->___deadZone_5 = (0.0f);
-		// [SerializeField] private AxisOptions axisOptions = AxisOptions.Both;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 318));
-		__this->___axisOptions_6 = 0;
-		// [SerializeField] private bool snapX = false;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 319));
-		__this->___snapX_7 = (bool)0;
-		// [SerializeField] private bool snapY = false;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 320));
-		__this->___snapY_8 = (bool)0;
-		// [SerializeField] protected RectTransform background = null;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 321));
-		__this->___background_9 = (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___background_9), (void*)(RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL);
-		// [SerializeField] private RectTransform handle = null;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 322));
-		__this->___handle_10 = (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___handle_10), (void*)(RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL);
-		// private RectTransform baseRect = null;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 323));
-		__this->___baseRect_11 = (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___baseRect_11), (void*)(RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)NULL);
 		// private Vector2 input = Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 324));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 325));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 325));
 		__this->___input_14 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 326));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 326));
 		return;
 	}
 }
@@ -3076,317 +2043,148 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Joystick__ctor_m642909277172991EC0B7C4CC
 // System.Single DynamicJoystick::get_MoveThreshold()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DynamicJoystick_get_MoveThreshold_m738812CC8D3F6B27BB20D12BFB70E32E56F9DE3E (DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_get_MoveThreshold_m738812CC8D3F6B27BB20D12BFB70E32E56F9DE3E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DynamicJoystick_get_MoveThreshold_m738812CC8D3F6B27BB20D12BFB70E32E56F9DE3E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 327));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 328));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 329));
 		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 330));
 		float L_0 = __this->___moveThreshold_15;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 331));
-		float L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void DynamicJoystick::set_MoveThreshold(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicJoystick_set_MoveThreshold_m1CCCA4CCA18EE0EC56BED3D910323D713E93CD29 (DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685* __this, float ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_set_MoveThreshold_m1CCCA4CCA18EE0EC56BED3D910323D713E93CD29_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DynamicJoystick_set_MoveThreshold_m1CCCA4CCA18EE0EC56BED3D910323D713E93CD29_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 332));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 333));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 334));
 		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 335));
 		float L_0 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 336));
 		float L_1;
 		L_1 = fabsf(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 336));
 		__this->___moveThreshold_15 = L_1;
 		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 337));
 		return;
 	}
 }
 // System.Void DynamicJoystick::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicJoystick_Start_m6CDBF0DC80E8522B589E4FE3022FBC3287662881 (DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_Start_m6CDBF0DC80E8522B589E4FE3022FBC3287662881_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DynamicJoystick_Start_m6CDBF0DC80E8522B589E4FE3022FBC3287662881_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 338));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 339));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 340));
 		// MoveThreshold = moveThreshold;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 341));
 		float L_0 = __this->___moveThreshold_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 342));
 		DynamicJoystick_set_MoveThreshold_m1CCCA4CCA18EE0EC56BED3D910323D713E93CD29(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 342));
 		// base.Start();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 343));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 344));
 		Joystick_Start_m8AD98F5F051201DD38DAD91D0773F82880FC7335(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 344));
 		// background.gameObject.SetActive(false);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 345));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 346));
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 346));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 347));
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 347));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 348));
 		return;
 	}
 }
 // System.Void DynamicJoystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicJoystick_OnPointerDown_m6C941EFC85903429A05475FCA3D3F433B48F79C5 (DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_OnPointerDown_m6C941EFC85903429A05475FCA3D3F433B48F79C5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DynamicJoystick_OnPointerDown_m6C941EFC85903429A05475FCA3D3F433B48F79C5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 349));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 350));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 351));
 		// background.anchoredPosition = ScreenPointToAnchoredPosition(eventData.position);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 352));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 353));
 		NullCheck(L_1);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 353));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 354));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Joystick_ScreenPointToAnchoredPosition_mC1AAEA270786D389CA40DD39823FAE9100C8E7E5(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 354));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 355));
 		NullCheck(L_0);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_0, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 355));
 		// background.gameObject.SetActive(true);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 356));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 357));
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 357));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 358));
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 358));
 		// base.OnPointerDown(eventData);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 359));
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_6 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 360));
 		Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728(__this, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 360));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 361));
 		return;
 	}
 }
 // System.Void DynamicJoystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicJoystick_OnPointerUp_mC3D37CF544CFB590758ADCDCC88A7211C2408FBA (DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_OnPointerUp_mC3D37CF544CFB590758ADCDCC88A7211C2408FBA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DynamicJoystick_OnPointerUp_mC3D37CF544CFB590758ADCDCC88A7211C2408FBA_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 362));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 363));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 364));
 		// background.gameObject.SetActive(false);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 365));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 366));
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 366));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 367));
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 367));
 		// base.OnPointerUp(eventData);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 368));
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 369));
 		Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 369));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 370));
 		return;
 	}
 }
 // System.Void DynamicJoystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicJoystick_HandleInput_mCAE97BAA61DADB82382779333C0DBC3DB25F642C (DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685* __this, float ___magnitude0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___normalised1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___radius2, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_HandleInput_mCAE97BAA61DADB82382779333C0DBC3DB25F642C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___magnitude0), (&___normalised1), (&___radius2), (&___cam3));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DynamicJoystick_HandleInput_mCAE97BAA61DADB82382779333C0DBC3DB25F642C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 371));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 372));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 373));
 		// if (magnitude > moveThreshold)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 374));
 		float L_0 = ___magnitude0;
 		float L_1 = __this->___moveThreshold_15;
-		V_0 = (bool)((((float)L_0) > ((float)L_1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 375));
-		bool L_2 = V_0;
-		if (!L_2)
+		if ((!(((float)L_0) > ((float)L_1))))
 		{
-			goto IL_003d;
+			goto IL_0035;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 376));
 		// Vector2 difference = normalised * (magnitude - moveThreshold) * radius;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 377));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___normalised1;
-		float L_4 = ___magnitude0;
-		float L_5 = __this->___moveThreshold_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 378));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
-		L_6 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_3, ((float)il2cpp_codegen_subtract(L_4, L_5)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 378));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___radius2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 379));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
-		L_8 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_6, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 379));
-		V_1 = L_8;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___normalised1;
+		float L_3 = ___magnitude0;
+		float L_4 = __this->___moveThreshold_15;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
+		L_5 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_2, ((float)il2cpp_codegen_subtract(L_3, L_4)), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___radius2;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		L_7 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_5, L_6, NULL);
+		V_0 = L_7;
 		// background.anchoredPosition += difference;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 380));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = L_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 381));
-		NullCheck(L_10);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
-		L_11 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 381));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 382));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
-		L_13 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_11, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 382));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 383));
-		NullCheck(L_10);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_10, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 383));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 384));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = L_8;
+		NullCheck(L_9);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
+		L_10 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_9, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
+		L_12 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_10, L_11, NULL);
+		NullCheck(L_9);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_9, L_12, NULL);
 	}
 
-IL_003d:
+IL_0035:
 	{
 		// base.HandleInput(magnitude, normalised, radius, cam);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 385));
-		float L_14 = ___magnitude0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = ___normalised1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = ___radius2;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17 = ___cam3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 386));
-		Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE(__this, L_14, L_15, L_16, L_17, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 386));
+		float L_13 = ___magnitude0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = ___normalised1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = ___radius2;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_16 = ___cam3;
+		Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE(__this, L_13, L_14, L_15, L_16, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 387));
 		return;
 	}
 }
 // System.Void DynamicJoystick::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicJoystick__ctor_m888E8D07886D358BD3FA2926D98BE42AF79B5356 (DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick__ctor_m888E8D07886D358BD3FA2926D98BE42AF79B5356_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicJoystick_tAF3F0404C0D3A65CA3FD259389BB2AD7C8C46685_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DynamicJoystick__ctor_m888E8D07886D358BD3FA2926D98BE42AF79B5356_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 388));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 389));
 	{
 		// [SerializeField] private float moveThreshold = 1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 390));
 		__this->___moveThreshold_15 = (1.0f);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 391));
 		Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 391));
 		return;
 	}
 }
@@ -3401,14 +2199,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicJoystick__ctor_m888E8D07886D358BD
 // System.Void FixedJoystick::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedJoystick__ctor_mEB04C5EB3F4F14A3819DADDB6C816C510E2F4AFD (FixedJoystick_tFAB75AD5521A71081AB7646905698A22A64A8F92* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FixedJoystick__ctor_mEB04C5EB3F4F14A3819DADDB6C816C510E2F4AFD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FixedJoystick__ctor_mEB04C5EB3F4F14A3819DADDB6C816C510E2F4AFD_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738(__this, NULL);
 		return;
@@ -3425,149 +2215,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedJoystick__ctor_mEB04C5EB3F4F14A3819
 // System.Void FloatingJoystick::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingJoystick_Start_mA6BAD2A50D7ACFEC299D148C7373C616E4265FE1 (FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatingJoystick_Start_mA6BAD2A50D7ACFEC299D148C7373C616E4265FE1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FloatingJoystick_Start_mA6BAD2A50D7ACFEC299D148C7373C616E4265FE1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 392));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 393));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 394));
 		// base.Start();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 395));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 396));
 		Joystick_Start_m8AD98F5F051201DD38DAD91D0773F82880FC7335(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 396));
 		// background.gameObject.SetActive(false);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 397));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 398));
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 398));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 399));
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 399));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 400));
 		return;
 	}
 }
 // System.Void FloatingJoystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingJoystick_OnPointerDown_mE9925CD78E45F5C27F4DFF54573C188D5F9F3248 (FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatingJoystick_OnPointerDown_mE9925CD78E45F5C27F4DFF54573C188D5F9F3248_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FloatingJoystick_OnPointerDown_mE9925CD78E45F5C27F4DFF54573C188D5F9F3248_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 401));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 402));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 403));
 		// background.anchoredPosition = ScreenPointToAnchoredPosition(eventData.position);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 404));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 405));
 		NullCheck(L_1);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 405));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 406));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Joystick_ScreenPointToAnchoredPosition_mC1AAEA270786D389CA40DD39823FAE9100C8E7E5(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 406));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 407));
 		NullCheck(L_0);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_0, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 407));
 		// background.gameObject.SetActive(true);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 408));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 409));
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 409));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 410));
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 410));
 		// base.OnPointerDown(eventData);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 411));
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_6 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 412));
 		Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728(__this, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 412));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 413));
 		return;
 	}
 }
 // System.Void FloatingJoystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingJoystick_OnPointerUp_m970AE3F888399B2E5F2409C56EC72E3488D1D661 (FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatingJoystick_OnPointerUp_m970AE3F888399B2E5F2409C56EC72E3488D1D661_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FloatingJoystick_OnPointerUp_m970AE3F888399B2E5F2409C56EC72E3488D1D661_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 414));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 415));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 416));
 		// background.gameObject.SetActive(false);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 417));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 418));
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 418));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 419));
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 419));
 		// base.OnPointerUp(eventData);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 420));
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 421));
 		Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 421));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 422));
 		return;
 	}
 }
 // System.Void FloatingJoystick::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingJoystick__ctor_m09D3A5ADF5D411659B42C430F59631A66A9D869F (FloatingJoystick_t00B5512B34630515A77A8102E993D2FA9F8C6BB0* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatingJoystick__ctor_m09D3A5ADF5D411659B42C430F59631A66A9D869F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FloatingJoystick__ctor_m09D3A5ADF5D411659B42C430F59631A66A9D869F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738(__this, NULL);
 		return;
@@ -3584,465 +2294,225 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingJoystick__ctor_m09D3A5ADF5D41165
 // System.Single VariableJoystick::get_MoveThreshold()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VariableJoystick_get_MoveThreshold_m37D728A9525972FED553A3A1B0DB5CC27CBBFB6C (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_get_MoveThreshold_m37D728A9525972FED553A3A1B0DB5CC27CBBFB6C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick_get_MoveThreshold_m37D728A9525972FED553A3A1B0DB5CC27CBBFB6C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 423));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 424));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 425));
 		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 426));
 		float L_0 = __this->___moveThreshold_15;
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 427));
-		float L_1 = V_0;
-		return L_1;
+		return L_0;
 	}
 }
 // System.Void VariableJoystick::set_MoveThreshold(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick_set_MoveThreshold_m9AD2E68BA692C22D93D12210876092A39BCCC0D5 (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, float ___value0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_set_MoveThreshold_m9AD2E68BA692C22D93D12210876092A39BCCC0D5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick_set_MoveThreshold_m9AD2E68BA692C22D93D12210876092A39BCCC0D5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 428));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 429));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 430));
 		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 431));
 		float L_0 = ___value0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 432));
 		float L_1;
 		L_1 = fabsf(L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 432));
 		__this->___moveThreshold_15 = L_1;
 		// public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 433));
 		return;
 	}
 }
 // System.Void VariableJoystick::SetMode(JoystickType)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5 (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, int32_t ___joystickType0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___joystickType0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 434));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 435));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 436));
 		// this.joystickType = joystickType;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 437));
 		int32_t L_0 = ___joystickType0;
 		__this->___joystickType_16 = L_0;
 		// if(joystickType == JoystickType.Fixed)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 438));
 		int32_t L_1 = ___joystickType0;
-		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 439));
-		bool L_2 = V_0;
-		if (!L_2)
+		if (L_1)
 		{
-			goto IL_0038;
+			goto IL_002d;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 440));
 		// background.anchoredPosition = fixedPosition;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 441));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___fixedPosition_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 442));
-		NullCheck(L_3);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 442));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = __this->___fixedPosition_17;
+		NullCheck(L_2);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_2, L_3, NULL);
 		// background.gameObject.SetActive(true);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 443));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 444));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 444));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 445));
-		NullCheck(L_6);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 445));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 446));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 447));
-		goto IL_004a;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		return;
 	}
 
-IL_0038:
+IL_002d:
 	{
 		// background.gameObject.SetActive(false);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 448));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 449));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		NullCheck(L_6);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
-		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 449));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 450));
-		NullCheck(L_8);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 450));
-	}
-
-IL_004a:
-	{
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 451));
 		return;
 	}
 }
 // System.Void VariableJoystick::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick_Start_mF28548B6585EBD2E20B354FA7BB93F60456990D3 (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_Start_mF28548B6585EBD2E20B354FA7BB93F60456990D3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick_Start_mF28548B6585EBD2E20B354FA7BB93F60456990D3_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 452));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 453));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 454));
 		// base.Start();
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 455));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 456));
 		Joystick_Start_m8AD98F5F051201DD38DAD91D0773F82880FC7335(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 456));
 		// fixedPosition = background.anchoredPosition;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 457));
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 458));
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 458));
 		__this->___fixedPosition_17 = L_1;
 		// SetMode(joystickType);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 459));
 		int32_t L_2 = __this->___joystickType_16;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 460));
 		VariableJoystick_SetMode_m7CE204916638620E84B5230597EB1A3E2BC75AC5(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 460));
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 461));
 		return;
 	}
 }
 // System.Void VariableJoystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick_OnPointerDown_mFE1433A4211ABF6EE92C295DEBA128ECDC95DBF7 (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_OnPointerDown_mFE1433A4211ABF6EE92C295DEBA128ECDC95DBF7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick_OnPointerDown_mFE1433A4211ABF6EE92C295DEBA128ECDC95DBF7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 462));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 463));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 464));
 		// if(joystickType != JoystickType.Fixed)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 465));
 		int32_t L_0 = __this->___joystickType_16;
-		V_0 = (bool)((!(((uint32_t)L_0) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 466));
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_003a;
+			goto IL_0030;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 467));
 		// background.anchoredPosition = ScreenPointToAnchoredPosition(eventData.position);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 468));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_3 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 469));
-		NullCheck(L_3);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
-		L_4 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 469));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 470));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
-		L_5 = Joystick_ScreenPointToAnchoredPosition_mC1AAEA270786D389CA40DD39823FAE9100C8E7E5(__this, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 470));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 471));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___eventData0;
 		NullCheck(L_2);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_2, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 471));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_2, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = Joystick_ScreenPointToAnchoredPosition_mC1AAEA270786D389CA40DD39823FAE9100C8E7E5(__this, L_3, NULL);
+		NullCheck(L_1);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_1, L_4, NULL);
 		// background.gameObject.SetActive(true);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 472));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 473));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 473));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 474));
-		NullCheck(L_7);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 474));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 475));
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
 	}
 
-IL_003a:
+IL_0030:
 	{
 		// base.OnPointerDown(eventData);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 476));
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_8 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 477));
-		Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728(__this, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 477));
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_7 = ___eventData0;
+		Joystick_OnPointerDown_m45BDB9C20A39D1FD15167F791A504036DCB98728(__this, L_7, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 478));
 		return;
 	}
 }
 // System.Void VariableJoystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick_OnPointerUp_m087A30312C3FB4C8CCA11F68C03DA50DC76614FD (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___eventData0, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_OnPointerUp_m087A30312C3FB4C8CCA11F68C03DA50DC76614FD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___eventData0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick_OnPointerUp_m087A30312C3FB4C8CCA11F68C03DA50DC76614FD_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 479));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 480));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 481));
 		// if(joystickType != JoystickType.Fixed)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 482));
 		int32_t L_0 = __this->___joystickType_16;
-		V_0 = (bool)((!(((uint32_t)L_0) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 483));
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_0020;
+			goto IL_0019;
 		}
 	}
 	{
 		// background.gameObject.SetActive(false);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 484));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 485));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		NullCheck(L_1);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 485));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 486));
-		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 486));
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
 	}
 
-IL_0020:
+IL_0019:
 	{
 		// base.OnPointerUp(eventData);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 487));
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = ___eventData0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 488));
-		Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615(__this, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 488));
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_3 = ___eventData0;
+		Joystick_OnPointerUp_m5361779B563CE0F07398A3FCC479775FC447B615(__this, L_3, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 489));
 		return;
 	}
 }
 // System.Void VariableJoystick::HandleInput(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Camera)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick_HandleInput_m8D8575F3F12E7C8E60B96F53252701DCB0E2B6D1 (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, float ___magnitude0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___normalised1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___radius2, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_HandleInput_m8D8575F3F12E7C8E60B96F53252701DCB0E2B6D1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___magnitude0), (&___normalised1), (&___radius2), (&___cam3));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick_HandleInput_m8D8575F3F12E7C8E60B96F53252701DCB0E2B6D1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 490));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 491));
-	int32_t G_B3_0 = 0;
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 492));
 		// if (joystickType == JoystickType.Dynamic && magnitude > moveThreshold)
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 493));
 		int32_t L_0 = __this->___joystickType_16;
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
 		{
-			goto IL_0015;
+			goto IL_003e;
 		}
 	}
 	{
 		float L_1 = ___magnitude0;
 		float L_2 = __this->___moveThreshold_15;
-		G_B3_0 = ((((float)L_1) > ((float)L_2))? 1 : 0);
-		goto IL_0016;
-	}
-
-IL_0015:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0016:
-	{
-		V_0 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 494));
-		bool L_3 = V_0;
-		if (!L_3)
+		if ((!(((float)L_1) > ((float)L_2))))
 		{
-			goto IL_0049;
+			goto IL_003e;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 495));
 		// Vector2 difference = normalised * (magnitude - moveThreshold) * radius;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 496));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___normalised1;
-		float L_5 = ___magnitude0;
-		float L_6 = __this->___moveThreshold_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 497));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
-		L_7 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_4, ((float)il2cpp_codegen_subtract(L_5, L_6)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 497));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = ___radius2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 498));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
-		L_9 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_7, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 498));
-		V_1 = L_9;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___normalised1;
+		float L_4 = ___magnitude0;
+		float L_5 = __this->___moveThreshold_15;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
+		L_6 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_3, ((float)il2cpp_codegen_subtract(L_4, L_5)), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___radius2;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		L_8 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_6, L_7, NULL);
+		V_0 = L_8;
 		// background.anchoredPosition += difference;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 499));
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = L_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 500));
-		NullCheck(L_11);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
-		L_12 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 500));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 501));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
-		L_14 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_12, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 501));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 502));
-		NullCheck(L_11);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_11, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 502));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 503));
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = ((Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE*)__this)->___background_9;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = L_9;
+		NullCheck(L_10);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
+		L_11 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_10, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = V_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
+		L_13 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_11, L_12, NULL);
+		NullCheck(L_10);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_10, L_13, NULL);
 	}
 
-IL_0049:
+IL_003e:
 	{
 		// base.HandleInput(magnitude, normalised, radius, cam);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 504));
-		float L_15 = ___magnitude0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = ___normalised1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = ___radius2;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_18 = ___cam3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 505));
-		Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE(__this, L_15, L_16, L_17, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 505));
+		float L_14 = ___magnitude0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = ___normalised1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = ___radius2;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_17 = ___cam3;
+		Joystick_HandleInput_m0FCE777EDC4263E71D0ACCBFF6BCD4616879FAEE(__this, L_14, L_15, L_16, L_17, NULL);
 		// }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 506));
 		return;
 	}
 }
 // System.Void VariableJoystick::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariableJoystick__ctor_m320951F553702B5034A62E86A5F6E843B17007B7 (VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick__ctor_m320951F553702B5034A62E86A5F6E843B17007B7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VariableJoystick_tEF0CA125616CF494389E4C5FAD454E8C021DF0C7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VariableJoystick__ctor_m320951F553702B5034A62E86A5F6E843B17007B7_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 507));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsJoyStick + 508));
 	{
 		// [SerializeField] private float moveThreshold = 1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 509));
 		__this->___moveThreshold_15 = (1.0f);
-		// [SerializeField] private JoystickType joystickType = JoystickType.Fixed;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 510));
-		__this->___joystickType_16 = 0;
 		// private Vector2 fixedPosition = Vector2.zero;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 511));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 512));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 512));
 		__this->___fixedPosition_17 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 513));
 		Joystick__ctor_m642909277172991EC0B7C4CC64FCFABE4C929738(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsJoyStick + 513));
 		return;
 	}
 }
@@ -4054,19 +2524,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7004));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7005));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7006));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7007));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___forwardVector_11;
 		V_0 = L_0;
 		goto IL_0009;
@@ -4074,29 +2537,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7008));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___d1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7052));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7053));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7054));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7055));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
 		float L_1 = L_0.___x_2;
 		float L_2 = ___d1;
@@ -4106,18 +2555,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a0;
 		float L_7 = L_6.___z_4;
 		float L_8 = ___d1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7056));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7056));
 		V_0 = L_9;
 		goto IL_0021;
 	}
 
 IL_0021:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7057));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		return L_10;
 	}
@@ -4127,19 +2573,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7029));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7030));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7031));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7032));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___rightVector_10;
 		V_0 = L_0;
 		goto IL_0009;
@@ -4147,29 +2586,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7033));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7034));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7035));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7036));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7037));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
 		float L_1 = L_0.___x_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___b1;
@@ -4182,45 +2607,56 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		float L_9 = L_8.___z_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___b1;
 		float L_11 = L_10.___z_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7038));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7038));
 		V_0 = L_12;
 		goto IL_0030;
 	}
 
 IL_0030:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7039));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Joystick_set_AxisOptions_m7D3BD2632863893C902F3E280DBE39B48680C5C2_inline (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public AxisOptions AxisOptions { get { return AxisOptions; } set { axisOptions = value; } }
+		int32_t L_0 = ___value0;
+		__this->___axisOptions_6 = L_0;
+		// public AxisOptions AxisOptions { get { return AxisOptions; } set { axisOptions = value; } }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Joystick_set_SnapX_mA78361D42D49F9FE22D65E79FBE77C99C5E959B0_inline (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool SnapX { get { return snapX; } set { snapX = value; } }
+		bool L_0 = ___value0;
+		__this->___snapX_7 = L_0;
+		// public bool SnapX { get { return snapX; } set { snapX = value; } }
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Joystick_set_SnapY_m4D92167459A7E2F7478A8E2DFA19D1D5DDDB5B43_inline (Joystick_tF23E8AD9B80201356DCEE5B5613970C4F6790EDE* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool SnapY { get { return snapY; } set { snapY = value; } }
+		bool L_0 = ___value0;
+		__this->___snapY_8 = L_0;
+		// public bool SnapY { get { return snapY; } set { snapY = value; } }
+		return;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___x0), (&___y1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6093));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6094));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6095));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6096));
 		float L_0 = ___x0;
 		__this->___x_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6097));
 		float L_1 = ___y1;
 		__this->___y_1 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6098));
 		return;
 	}
 }
@@ -4229,19 +2665,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6306));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6307));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6308));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6309));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector_2;
 		V_0 = L_0;
 		goto IL_0009;
@@ -4249,89 +2678,47 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 
 IL_0009:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6310));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = V_0;
 		return L_1;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, float ___d1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___d1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6275));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6276));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6277));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6278));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___d1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___a0;
 		float L_4 = L_3.___y_1;
 		float L_5 = ___d1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6279));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_6), ((float)(L_1/L_2)), ((float)(L_4/L_5)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6279));
 		V_0 = L_6;
 		goto IL_0019;
 	}
 
 IL_0019:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6280));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		return L_7;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UI + 21826));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UI + 21827));
 	{
 		// public Vector2 position { get; set; }
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UI + 21828));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField_13;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6239));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6240));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6241));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6242));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
 		float L_1 = L_0.___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
@@ -4340,80 +2727,48 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		float L_5 = L_4.___y_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
 		float L_7 = L_6.___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6243));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6243));
 		V_0 = L_8;
 		goto IL_0023;
 	}
 
 IL_0023:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6244));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, float ___d1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___d1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6263));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6264));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6265));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6266));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
 		float L_1 = L_0.___x_0;
 		float L_2 = ___d1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___a0;
 		float L_4 = L_3.___y_1;
 		float L_5 = ___d1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6267));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_6), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6267));
 		V_0 = L_6;
 		goto IL_0019;
 	}
 
 IL_0019:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6268));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		return L_7;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Division_m707994C12D356E65E453CEE8F767E652B60911BF_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Division_m707994C12D356E65E453CEE8F767E652B60911BF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Division_m707994C12D356E65E453CEE8F767E652B60911BF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6251));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6252));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6253));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6254));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
 		float L_1 = L_0.___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
@@ -4422,18 +2777,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		float L_5 = L_4.___y_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
 		float L_7 = L_6.___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6255));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)(L_1/L_3)), ((float)(L_5/L_7)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6255));
 		V_0 = L_8;
 		goto IL_0023;
 	}
 
 IL_0023:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6256));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		return L_9;
 	}
@@ -4444,70 +2796,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6190));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6191));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6192));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6193));
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
 		float L_3 = __this->___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6194));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_4;
 		L_4 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6194));
 		V_0 = ((float)L_4);
 		goto IL_0026;
 	}
 
 IL_0026:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6195));
 		float L_5 = V_0;
 		return L_5;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6132));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6133));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6134));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6135));
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6136));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6136));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6137));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6138));
 		Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_inline((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6138));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6139));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = V_0;
 		V_1 = L_2;
 		goto IL_0020;
@@ -4515,29 +2835,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 
 IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6140));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = V_1;
 		return L_3;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6245));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6246));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6247));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6248));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
 		float L_1 = L_0.___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
@@ -4546,18 +2852,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		float L_5 = L_4.___y_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
 		float L_7 = L_6.___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6249));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6249));
 		V_0 = L_8;
 		goto IL_0023;
 	}
 
 IL_0023:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6250));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		return L_9;
 	}
@@ -4567,19 +2870,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_up_m41067879408BB378593EF7406AF2525F176F0ABF_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6316));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6317));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6318));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6319));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___upVector_4;
 		V_0 = L_0;
 		goto IL_0009;
@@ -4587,7 +2883,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 
 IL_0009:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6320));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = V_0;
 		return L_1;
 	}
@@ -4597,42 +2892,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Angle_mD94AAEA69016
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Angle_mD94AAEA690169FE5882D60F8489C8BF63300C221_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	bool V_2 = false;
 	float V_3 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___from0), (&___to1));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Angle_mD94AAEA690169FE5882D60F8489C8BF63300C221_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6201));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6202));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6203));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6204));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6205));
 		float L_0;
 		L_0 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&___from0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6205));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6206));
 		float L_1;
 		L_1 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&___to1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6206));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6207));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_2;
 		L_2 = sqrt(((double)((float)il2cpp_codegen_multiply(L_0, L_1))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6207));
 		V_0 = ((float)L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6208));
 		float L_3 = V_0;
 		V_2 = (bool)((((float)L_3) < ((float)(1.0E-15f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6209));
 		bool L_4 = V_2;
 		if (!L_4)
 		{
@@ -4640,62 +2917,39 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Angle_mD94AAEA69016
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6210));
 		V_3 = (0.0f);
 		goto IL_0056;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6211));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___from0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___to1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6212));
 		float L_7;
 		L_7 = Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_inline(L_5, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6212));
 		float L_8 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6213));
 		float L_9;
 		L_9 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_7/L_8)), (-1.0f), (1.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6213));
 		V_1 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6214));
 		float L_10 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6215));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_11;
 		L_11 = acos(((double)L_10));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6215));
 		V_3 = ((float)il2cpp_codegen_multiply(((float)L_11), (57.2957802f)));
 		goto IL_0056;
 	}
 
 IL_0056:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6216));
 		float L_12 = V_3;
 		return L_12;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___a0), (&___b1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6233));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6234));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6235));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6236));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
 		float L_1 = L_0.___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
@@ -4704,81 +2958,41 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		float L_5 = L_4.___y_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
 		float L_7 = L_6.___y_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6237));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), /*hidden argument*/NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6237));
 		V_0 = L_8;
 		goto IL_0023;
 	}
 
 IL_0023:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6238));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___x0), (&___y1), (&___z2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6878));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6879));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6880));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6881));
 		float L_0 = ___x0;
 		__this->___x_2 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6882));
 		float L_1 = ___y1;
 		__this->___y_3 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6883));
 		float L_2 = ___z2;
 		__this->___z_4 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6884));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6119));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6120));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6121));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6122));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6123));
 		float L_0;
 		L_0 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6123));
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6124));
 		float L_1 = V_0;
 		V_1 = (bool)((((float)L_1) > ((float)(9.99999975E-06f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6125));
 		bool L_2 = V_1;
 		if (!L_2)
 		{
@@ -4786,52 +3000,30 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Normalize_m56DABCAB5
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6126));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = (*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)__this);
 		float L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6127));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
 		L_5 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6127));
 		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)__this = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6128));
 		goto IL_0033;
 	}
 
 IL_0028:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6129));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6130));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6130));
 		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)__this = L_6;
 	}
 
 IL_0033:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6131));
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6196));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6197));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6198));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6199));
 		float L_0 = __this->___x_0;
 		float L_1 = __this->___x_0;
 		float L_2 = __this->___y_1;
@@ -4842,28 +3034,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA
 
 IL_001f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6200));
 		float L_4 = V_0;
 		return L_4;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lhs0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rhs1, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___lhs0), (&___rhs1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6185));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6186));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6187));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6188));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___lhs0;
 		float L_1 = L_0.___x_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___rhs1;
@@ -4878,35 +3056,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mC1E68FDB4FB462
 
 IL_001f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 6189));
 		float L_8 = V_0;
 		return L_8;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___value0, float ___min1, float ___max2, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
 	bool V_1 = false;
 	float V_2 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___value0), (&___min1), (&___max2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7665));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7666));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7667));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7668));
 		float L_0 = ___value0;
 		float L_1 = ___min1;
 		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7669));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -4914,20 +3076,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D2
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7670));
 		float L_3 = ___min1;
 		___value0 = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7671));
 		goto IL_0019;
 	}
 
 IL_000e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7672));
 		float L_4 = ___value0;
 		float L_5 = ___max2;
 		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7673));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -4935,14 +3093,12 @@ IL_000e:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7674));
 		float L_7 = ___max2;
 		___value0 = L_7;
 	}
 
 IL_0019:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7675));
 		float L_8 = ___value0;
 		V_2 = L_8;
 		goto IL_001d;
@@ -4950,7 +3106,6 @@ IL_0019:
 
 IL_001d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 7676));
 		float L_9 = V_2;
 		return L_9;
 	}

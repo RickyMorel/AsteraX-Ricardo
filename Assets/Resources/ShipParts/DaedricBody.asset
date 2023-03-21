@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8b8ac8ae1c29048b0423660c69f9eb, type: 3}
   m_Name: DaedricBody
   m_EditorClassIdentifier: 
-  PartName: Daedric Body
+  PartName: Dead Gods Body
   Type: 1
   Id: 5
   State: 2

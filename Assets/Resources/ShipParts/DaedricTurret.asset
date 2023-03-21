@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8b8ac8ae1c29048b0423660c69f9eb, type: 3}
   m_Name: DaedricTurret
   m_EditorClassIdentifier: 
-  PartName: Daedric Turret
+  PartName: Dead Gods Turret
   Type: 0
   Id: 5
   State: 2
