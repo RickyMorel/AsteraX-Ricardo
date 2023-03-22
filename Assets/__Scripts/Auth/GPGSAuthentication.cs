@@ -106,17 +106,17 @@ public class GPGSAuthentication : MonoBehaviour
         return true;
     }
 
-    //void OnGUI()
-    //{
-    //     GUIStyle StatesLabel = new GUIStyle(GUI.skin.label)
-    //     {
-    //         alignment = TextAnchor.MiddleLeft,
-    //         margin = new RectOffset(),
-    //         padding = new RectOffset(),
-    //         fontSize = 45,
-    //         fontStyle = FontStyle.Bold
-    //     };
+    void OnGUI()
+    {
+        GUIStyle StatesLabel = new GUIStyle(GUI.skin.label)
+        {
+            alignment = TextAnchor.MiddleLeft,
+            margin = new RectOffset(),
+            padding = new RectOffset(),
+            fontSize = 45,
+            fontStyle = FontStyle.Bold
+        };
 
-    //    GUI.Label(new Rect(100, 10, 1000, 100), _debugString, StatesLabel);
-    //}
+        GUI.Label(new Rect(100, 10, 1000, 100), _debugString, StatesLabel);
+    }
 }
