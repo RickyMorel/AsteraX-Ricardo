@@ -4,6 +4,7 @@ using UnityEngine;
 using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 using GooglePlayGames;
+using System;
 
 public class GPGSAuthentication : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class GPGSAuthentication : MonoBehaviour
     public bool IsConnectedToGooglePlay;
 
     private string _debugString;
+
+    public event Action OnSignedIn;
 
     private void Awake()
     {
@@ -37,14 +40,19 @@ public class GPGSAuthentication : MonoBehaviour
 
     private void LoginToGooglePlay()
     {
-        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
+        _debugString = "Try LoginToGooglePlay";
+
+        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptAlways, (result) =>
         {
+            _debugString = "Authenticate?";
+
             switch (result)
             {
                 case SignInStatus.Success:
                     _debugString = $"Sucessful Login!  : {result.ToString()}";
                     Debug.Log(_debugString);
                     IsConnectedToGooglePlay = true;
+                    OnSignedIn?.Invoke();
                     break;
                 default:
                     _debugString = $"Failed to log in :(  ; {result.ToString()}";
@@ -78,14 +86,33 @@ public class GPGSAuthentication : MonoBehaviour
 
     public void ShowLeaderboard()
     {
-        Debug.Log("TryShowLeaderBoards");
+        _debugString = "Pressed ShowLeaderboard!";
+
         if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
 
         Social.ShowLeaderboardUI();
     }
 
-    void OnGUI()
+    public bool ShowStore()
     {
-        GUI.Label(new Rect(10, 10, 1000, 25), _debugString);
+        _debugString = "Pressed ShowStore!";
+
+        if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return false; }
+
+        return true;
     }
+
+    //void OnGUI()
+    //{
+    //    GUIStyle StatesLabel = new GUIStyle(GUI.skin.label)
+    //    {
+    //        alignment = TextAnchor.MiddleLeft,
+    //        margin = new RectOffset(),
+    //        padding = new RectOffset(),
+    //        fontSize = 45,
+    //        fontStyle = FontStyle.Bold
+    //    };
+
+    //    GUI.Label(new Rect(100, 10, 1000, 100), _debugString, StatesLabel);
+    //}
 }

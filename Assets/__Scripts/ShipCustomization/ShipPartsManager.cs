@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.Rendering;
@@ -11,6 +12,7 @@ public class ShipPartsManager : MonoBehaviour
     #region Editor Fields
 
     [SerializeField] private List<ShipPartSO> _shipParts = new List<ShipPartSO>();
+    [SerializeField] private List<ShipPartSO> _ownedBoughtParts = new List<ShipPartSO>();
 
     #endregion
 
@@ -19,6 +21,7 @@ public class ShipPartsManager : MonoBehaviour
     public static ShipPartsManager Instance { get; private set; }
 
     public List<ShipPartSO> ShipParts => _shipParts;
+    public List<ShipPartSO> OwnedBoughtParts => _ownedBoughtParts;
 
     public static event Action OnSelectPart;
 
@@ -40,7 +43,15 @@ public class ShipPartsManager : MonoBehaviour
 
     private void Start()
     {
+        SaveManager.OnProductBought += UnlockBoughtSkins;
+
+        UnlockBoughtSkins();
         EquipShipParts();
+    }
+
+    private void OnDestroy()
+    {
+        SaveManager.OnProductBought -= UnlockBoughtSkins;
     }
 
     public void EquipShipParts()
@@ -67,9 +78,10 @@ public class ShipPartsManager : MonoBehaviour
 
     private void LoadShipParts()
     {
-        var shipPartResources = Resources.LoadAll<ShipPartSO>("ShipParts");
+        ShipPartSO[] shipPartResources = Resources.LoadAll<ShipPartSO>("ShipParts");
+        List<ShipPartSO> sortedList = shipPartResources.ToList().OrderBy(x => x.Id).ToList();
 
-        foreach (var shipPart in shipPartResources)
+        foreach (var shipPart in sortedList)
         {
             ShipPartSO shipPartInstance = Instantiate(shipPart);
             _shipParts.Add(shipPartInstance);
@@ -100,6 +112,8 @@ public class ShipPartsManager : MonoBehaviour
 
             partSO.State = ShipPartState.Locked;
         }
+
+        UnlockBoughtSkins();
     }
 
     public void EquipPart(ShipPartSO shipPartSO)
@@ -150,5 +164,19 @@ public class ShipPartsManager : MonoBehaviour
         }
 
         return selectedPartIds;
+    }
+
+    public void UnlockBoughtSkins()
+    {
+        List<ShipPartSO> boughtParts = SaveManager.LoadPurchases();
+
+        _ownedBoughtParts.Clear();
+
+        foreach (ShipPartSO part in boughtParts)
+        {
+            ChangePartState(part.Id, part.Type, ShipPartState.Unlocked);
+
+            _ownedBoughtParts.Add(part);
+        }
     }
 }

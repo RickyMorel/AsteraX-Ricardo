@@ -37,6 +37,7 @@ public class ShipPartsUI : MonoBehaviour
             Transform wantedTransform = shipPart.Type == ShipPartType.Turret ? _turretsContentTransform : _bodiesContentTransform;
             GameObject buttonInstance = Instantiate(_buttonPrefab, wantedTransform);
             buttonInstance.GetComponent<ShipPartsButton>().Initialize(shipPart);
+            if (shipPart.IsBoughtPart && !ShipPartsManager.Instance.OwnedBoughtParts.Find(x => x.Id == shipPart.Id)) { buttonInstance.SetActive(false); }
         }
     }
 

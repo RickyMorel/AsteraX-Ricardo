@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PartName: Turbo Laser
   Type: 0
-  Id: 1
+  Id: 4
   State: 2
