@@ -86,8 +86,6 @@ public class GPGSAuthentication : MonoBehaviour
 
     public void ShowLeaderboard()
     {
-        Debug.Log("ShowLeaderboard");
-
         _debugString = "Pressed ShowLeaderboard!";
 
         if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return; }
@@ -97,8 +95,6 @@ public class GPGSAuthentication : MonoBehaviour
 
     public bool ShowStore()
     {
-        Debug.Log("ShowStore");
-
         _debugString = "Pressed ShowStore!";
 
         if (!IsConnectedToGooglePlay) { LoginToGooglePlay(); return false; }
@@ -106,17 +102,17 @@ public class GPGSAuthentication : MonoBehaviour
         return true;
     }
 
-    void OnGUI()
-    {
-        GUIStyle StatesLabel = new GUIStyle(GUI.skin.label)
-        {
-            alignment = TextAnchor.MiddleLeft,
-            margin = new RectOffset(),
-            padding = new RectOffset(),
-            fontSize = 45,
-            fontStyle = FontStyle.Bold
-        };
+    //void OnGUI()
+    //{
+    //    GUIStyle StatesLabel = new GUIStyle(GUI.skin.label)
+    //    {
+    //        alignment = TextAnchor.MiddleLeft,
+    //        margin = new RectOffset(),
+    //        padding = new RectOffset(),
+    //        fontSize = 45,
+    //        fontStyle = FontStyle.Bold
+    //    };
 
-        GUI.Label(new Rect(100, 10, 1000, 100), _debugString, StatesLabel);
-    }
+    //    GUI.Label(new Rect(100, 10, 1000, 100), _debugString, StatesLabel);
+    //}
 }

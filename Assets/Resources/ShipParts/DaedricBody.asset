@@ -15,4 +15,5 @@ MonoBehaviour:
   PartName: Dead Gods Body
   Type: 1
   Id: 5
+  IsBoughtPart: 1
   State: 2

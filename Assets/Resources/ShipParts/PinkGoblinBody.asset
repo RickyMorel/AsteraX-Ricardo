@@ -15,4 +15,5 @@ MonoBehaviour:
   PartName: Pink Goblin
   Type: 1
   Id: 6
+  IsBoughtPart: 1
   State: 2

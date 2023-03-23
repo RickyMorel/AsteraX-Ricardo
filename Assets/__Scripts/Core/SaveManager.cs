@@ -12,6 +12,9 @@ public static class SaveManager
     private const string DeadGodsShipId = "com.machomangames.fyouasteroids.deadgodsship";
     private const string DeadGodsShipKey = "DeadGodsShip";
 
+    private const string PinkGoblinShipId = "com.machomangames.fyouasteroids.pinkgoblinship";
+    private const string PinkGoblinShipKey = "PinkGoblinShip";
+
     public static event Action OnProductBought;
 
     static SaveManager()
@@ -38,6 +41,11 @@ public static class SaveManager
             PlayerPrefs.SetInt(DeadGodsShipKey, 1);
         }
 
+        if (product.definition.id == PinkGoblinShipId)
+        {
+            PlayerPrefs.SetInt(PinkGoblinShipKey, 1);
+        }
+
         OnProductBought?.Invoke();
     }
 
@@ -49,6 +57,14 @@ public static class SaveManager
         {
             ShipPartSO unlockedTurretPart = new ShipPartSO(5, ShipPartType.Turret);
             ShipPartSO unlockedBodyPart = new ShipPartSO(5, ShipPartType.Body);
+            unlockedParts.Add(unlockedTurretPart);
+            unlockedParts.Add(unlockedBodyPart);
+        }
+
+        if (PlayerPrefs.GetInt(PinkGoblinShipKey, 0) == 1)
+        {
+            ShipPartSO unlockedTurretPart = new ShipPartSO(6, ShipPartType.Turret);
+            ShipPartSO unlockedBodyPart = new ShipPartSO(6, ShipPartType.Body);
             unlockedParts.Add(unlockedTurretPart);
             unlockedParts.Add(unlockedBodyPart);
         }

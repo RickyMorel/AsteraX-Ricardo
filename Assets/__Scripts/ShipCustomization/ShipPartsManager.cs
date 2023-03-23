@@ -12,6 +12,7 @@ public class ShipPartsManager : MonoBehaviour
     #region Editor Fields
 
     [SerializeField] private List<ShipPartSO> _shipParts = new List<ShipPartSO>();
+    [SerializeField] private List<ShipPartSO> _ownedBoughtParts = new List<ShipPartSO>();
 
     #endregion
 
@@ -20,6 +21,7 @@ public class ShipPartsManager : MonoBehaviour
     public static ShipPartsManager Instance { get; private set; }
 
     public List<ShipPartSO> ShipParts => _shipParts;
+    public List<ShipPartSO> OwnedBoughtParts => _ownedBoughtParts;
 
     public static event Action OnSelectPart;
 
@@ -168,9 +170,13 @@ public class ShipPartsManager : MonoBehaviour
     {
         List<ShipPartSO> boughtParts = SaveManager.LoadPurchases();
 
+        _ownedBoughtParts.Clear();
+
         foreach (ShipPartSO part in boughtParts)
         {
             ChangePartState(part.Id, part.Type, ShipPartState.Unlocked);
+
+            _ownedBoughtParts.Add(part);
         }
     }
 }
